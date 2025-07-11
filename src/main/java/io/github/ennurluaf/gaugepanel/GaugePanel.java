@@ -5,10 +5,11 @@ import java.io.InputStreamReader;
 import java.lang.reflect.Type;
 import java.util.List;
 
-import com.google.gson.Gson;
-import com.google.gson.reflect.TypeToken;
+import com.fasterxml.jackson.databind.ObjectMapper;
+import com.fasterxml.jackson.core.type.TypeReference;
 
 import io.github.ennurluaf.parse.ItemData;
+
 
 public class GaugePanel {
     public static void main(String[] args) throws Exception {
@@ -22,13 +23,9 @@ public class GaugePanel {
 
         InputStreamReader reader = new InputStreamReader(is);
         
-        // ✅ Declare Gson instance BEFORE using it
-        Gson gson = new Gson();
+        ObjectMapper mapper = new ObjectMapper();
+List<ItemData> items = mapper.readValue(is, new TypeReference<List<ItemData>>() {});
 
-        // ✅ Define the type for List<ItemData>
-        Type itemListType = new TypeToken<List<ItemData>>() {}.getType();
-
-        List<ItemData> items = gson.fromJson(reader, itemListType);
 
         for (ItemData item : items) {
             System.out.println(item.name + " -> " + item.id);

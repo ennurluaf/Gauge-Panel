@@ -16,6 +16,7 @@
     <maven.compiler.target>21</maven.compiler.target>
   </properties>
 
+  
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
@@ -31,4 +32,16 @@
     </dependency>
   </dependencies>
   
+  <build>
+    <plugins>
+      <plugin>
+        <groupId>org.codehaus.mojo</groupId>
+        <artifactId>exec-maven-plugin</artifactId>
+        <version>3.5.1</version>
+        <configuration>
+          <mainClass>io.github.ennurluaf.gaugepanel.GaugePanel</mainClass>
+        </configuration>
+      </plugin>
+    </plugins>
+  </build>
 </project>

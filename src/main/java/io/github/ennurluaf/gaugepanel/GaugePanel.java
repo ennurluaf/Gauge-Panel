@@ -1,7 +1,5 @@
 package io.github.ennurluaf.gaugepanel;
 
-import java.io.FileNotFoundException;
-import java.io.FileReader;
 import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.lang.reflect.Type;
@@ -12,25 +10,24 @@ import com.google.gson.reflect.TypeToken;
 
 import io.github.ennurluaf.parse.ItemData;
 
-/**
- * Hello world!
- *
- */
-public class GaugePanel 
-{
-    public static void main( String[] args ) throws Exception
-    {
-        try(InputStream is = GaugePanel.class.getClassLoader().getResourceAsStream("items-test.json")){
+public class GaugePanel {
+    public static void main(String[] args) throws Exception {
+        // Make sure the file is in src/main/resources/item-test.json
+        InputStream is = GaugePanel.class.getClassLoader().getResourceAsStream("items-test.json");
 
-            Gson gson = new Gson();
-            InputStreamReader reader = new InputStreamReader(is);
-            List<ItemData> items = gson.fromJson(reader, ItemData.class); 
-    
-            for (ItemData item : items) {
-                System.out.println(item.name + " -> " + item.id);
-            }
-        }catch(FileNotFoundException e){
-            
+        if (is == null) {
+            System.err.println("item-test.json not found in classpath!");
+            return;
+        }
+
+        InputStreamReader reader = new InputStreamReader(is);
+
+        Gson gson = new Gson();
+        Type itemListType = new TypeToken<List<ItemData>>() {}.getType();
+        List<ItemData> items = gson.fromJson(reader, itemListType);
+
+        for (ItemData item : items) {
+            System.out.println(item.name + " -> " + item.id);
         }
     }
 }

@@ -1,0 +1,16 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Run GaugePanel via Maven",
+      "request": "launch",
+      "mainClass": "io.github.ennurluaf.gaugepanel.GaugePanel",
+      "projectName": "gaugepanel",
+      "cwd": "${workspaceFolder}",
+      "vmArgs": "",
+      "args": "",
+      "console": "internalConsole"
+    }
+  ]
+}

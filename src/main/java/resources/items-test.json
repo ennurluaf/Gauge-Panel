@@ -1,0 +1,7 @@
+[
+    {
+        "id":"create:brass_sheet",
+        "name":"Brass Sheet",
+        "image": "textures/items/brass_sheet.png"
+    }
+]

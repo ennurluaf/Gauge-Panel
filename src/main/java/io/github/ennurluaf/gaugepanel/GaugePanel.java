@@ -12,8 +12,8 @@ import io.github.ennurluaf.parse.ItemData;
 
 public class GaugePanel {
     public static void main(String[] args) throws Exception {
-        // Make sure the file is in src/main/resources/item-test.json
-        InputStream is = GaugePanel.class.getClassLoader().getResourceAsStream("items-test.json");
+        // Try loading the JSON file
+        InputStream is = GaugePanel.class.getClassLoader().getResourceAsStream("item-test.json");
 
         if (is == null) {
             System.err.println("item-test.json not found in classpath!");
@@ -21,9 +21,13 @@ public class GaugePanel {
         }
 
         InputStreamReader reader = new InputStreamReader(is);
-
+        
+        // ✅ Declare Gson instance BEFORE using it
         Gson gson = new Gson();
+
+        // ✅ Define the type for List<ItemData>
         Type itemListType = new TypeToken<List<ItemData>>() {}.getType();
+
         List<ItemData> items = gson.fromJson(reader, itemListType);
 
         for (ItemData item : items) {

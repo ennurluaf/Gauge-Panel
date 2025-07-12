@@ -1,0 +1,54 @@
+import zipfile
+import json
+import os
+from pathlib import Path
+from PIL import Image
+
+def extract_items(create_jar_path: str, output_dir: str = "output") -> list:
+    output_dir = Path(output_dir)
+    items = []
+
+    with zipfile.ZipFile(create_jar_path, 'r') as jar:
+        jar_files = jar.namelist()
+
+        item_jsons = [f for f in jar_files if f.startswith("assets/create/models/item") and f.endswith(".json")]
+        texture_paths = set()
+
+        for json_path in item_jsons:
+            with jar.open(json_path) as f:
+                model_data = json.load(f)
+                item_id = Path(json_path).stem
+                texture = model_data.get("textures", {}).get("layer0") or model_data.get("textures", {}).get("particle")
+
+                if texture and texture.startswith("create:"):
+                    texture_path = f'assets/create/textures/{texture[7:]}.png'
+                else:
+                    texture_path = f'assets/create/textures/{item_id}.png'
+
+                texture_paths.add(texture_path)
+
+                items.append({
+                    "name": item_id.replace("_"," ").title(),
+                    "id": f'create:{item_id}',
+                    "image": texture_path if texture_path in jar_files else None 
+                })
+
+        texture_output = output_dir / "textures"
+        texture_output.mkdir(parents = True, exist_ok = True)
+
+        for tex in texture_paths:
+            if tex in jar_files:
+                dest_path = texture_output / os.path.basename(tex)
+                with jar.open(tex) as img_file, open(dest_path, 'wb') as out_file:
+                    out_file.write(img_file.read())
+
+        with open(output_dir / "items.json", 'w') as json_file:
+            json.dump(items, json_file, indent=2)
+    
+    return items
+
+
+if __name__ == '__main__':
+    create_jar_path = "/home/joey/Downloads/create-1.20.1-6.0.4.jar"
+    items = extract_items(create_jar_path)
+    print(f'Extracted {len(items)} items to output/items.json')

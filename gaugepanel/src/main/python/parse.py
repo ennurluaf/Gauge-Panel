@@ -30,7 +30,7 @@ def extract_items(create_jar_path: str, output_dir: str = "output") -> list:
                 items.append({
                     "name": item_id.replace("_"," ").title(),
                     "id": f'create:{item_id}',
-                    "image": texture_path if texture_path in jar_files else None 
+                    "image": texture_path 
                 })
 
         texture_output = output_dir / "textures"

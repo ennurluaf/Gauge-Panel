@@ -4,7 +4,7 @@ import os
 from pathlib import Path
 from PIL import Image
 
-def extract_items(create_jar_path: str, output_dir: str = "output") -> list:
+def extract_items(create_jar_path: str, output_dir: str = "gaugepanel/src/main/resources") -> list:
     output_dir = Path(output_dir)
     items = []
 

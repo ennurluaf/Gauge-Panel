@@ -6,13 +6,14 @@ import java.util.List;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.core.type.TypeReference;
 
-import parse.ItemData;
-
 
 public class GaugePanel {
+
+    private record ItemData(String id, String name, String image){}
+
     public static void main(String[] args) throws Exception {
         // Try loading the JSON file
-        InputStream is = GaugePanel.class.getClassLoader().getResourceAsStream("items-test.json");
+        InputStream is = GaugePanel.class.getClassLoader().getResourceAsStream("items.json");
 
         if (is == null) {
             System.err.println("items-test.json not found in classpath!");
@@ -23,8 +24,6 @@ public class GaugePanel {
         List<ItemData> items = mapper.readValue(is, new TypeReference<List<ItemData>>() {});
 
 
-        for (ItemData item : items) {
-            System.out.println(item.name + " -> " + item.id);
-        }
+        System.out.println(items.size());
     }
 }

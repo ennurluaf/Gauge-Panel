@@ -1,4 +1,4 @@
-package io.github.ennurluaf.gaugepanel;
+package factorypanel;
 
 import junit.framework.Test;
 import junit.framework.TestCase;

@@ -3,7 +3,7 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>io.github.ennurluaf.gaugepanel</groupId>
+  <groupId>factorypanel</groupId>
   <artifactId>gaugepanel</artifactId>
   <packaging>jar</packaging>
   <version>1.0</version>
@@ -15,7 +15,6 @@
     <maven.compiler.source>21</maven.compiler.source>
     <maven.compiler.target>21</maven.compiler.target>
   </properties>
-
 
   <dependencies>
     <dependency>
@@ -41,7 +40,7 @@
         <artifactId>exec-maven-plugin</artifactId>
         <version>3.5.1</version>
         <configuration>
-          <mainClass>io.github.ennurluaf.gaugepanel.GaugePanel</mainClass>
+          <mainClass>factorypanel.GaugePanel</mainClass>
         </configuration>
       </plugin>
     </plugins>

@@ -1,4 +1,4 @@
-package io.github.ennurluaf.parse;
+package parse;
 
 public class ItemData {
     public String id, name, image;

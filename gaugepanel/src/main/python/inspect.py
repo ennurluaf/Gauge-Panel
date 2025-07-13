@@ -7,19 +7,29 @@ class JarExplorer(tk.Tk):
     def __init__(self, jar_path=None):
         super().__init__()
         self.title("Inspect .jar / Directory")
-        self.geometry("800x600")
+        self.geometry("900x600")
 
-        self.tree = ttk.Treeview(self)
+        self.tree = ttk.Treeview(self, show="tree")
+        self.tree.column("#0", width=400, stretch=True)
+
+        # Scrollbars
+        self.scrollbarY = ttk.Scrollbar(self, orient="vertical", command=self.tree.yview)
+        self.scrollbarX = ttk.Scrollbar(self, orient="horizontal", command=self.tree.xview)
+
+        self.tree.configure(yscrollcommand=self.scrollbarY.set, xscrollcommand=self.scrollbarX.set)
+
+        # Layout
         self.tree.pack(side=tk.LEFT, fill=tk.BOTH, expand=True)
+        self.scrollbarY.pack(side=tk.LEFT, fill=tk.Y)
+        self.scrollbarX.pack(side=tk.BOTTOM, fill=tk.X)
 
-        self.scrollbar = ttk.Scrollbar(self, orient="vertical", command=self.tree.yview)
-        self.tree.configure(yscrollcommand=self.scrollbar.set)
-        self.scrollbar.pack(side=tk.LEFT, fill=tk.Y)
-
+        # Preview panel
         self.preview = tk.Text(self, wrap="word")
         self.preview.pack(side=tk.RIGHT, fill=tk.BOTH, expand=True)
 
+        # Bind events
         self.tree.bind("<<TreeviewSelect>>", self.preview_file)
+
 
         # Menu
         menubar = tk.Menu(self)

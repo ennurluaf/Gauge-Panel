@@ -21,17 +21,20 @@ def extract_items(create_jar_path: str, output_dir: str = "gaugepanel/src/main/r
                 texture = model_data.get("textures", {}).get("layer0") or model_data.get("textures", {}).get("particle")
 
                 if texture and texture.startswith("create:"):
-                    texture_path = f'assets/create/textures/{texture[7:]}.png'
+                    relative_path = texture[7:] + '.png'
+                    texture_path = f'assets/create/textures/{relative_path}'
+                    image_name = os.path.basename(relative_path)
                 else:
                     texture_path = f'assets/create/textures/{item_id}.png'
-
-                texture_paths.add(texture_path)
+                    image_name = f'{item_id}.png'
 
                 items.append({
                     "name": item_id.replace("_"," ").title(),
                     "id": f'create:{item_id}',
-                    "image": texture_path 
+                    "image": image_name 
                 })
+
+                texture_paths.add(texture_path)
 
         texture_output = output_dir / "textures"
         texture_output.mkdir(parents = True, exist_ok = True)

@@ -2,3876 +2,3876 @@
   {
     "name": "Acacia Window",
     "id": "create:acacia_window",
-    "image": "assets/create/textures/acacia_window.png"
+    "image": "acacia_window.png"
   },
   {
     "name": "Acacia Window Pane",
     "id": "create:acacia_window_pane",
-    "image": "assets/create/textures/block/palettes/acacia_window.png"
+    "image": "acacia_window.png"
   },
   {
     "name": "Adjustable Chain Gearshift",
     "id": "create:adjustable_chain_gearshift",
-    "image": "assets/create/textures/adjustable_chain_gearshift.png"
+    "image": "adjustable_chain_gearshift.png"
   },
   {
     "name": "Analog Lever",
     "id": "create:analog_lever",
-    "image": "assets/create/textures/analog_lever.png"
+    "image": "analog_lever.png"
   },
   {
     "name": "Andesite Alloy",
     "id": "create:andesite_alloy",
-    "image": "assets/create/textures/item/andesite_alloy.png"
+    "image": "andesite_alloy.png"
   },
   {
     "name": "Andesite Alloy Block",
     "id": "create:andesite_alloy_block",
-    "image": "assets/create/textures/andesite_alloy_block.png"
+    "image": "andesite_alloy_block.png"
   },
   {
     "name": "Andesite Bars",
     "id": "create:andesite_bars",
-    "image": "assets/create/textures/block/bars/andesite_bars.png"
+    "image": "andesite_bars.png"
   },
   {
     "name": "Andesite Casing",
     "id": "create:andesite_casing",
-    "image": "assets/create/textures/andesite_casing.png"
+    "image": "andesite_casing.png"
   },
   {
     "name": "Andesite Door",
     "id": "create:andesite_door",
-    "image": "assets/create/textures/item/andesite_door.png"
+    "image": "andesite_door.png"
   },
   {
     "name": "Andesite Encased Cogwheel",
     "id": "create:andesite_encased_cogwheel",
-    "image": "assets/create/textures/block/andesite_casing.png"
+    "image": "andesite_casing.png"
   },
   {
     "name": "Andesite Encased Large Cogwheel",
     "id": "create:andesite_encased_large_cogwheel",
-    "image": "assets/create/textures/block/andesite_casing.png"
+    "image": "andesite_casing.png"
   },
   {
     "name": "Andesite Encased Shaft",
     "id": "create:andesite_encased_shaft",
-    "image": "assets/create/textures/andesite_encased_shaft.png"
+    "image": "andesite_encased_shaft.png"
   },
   {
     "name": "Andesite Funnel",
     "id": "create:andesite_funnel",
-    "image": "assets/create/textures/block/andesite_block.png"
+    "image": "andesite_block.png"
   },
   {
     "name": "Andesite Ladder",
     "id": "create:andesite_ladder",
-    "image": "assets/create/textures/block/ladder_andesite.png"
+    "image": "ladder_andesite.png"
   },
   {
     "name": "Andesite Pillar",
     "id": "create:andesite_pillar",
-    "image": "assets/create/textures/andesite_pillar.png"
+    "image": "andesite_pillar.png"
   },
   {
     "name": "Andesite Scaffolding",
     "id": "create:andesite_scaffolding",
-    "image": "assets/create/textures/andesite_scaffolding.png"
+    "image": "andesite_scaffolding.png"
   },
   {
     "name": "Andesite Table Cloth",
     "id": "create:andesite_table_cloth",
-    "image": "assets/create/textures/andesite_table_cloth.png"
+    "image": "andesite_table_cloth.png"
   },
   {
     "name": "Andesite Tunnel",
     "id": "create:andesite_tunnel",
-    "image": "assets/create/textures/andesite_tunnel.png"
+    "image": "andesite_tunnel.png"
   },
   {
     "name": "Asurine",
     "id": "create:asurine",
-    "image": "assets/create/textures/asurine.png"
+    "image": "asurine.png"
   },
   {
     "name": "Asurine Pillar",
     "id": "create:asurine_pillar",
-    "image": "assets/create/textures/asurine_pillar.png"
+    "image": "asurine_pillar.png"
   },
   {
     "name": "Attribute Filter",
     "id": "create:attribute_filter",
-    "image": "assets/create/textures/item/attribute_filter.png"
+    "image": "attribute_filter.png"
   },
   {
     "name": "Bamboo Window",
     "id": "create:bamboo_window",
-    "image": "assets/create/textures/bamboo_window.png"
+    "image": "bamboo_window.png"
   },
   {
     "name": "Bamboo Window Pane",
     "id": "create:bamboo_window_pane",
-    "image": "assets/create/textures/block/palettes/bamboo_window.png"
+    "image": "bamboo_window.png"
   },
   {
     "name": "Bar Of Chocolate",
     "id": "create:bar_of_chocolate",
-    "image": "assets/create/textures/item/bar_of_chocolate.png"
+    "image": "bar_of_chocolate.png"
   },
   {
     "name": "Basin",
     "id": "create:basin",
-    "image": "assets/create/textures/basin.png"
+    "image": "basin.png"
   },
   {
     "name": "Belt Connector",
     "id": "create:belt_connector",
-    "image": "assets/create/textures/item/belt_connector.png"
+    "image": "belt_connector.png"
   },
   {
     "name": "Birch Window",
     "id": "create:birch_window",
-    "image": "assets/create/textures/birch_window.png"
+    "image": "birch_window.png"
   },
   {
     "name": "Birch Window Pane",
     "id": "create:birch_window_pane",
-    "image": "assets/create/textures/block/palettes/birch_window.png"
+    "image": "birch_window.png"
   },
   {
     "name": "Black Postbox",
     "id": "create:black_postbox",
-    "image": "assets/create/textures/black_postbox.png"
+    "image": "black_postbox.png"
   },
   {
     "name": "Black Seat",
     "id": "create:black_seat",
-    "image": "assets/create/textures/black_seat.png"
+    "image": "black_seat.png"
   },
   {
     "name": "Black Table Cloth",
     "id": "create:black_table_cloth",
-    "image": "assets/create/textures/black_table_cloth.png"
+    "image": "black_table_cloth.png"
   },
   {
     "name": "Black Toolbox",
     "id": "create:black_toolbox",
-    "image": "assets/create/textures/black_toolbox.png"
+    "image": "black_toolbox.png"
   },
   {
     "name": "Black Valve Handle",
     "id": "create:black_valve_handle",
-    "image": "assets/create/textures/black_valve_handle.png"
+    "image": "black_valve_handle.png"
   },
   {
     "name": "Blaze Burner",
     "id": "create:blaze_burner",
-    "image": "assets/create/textures/blaze_burner.png"
+    "image": "blaze_burner.png"
   },
   {
     "name": "Blaze Cake",
     "id": "create:blaze_cake",
-    "image": "assets/create/textures/item/blaze_cake.png"
+    "image": "blaze_cake.png"
   },
   {
     "name": "Blaze Cake Base",
     "id": "create:blaze_cake_base",
-    "image": "assets/create/textures/item/blaze_cake_base.png"
+    "image": "blaze_cake_base.png"
   },
   {
     "name": "Blue Postbox",
     "id": "create:blue_postbox",
-    "image": "assets/create/textures/blue_postbox.png"
+    "image": "blue_postbox.png"
   },
   {
     "name": "Blue Seat",
     "id": "create:blue_seat",
-    "image": "assets/create/textures/blue_seat.png"
+    "image": "blue_seat.png"
   },
   {
     "name": "Blue Table Cloth",
     "id": "create:blue_table_cloth",
-    "image": "assets/create/textures/blue_table_cloth.png"
+    "image": "blue_table_cloth.png"
   },
   {
     "name": "Blue Toolbox",
     "id": "create:blue_toolbox",
-    "image": "assets/create/textures/blue_toolbox.png"
+    "image": "blue_toolbox.png"
   },
   {
     "name": "Blue Valve Handle",
     "id": "create:blue_valve_handle",
-    "image": "assets/create/textures/blue_valve_handle.png"
+    "image": "blue_valve_handle.png"
   },
   {
     "name": "Bound Cardboard Block",
     "id": "create:bound_cardboard_block",
-    "image": "assets/create/textures/bound_cardboard_block.png"
+    "image": "bound_cardboard_block.png"
   },
   {
     "name": "Brass Bars",
     "id": "create:brass_bars",
-    "image": "assets/create/textures/block/bars/brass_bars.png"
+    "image": "brass_bars.png"
   },
   {
     "name": "Brass Block",
     "id": "create:brass_block",
-    "image": "assets/create/textures/brass_block.png"
+    "image": "brass_block.png"
   },
   {
     "name": "Brass Casing",
     "id": "create:brass_casing",
-    "image": "assets/create/textures/brass_casing.png"
+    "image": "brass_casing.png"
   },
   {
     "name": "Brass Door",
     "id": "create:brass_door",
-    "image": "assets/create/textures/item/brass_door.png"
+    "image": "brass_door.png"
   },
   {
     "name": "Brass Encased Cogwheel",
     "id": "create:brass_encased_cogwheel",
-    "image": "assets/create/textures/block/brass_casing.png"
+    "image": "brass_casing.png"
   },
   {
     "name": "Brass Encased Large Cogwheel",
     "id": "create:brass_encased_large_cogwheel",
-    "image": "assets/create/textures/block/brass_casing.png"
+    "image": "brass_casing.png"
   },
   {
     "name": "Brass Encased Shaft",
     "id": "create:brass_encased_shaft",
-    "image": "assets/create/textures/brass_encased_shaft.png"
+    "image": "brass_encased_shaft.png"
   },
   {
     "name": "Brass Funnel",
     "id": "create:brass_funnel",
-    "image": "assets/create/textures/block/brass_block.png"
+    "image": "brass_block.png"
   },
   {
     "name": "Brass Hand",
     "id": "create:brass_hand",
-    "image": "assets/create/textures/item/brass_hand.png"
+    "image": "brass_hand.png"
   },
   {
     "name": "Brass Ingot",
     "id": "create:brass_ingot",
-    "image": "assets/create/textures/item/brass_ingot.png"
+    "image": "brass_ingot.png"
   },
   {
     "name": "Brass Ladder",
     "id": "create:brass_ladder",
-    "image": "assets/create/textures/block/ladder_brass.png"
+    "image": "ladder_brass.png"
   },
   {
     "name": "Brass Nugget",
     "id": "create:brass_nugget",
-    "image": "assets/create/textures/item/brass_nugget.png"
+    "image": "brass_nugget.png"
   },
   {
     "name": "Brass Scaffolding",
     "id": "create:brass_scaffolding",
-    "image": "assets/create/textures/brass_scaffolding.png"
+    "image": "brass_scaffolding.png"
   },
   {
     "name": "Brass Sheet",
     "id": "create:brass_sheet",
-    "image": "assets/create/textures/item/brass_sheet.png"
+    "image": "brass_sheet.png"
   },
   {
     "name": "Brass Table Cloth",
     "id": "create:brass_table_cloth",
-    "image": "assets/create/textures/brass_table_cloth.png"
+    "image": "brass_table_cloth.png"
   },
   {
     "name": "Brass Tunnel",
     "id": "create:brass_tunnel",
-    "image": "assets/create/textures/block/brass_block.png"
+    "image": "brass_block.png"
   },
   {
     "name": "Brown Postbox",
     "id": "create:brown_postbox",
-    "image": "assets/create/textures/brown_postbox.png"
+    "image": "brown_postbox.png"
   },
   {
     "name": "Brown Seat",
     "id": "create:brown_seat",
-    "image": "assets/create/textures/brown_seat.png"
+    "image": "brown_seat.png"
   },
   {
     "name": "Brown Table Cloth",
     "id": "create:brown_table_cloth",
-    "image": "assets/create/textures/brown_table_cloth.png"
+    "image": "brown_table_cloth.png"
   },
   {
     "name": "Brown Toolbox",
     "id": "create:brown_toolbox",
-    "image": "assets/create/textures/brown_toolbox.png"
+    "image": "brown_toolbox.png"
   },
   {
     "name": "Brown Valve Handle",
     "id": "create:brown_valve_handle",
-    "image": "assets/create/textures/brown_valve_handle.png"
+    "image": "brown_valve_handle.png"
   },
   {
     "name": "Builders Tea",
     "id": "create:builders_tea",
-    "image": "assets/create/textures/item/builders_tea.png"
+    "image": "builders_tea.png"
   },
   {
     "name": "Calcite Pillar",
     "id": "create:calcite_pillar",
-    "image": "assets/create/textures/calcite_pillar.png"
+    "image": "calcite_pillar.png"
   },
   {
     "name": "Cardboard",
     "id": "create:cardboard",
-    "image": "assets/create/textures/item/cardboard.png"
+    "image": "cardboard.png"
   },
   {
     "name": "Cardboard Block",
     "id": "create:cardboard_block",
-    "image": "assets/create/textures/cardboard_block.png"
+    "image": "cardboard_block.png"
   },
   {
     "name": "Cardboard Boots",
     "id": "create:cardboard_boots",
-    "image": "assets/create/textures/item/cardboard_boots.png"
+    "image": "cardboard_boots.png"
   },
   {
     "name": "Cardboard Boots Amethyst Trim",
     "id": "create:cardboard_boots_amethyst_trim",
-    "image": "assets/create/textures/item/cardboard_boots.png"
+    "image": "cardboard_boots.png"
   },
   {
     "name": "Cardboard Boots Copper Trim",
     "id": "create:cardboard_boots_copper_trim",
-    "image": "assets/create/textures/item/cardboard_boots.png"
+    "image": "cardboard_boots.png"
   },
   {
     "name": "Cardboard Boots Diamond Trim",
     "id": "create:cardboard_boots_diamond_trim",
-    "image": "assets/create/textures/item/cardboard_boots.png"
+    "image": "cardboard_boots.png"
   },
   {
     "name": "Cardboard Boots Emerald Trim",
     "id": "create:cardboard_boots_emerald_trim",
-    "image": "assets/create/textures/item/cardboard_boots.png"
+    "image": "cardboard_boots.png"
   },
   {
     "name": "Cardboard Boots Gold Trim",
     "id": "create:cardboard_boots_gold_trim",
-    "image": "assets/create/textures/item/cardboard_boots.png"
+    "image": "cardboard_boots.png"
   },
   {
     "name": "Cardboard Boots Iron Trim",
     "id": "create:cardboard_boots_iron_trim",
-    "image": "assets/create/textures/item/cardboard_boots.png"
+    "image": "cardboard_boots.png"
   },
   {
     "name": "Cardboard Boots Lapis Trim",
     "id": "create:cardboard_boots_lapis_trim",
-    "image": "assets/create/textures/item/cardboard_boots.png"
+    "image": "cardboard_boots.png"
   },
   {
     "name": "Cardboard Boots Netherite Trim",
     "id": "create:cardboard_boots_netherite_trim",
-    "image": "assets/create/textures/item/cardboard_boots.png"
+    "image": "cardboard_boots.png"
   },
   {
     "name": "Cardboard Boots Quartz Trim",
     "id": "create:cardboard_boots_quartz_trim",
-    "image": "assets/create/textures/item/cardboard_boots.png"
+    "image": "cardboard_boots.png"
   },
   {
     "name": "Cardboard Boots Redstone Trim",
     "id": "create:cardboard_boots_redstone_trim",
-    "image": "assets/create/textures/item/cardboard_boots.png"
+    "image": "cardboard_boots.png"
   },
   {
     "name": "Cardboard Chestplate",
     "id": "create:cardboard_chestplate",
-    "image": "assets/create/textures/item/cardboard_chestplate.png"
+    "image": "cardboard_chestplate.png"
   },
   {
     "name": "Cardboard Chestplate Amethyst Trim",
     "id": "create:cardboard_chestplate_amethyst_trim",
-    "image": "assets/create/textures/item/cardboard_chestplate.png"
+    "image": "cardboard_chestplate.png"
   },
   {
     "name": "Cardboard Chestplate Copper Trim",
     "id": "create:cardboard_chestplate_copper_trim",
-    "image": "assets/create/textures/item/cardboard_chestplate.png"
+    "image": "cardboard_chestplate.png"
   },
   {
     "name": "Cardboard Chestplate Diamond Trim",
     "id": "create:cardboard_chestplate_diamond_trim",
-    "image": "assets/create/textures/item/cardboard_chestplate.png"
+    "image": "cardboard_chestplate.png"
   },
   {
     "name": "Cardboard Chestplate Emerald Trim",
     "id": "create:cardboard_chestplate_emerald_trim",
-    "image": "assets/create/textures/item/cardboard_chestplate.png"
+    "image": "cardboard_chestplate.png"
   },
   {
     "name": "Cardboard Chestplate Gold Trim",
     "id": "create:cardboard_chestplate_gold_trim",
-    "image": "assets/create/textures/item/cardboard_chestplate.png"
+    "image": "cardboard_chestplate.png"
   },
   {
     "name": "Cardboard Chestplate Iron Trim",
     "id": "create:cardboard_chestplate_iron_trim",
-    "image": "assets/create/textures/item/cardboard_chestplate.png"
+    "image": "cardboard_chestplate.png"
   },
   {
     "name": "Cardboard Chestplate Lapis Trim",
     "id": "create:cardboard_chestplate_lapis_trim",
-    "image": "assets/create/textures/item/cardboard_chestplate.png"
+    "image": "cardboard_chestplate.png"
   },
   {
     "name": "Cardboard Chestplate Netherite Trim",
     "id": "create:cardboard_chestplate_netherite_trim",
-    "image": "assets/create/textures/item/cardboard_chestplate.png"
+    "image": "cardboard_chestplate.png"
   },
   {
     "name": "Cardboard Chestplate Quartz Trim",
     "id": "create:cardboard_chestplate_quartz_trim",
-    "image": "assets/create/textures/item/cardboard_chestplate.png"
+    "image": "cardboard_chestplate.png"
   },
   {
     "name": "Cardboard Chestplate Redstone Trim",
     "id": "create:cardboard_chestplate_redstone_trim",
-    "image": "assets/create/textures/item/cardboard_chestplate.png"
+    "image": "cardboard_chestplate.png"
   },
   {
     "name": "Cardboard Helmet",
     "id": "create:cardboard_helmet",
-    "image": "assets/create/textures/item/cardboard_helmet.png"
+    "image": "cardboard_helmet.png"
   },
   {
     "name": "Cardboard Helmet Amethyst Trim",
     "id": "create:cardboard_helmet_amethyst_trim",
-    "image": "assets/create/textures/item/cardboard_helmet.png"
+    "image": "cardboard_helmet.png"
   },
   {
     "name": "Cardboard Helmet Copper Trim",
     "id": "create:cardboard_helmet_copper_trim",
-    "image": "assets/create/textures/item/cardboard_helmet.png"
+    "image": "cardboard_helmet.png"
   },
   {
     "name": "Cardboard Helmet Diamond Trim",
     "id": "create:cardboard_helmet_diamond_trim",
-    "image": "assets/create/textures/item/cardboard_helmet.png"
+    "image": "cardboard_helmet.png"
   },
   {
     "name": "Cardboard Helmet Emerald Trim",
     "id": "create:cardboard_helmet_emerald_trim",
-    "image": "assets/create/textures/item/cardboard_helmet.png"
+    "image": "cardboard_helmet.png"
   },
   {
     "name": "Cardboard Helmet Gold Trim",
     "id": "create:cardboard_helmet_gold_trim",
-    "image": "assets/create/textures/item/cardboard_helmet.png"
+    "image": "cardboard_helmet.png"
   },
   {
     "name": "Cardboard Helmet Iron Trim",
     "id": "create:cardboard_helmet_iron_trim",
-    "image": "assets/create/textures/item/cardboard_helmet.png"
+    "image": "cardboard_helmet.png"
   },
   {
     "name": "Cardboard Helmet Lapis Trim",
     "id": "create:cardboard_helmet_lapis_trim",
-    "image": "assets/create/textures/item/cardboard_helmet.png"
+    "image": "cardboard_helmet.png"
   },
   {
     "name": "Cardboard Helmet Netherite Trim",
     "id": "create:cardboard_helmet_netherite_trim",
-    "image": "assets/create/textures/item/cardboard_helmet.png"
+    "image": "cardboard_helmet.png"
   },
   {
     "name": "Cardboard Helmet Quartz Trim",
     "id": "create:cardboard_helmet_quartz_trim",
-    "image": "assets/create/textures/item/cardboard_helmet.png"
+    "image": "cardboard_helmet.png"
   },
   {
     "name": "Cardboard Helmet Redstone Trim",
     "id": "create:cardboard_helmet_redstone_trim",
-    "image": "assets/create/textures/item/cardboard_helmet.png"
+    "image": "cardboard_helmet.png"
   },
   {
     "name": "Cardboard Leggings",
     "id": "create:cardboard_leggings",
-    "image": "assets/create/textures/item/cardboard_leggings.png"
+    "image": "cardboard_leggings.png"
   },
   {
     "name": "Cardboard Leggings Amethyst Trim",
     "id": "create:cardboard_leggings_amethyst_trim",
-    "image": "assets/create/textures/item/cardboard_leggings.png"
+    "image": "cardboard_leggings.png"
   },
   {
     "name": "Cardboard Leggings Copper Trim",
     "id": "create:cardboard_leggings_copper_trim",
-    "image": "assets/create/textures/item/cardboard_leggings.png"
+    "image": "cardboard_leggings.png"
   },
   {
     "name": "Cardboard Leggings Diamond Trim",
     "id": "create:cardboard_leggings_diamond_trim",
-    "image": "assets/create/textures/item/cardboard_leggings.png"
+    "image": "cardboard_leggings.png"
   },
   {
     "name": "Cardboard Leggings Emerald Trim",
     "id": "create:cardboard_leggings_emerald_trim",
-    "image": "assets/create/textures/item/cardboard_leggings.png"
+    "image": "cardboard_leggings.png"
   },
   {
     "name": "Cardboard Leggings Gold Trim",
     "id": "create:cardboard_leggings_gold_trim",
-    "image": "assets/create/textures/item/cardboard_leggings.png"
+    "image": "cardboard_leggings.png"
   },
   {
     "name": "Cardboard Leggings Iron Trim",
     "id": "create:cardboard_leggings_iron_trim",
-    "image": "assets/create/textures/item/cardboard_leggings.png"
+    "image": "cardboard_leggings.png"
   },
   {
     "name": "Cardboard Leggings Lapis Trim",
     "id": "create:cardboard_leggings_lapis_trim",
-    "image": "assets/create/textures/item/cardboard_leggings.png"
+    "image": "cardboard_leggings.png"
   },
   {
     "name": "Cardboard Leggings Netherite Trim",
     "id": "create:cardboard_leggings_netherite_trim",
-    "image": "assets/create/textures/item/cardboard_leggings.png"
+    "image": "cardboard_leggings.png"
   },
   {
     "name": "Cardboard Leggings Quartz Trim",
     "id": "create:cardboard_leggings_quartz_trim",
-    "image": "assets/create/textures/item/cardboard_leggings.png"
+    "image": "cardboard_leggings.png"
   },
   {
     "name": "Cardboard Leggings Redstone Trim",
     "id": "create:cardboard_leggings_redstone_trim",
-    "image": "assets/create/textures/item/cardboard_leggings.png"
+    "image": "cardboard_leggings.png"
   },
   {
     "name": "Cardboard Package 10X12",
     "id": "create:cardboard_package_10x12",
-    "image": "assets/create/textures/cardboard_package_10x12.png"
+    "image": "cardboard_package_10x12.png"
   },
   {
     "name": "Cardboard Package 10X8",
     "id": "create:cardboard_package_10x8",
-    "image": "assets/create/textures/cardboard_package_10x8.png"
+    "image": "cardboard_package_10x8.png"
   },
   {
     "name": "Cardboard Package 12X10",
     "id": "create:cardboard_package_12x10",
-    "image": "assets/create/textures/cardboard_package_12x10.png"
+    "image": "cardboard_package_12x10.png"
   },
   {
     "name": "Cardboard Package 12X12",
     "id": "create:cardboard_package_12x12",
-    "image": "assets/create/textures/cardboard_package_12x12.png"
+    "image": "cardboard_package_12x12.png"
   },
   {
     "name": "Cardboard Sword",
     "id": "create:cardboard_sword",
-    "image": "assets/create/textures/cardboard_sword.png"
+    "image": "cardboard_sword.png"
   },
   {
     "name": "Item",
     "id": "create:item",
-    "image": "assets/create/textures/item/cardboard_sword.png"
+    "image": "cardboard_sword.png"
   },
   {
     "name": "Item In Hand",
     "id": "create:item_in_hand",
-    "image": "assets/create/textures/item/cardboard_sword_in_hand.png"
+    "image": "cardboard_sword_in_hand.png"
   },
   {
     "name": "Cart Assembler",
     "id": "create:cart_assembler",
-    "image": "assets/create/textures/cart_assembler.png"
+    "image": "cart_assembler.png"
   },
   {
     "name": "Chain Conveyor",
     "id": "create:chain_conveyor",
-    "image": "assets/create/textures/chain_conveyor.png"
+    "image": "chain_conveyor.png"
   },
   {
     "name": "Cherry Window",
     "id": "create:cherry_window",
-    "image": "assets/create/textures/cherry_window.png"
+    "image": "cherry_window.png"
   },
   {
     "name": "Cherry Window Pane",
     "id": "create:cherry_window_pane",
-    "image": "assets/create/textures/block/palettes/cherry_window.png"
+    "image": "cherry_window.png"
   },
   {
     "name": "Chest Minecart Contraption",
     "id": "create:chest_minecart_contraption",
-    "image": "assets/create/textures/item/chest_minecart_contraption.png"
+    "image": "chest_minecart_contraption.png"
   },
   {
     "name": "Chocolate Bucket",
     "id": "create:chocolate_bucket",
-    "image": "assets/create/textures/item/chocolate_bucket.png"
+    "image": "chocolate_bucket.png"
   },
   {
     "name": "Chocolate Glazed Berries",
     "id": "create:chocolate_glazed_berries",
-    "image": "assets/create/textures/item/chocolate_glazed_berries.png"
+    "image": "chocolate_glazed_berries.png"
   },
   {
     "name": "Chromatic Compound",
     "id": "create:chromatic_compound",
-    "image": "assets/create/textures/item/chromatic_compound_0.png"
+    "image": "chromatic_compound_0.png"
   },
   {
     "name": "Chute",
     "id": "create:chute",
-    "image": "assets/create/textures/chute.png"
+    "image": "chute.png"
   },
   {
     "name": "Cinder Flour",
     "id": "create:cinder_flour",
-    "image": "assets/create/textures/item/cinder_flour.png"
+    "image": "cinder_flour.png"
   },
   {
     "name": "Clipboard",
     "id": "create:clipboard",
-    "image": "assets/create/textures/item/clipboard.png"
+    "image": "clipboard.png"
   },
   {
     "name": "Clipboard 0",
     "id": "create:clipboard_0",
-    "image": "assets/create/textures/item/empty_clipboard.png"
+    "image": "empty_clipboard.png"
   },
   {
     "name": "Clipboard 1",
     "id": "create:clipboard_1",
-    "image": "assets/create/textures/item/clipboard.png"
+    "image": "clipboard.png"
   },
   {
     "name": "Clipboard 2",
     "id": "create:clipboard_2",
-    "image": "assets/create/textures/item/clipboard_and_quill.png"
+    "image": "clipboard_and_quill.png"
   },
   {
     "name": "Clockwork Bearing",
     "id": "create:clockwork_bearing",
-    "image": "assets/create/textures/clockwork_bearing.png"
+    "image": "clockwork_bearing.png"
   },
   {
     "name": "Clutch",
     "id": "create:clutch",
-    "image": "assets/create/textures/clutch.png"
+    "image": "clutch.png"
   },
   {
     "name": "Cogwheel",
     "id": "create:cogwheel",
-    "image": "assets/create/textures/cogwheel.png"
+    "image": "cogwheel.png"
   },
   {
     "name": "Content Observer",
     "id": "create:content_observer",
-    "image": "assets/create/textures/content_observer.png"
+    "image": "content_observer.png"
   },
   {
     "name": "Contraption Controls",
     "id": "create:contraption_controls",
-    "image": "assets/create/textures/contraption_controls.png"
+    "image": "contraption_controls.png"
   },
   {
     "name": "Controller Rail",
     "id": "create:controller_rail",
-    "image": "assets/create/textures/block/controller_rail.png"
+    "image": "controller_rail.png"
   },
   {
     "name": "Controls",
     "id": "create:controls",
-    "image": "assets/create/textures/controls.png"
+    "image": "controls.png"
   },
   {
     "name": "Copper Backtank",
     "id": "create:copper_backtank",
-    "image": "assets/create/textures/copper_backtank.png"
+    "image": "copper_backtank.png"
   },
   {
     "name": "Copper Backtank Placeable",
     "id": "create:copper_backtank_placeable",
-    "image": "assets/create/textures/copper_backtank_placeable.png"
+    "image": "copper_backtank_placeable.png"
   },
   {
     "name": "Copper Bars",
     "id": "create:copper_bars",
-    "image": "assets/create/textures/block/bars/copper_bars.png"
+    "image": "copper_bars.png"
   },
   {
     "name": "Copper Casing",
     "id": "create:copper_casing",
-    "image": "assets/create/textures/copper_casing.png"
+    "image": "copper_casing.png"
   },
   {
     "name": "Copper Diving Boots",
     "id": "create:copper_diving_boots",
-    "image": "assets/create/textures/item/copper_diving_boots.png"
+    "image": "copper_diving_boots.png"
   },
   {
     "name": "Copper Diving Helmet",
     "id": "create:copper_diving_helmet",
-    "image": "assets/create/textures/item/copper_diving_helmet.png"
+    "image": "copper_diving_helmet.png"
   },
   {
     "name": "Copper Door",
     "id": "create:copper_door",
-    "image": "assets/create/textures/item/copper_door.png"
+    "image": "copper_door.png"
   },
   {
     "name": "Copper Ladder",
     "id": "create:copper_ladder",
-    "image": "assets/create/textures/block/ladder_copper.png"
+    "image": "ladder_copper.png"
   },
   {
     "name": "Copper Nugget",
     "id": "create:copper_nugget",
-    "image": "assets/create/textures/item/copper_nugget.png"
+    "image": "copper_nugget.png"
   },
   {
     "name": "Copper Scaffolding",
     "id": "create:copper_scaffolding",
-    "image": "assets/create/textures/copper_scaffolding.png"
+    "image": "copper_scaffolding.png"
   },
   {
     "name": "Copper Sheet",
     "id": "create:copper_sheet",
-    "image": "assets/create/textures/item/copper_sheet.png"
+    "image": "copper_sheet.png"
   },
   {
     "name": "Copper Shingle Slab",
     "id": "create:copper_shingle_slab",
-    "image": "assets/create/textures/copper_shingle_slab.png"
+    "image": "copper_shingle_slab.png"
   },
   {
     "name": "Copper Shingle Stairs",
     "id": "create:copper_shingle_stairs",
-    "image": "assets/create/textures/copper_shingle_stairs.png"
+    "image": "copper_shingle_stairs.png"
   },
   {
     "name": "Copper Shingles",
     "id": "create:copper_shingles",
-    "image": "assets/create/textures/copper_shingles.png"
+    "image": "copper_shingles.png"
   },
   {
     "name": "Copper Table Cloth",
     "id": "create:copper_table_cloth",
-    "image": "assets/create/textures/copper_table_cloth.png"
+    "image": "copper_table_cloth.png"
   },
   {
     "name": "Copper Tile Slab",
     "id": "create:copper_tile_slab",
-    "image": "assets/create/textures/copper_tile_slab.png"
+    "image": "copper_tile_slab.png"
   },
   {
     "name": "Copper Tile Stairs",
     "id": "create:copper_tile_stairs",
-    "image": "assets/create/textures/copper_tile_stairs.png"
+    "image": "copper_tile_stairs.png"
   },
   {
     "name": "Copper Tiles",
     "id": "create:copper_tiles",
-    "image": "assets/create/textures/copper_tiles.png"
+    "image": "copper_tiles.png"
   },
   {
     "name": "Copper Valve Handle",
     "id": "create:copper_valve_handle",
-    "image": "assets/create/textures/copper_valve_handle.png"
+    "image": "copper_valve_handle.png"
   },
   {
     "name": "Copycat Panel",
     "id": "create:copycat_panel",
-    "image": "assets/create/textures/copycat_panel.png"
+    "image": "copycat_panel.png"
   },
   {
     "name": "Copycat Step",
     "id": "create:copycat_step",
-    "image": "assets/create/textures/copycat_step.png"
+    "image": "copycat_step.png"
   },
   {
     "name": "Crafter Slot Cover",
     "id": "create:crafter_slot_cover",
-    "image": "assets/create/textures/item/crafter_slot_cover.png"
+    "image": "crafter_slot_cover.png"
   },
   {
     "name": "Crafting Blueprint",
     "id": "create:crafting_blueprint",
-    "image": "assets/create/textures/item/crafting_blueprint.png"
+    "image": "crafting_blueprint.png"
   },
   {
     "name": "Creative Blaze Cake",
     "id": "create:creative_blaze_cake",
-    "image": "assets/create/textures/item/creative_blaze_cake.png"
+    "image": "creative_blaze_cake.png"
   },
   {
     "name": "Creative Crate",
     "id": "create:creative_crate",
-    "image": "assets/create/textures/creative_crate.png"
+    "image": "creative_crate.png"
   },
   {
     "name": "Creative Fluid Tank",
     "id": "create:creative_fluid_tank",
-    "image": "assets/create/textures/block/creative_fluid_tank.png"
+    "image": "creative_fluid_tank.png"
   },
   {
     "name": "Creative Motor",
     "id": "create:creative_motor",
-    "image": "assets/create/textures/creative_motor.png"
+    "image": "creative_motor.png"
   },
   {
     "name": "Crimsite",
     "id": "create:crimsite",
-    "image": "assets/create/textures/crimsite.png"
+    "image": "crimsite.png"
   },
   {
     "name": "Crimsite Pillar",
     "id": "create:crimsite_pillar",
-    "image": "assets/create/textures/crimsite_pillar.png"
+    "image": "crimsite_pillar.png"
   },
   {
     "name": "Crimson Window",
     "id": "create:crimson_window",
-    "image": "assets/create/textures/crimson_window.png"
+    "image": "crimson_window.png"
   },
   {
     "name": "Crimson Window Pane",
     "id": "create:crimson_window_pane",
-    "image": "assets/create/textures/block/palettes/crimson_window.png"
+    "image": "crimson_window.png"
   },
   {
     "name": "Crushed Raw Aluminum",
     "id": "create:crushed_raw_aluminum",
-    "image": "assets/create/textures/item/crushed_raw_aluminum.png"
+    "image": "crushed_raw_aluminum.png"
   },
   {
     "name": "Crushed Raw Copper",
     "id": "create:crushed_raw_copper",
-    "image": "assets/create/textures/item/crushed_raw_copper.png"
+    "image": "crushed_raw_copper.png"
   },
   {
     "name": "Crushed Raw Gold",
     "id": "create:crushed_raw_gold",
-    "image": "assets/create/textures/item/crushed_raw_gold.png"
+    "image": "crushed_raw_gold.png"
   },
   {
     "name": "Crushed Raw Iron",
     "id": "create:crushed_raw_iron",
-    "image": "assets/create/textures/item/crushed_raw_iron.png"
+    "image": "crushed_raw_iron.png"
   },
   {
     "name": "Crushed Raw Lead",
     "id": "create:crushed_raw_lead",
-    "image": "assets/create/textures/item/crushed_raw_lead.png"
+    "image": "crushed_raw_lead.png"
   },
   {
     "name": "Crushed Raw Nickel",
     "id": "create:crushed_raw_nickel",
-    "image": "assets/create/textures/item/crushed_raw_nickel.png"
+    "image": "crushed_raw_nickel.png"
   },
   {
     "name": "Crushed Raw Osmium",
     "id": "create:crushed_raw_osmium",
-    "image": "assets/create/textures/item/crushed_raw_osmium.png"
+    "image": "crushed_raw_osmium.png"
   },
   {
     "name": "Crushed Raw Platinum",
     "id": "create:crushed_raw_platinum",
-    "image": "assets/create/textures/item/crushed_raw_platinum.png"
+    "image": "crushed_raw_platinum.png"
   },
   {
     "name": "Crushed Raw Quicksilver",
     "id": "create:crushed_raw_quicksilver",
-    "image": "assets/create/textures/item/crushed_raw_quicksilver.png"
+    "image": "crushed_raw_quicksilver.png"
   },
   {
     "name": "Crushed Raw Silver",
     "id": "create:crushed_raw_silver",
-    "image": "assets/create/textures/item/crushed_raw_silver.png"
+    "image": "crushed_raw_silver.png"
   },
   {
     "name": "Crushed Raw Tin",
     "id": "create:crushed_raw_tin",
-    "image": "assets/create/textures/item/crushed_raw_tin.png"
+    "image": "crushed_raw_tin.png"
   },
   {
     "name": "Crushed Raw Uranium",
     "id": "create:crushed_raw_uranium",
-    "image": "assets/create/textures/item/crushed_raw_uranium.png"
+    "image": "crushed_raw_uranium.png"
   },
   {
     "name": "Crushed Raw Zinc",
     "id": "create:crushed_raw_zinc",
-    "image": "assets/create/textures/item/crushed_raw_zinc.png"
+    "image": "crushed_raw_zinc.png"
   },
   {
     "name": "Crushing Wheel",
     "id": "create:crushing_wheel",
-    "image": "assets/create/textures/crushing_wheel.png"
+    "image": "crushing_wheel.png"
   },
   {
     "name": "Cuckoo Clock",
     "id": "create:cuckoo_clock",
-    "image": "assets/create/textures/cuckoo_clock.png"
+    "image": "cuckoo_clock.png"
   },
   {
     "name": "Cut Andesite",
     "id": "create:cut_andesite",
-    "image": "assets/create/textures/cut_andesite.png"
+    "image": "cut_andesite.png"
   },
   {
     "name": "Cut Andesite Brick Slab",
     "id": "create:cut_andesite_brick_slab",
-    "image": "assets/create/textures/cut_andesite_brick_slab.png"
+    "image": "cut_andesite_brick_slab.png"
   },
   {
     "name": "Cut Andesite Brick Stairs",
     "id": "create:cut_andesite_brick_stairs",
-    "image": "assets/create/textures/cut_andesite_brick_stairs.png"
+    "image": "cut_andesite_brick_stairs.png"
   },
   {
     "name": "Cut Andesite Brick Wall",
     "id": "create:cut_andesite_brick_wall",
-    "image": "assets/create/textures/cut_andesite_brick_wall.png"
+    "image": "cut_andesite_brick_wall.png"
   },
   {
     "name": "Cut Andesite Bricks",
     "id": "create:cut_andesite_bricks",
-    "image": "assets/create/textures/cut_andesite_bricks.png"
+    "image": "cut_andesite_bricks.png"
   },
   {
     "name": "Cut Andesite Slab",
     "id": "create:cut_andesite_slab",
-    "image": "assets/create/textures/cut_andesite_slab.png"
+    "image": "cut_andesite_slab.png"
   },
   {
     "name": "Cut Andesite Stairs",
     "id": "create:cut_andesite_stairs",
-    "image": "assets/create/textures/cut_andesite_stairs.png"
+    "image": "cut_andesite_stairs.png"
   },
   {
     "name": "Cut Andesite Wall",
     "id": "create:cut_andesite_wall",
-    "image": "assets/create/textures/cut_andesite_wall.png"
+    "image": "cut_andesite_wall.png"
   },
   {
     "name": "Cut Asurine",
     "id": "create:cut_asurine",
-    "image": "assets/create/textures/cut_asurine.png"
+    "image": "cut_asurine.png"
   },
   {
     "name": "Cut Asurine Brick Slab",
     "id": "create:cut_asurine_brick_slab",
-    "image": "assets/create/textures/cut_asurine_brick_slab.png"
+    "image": "cut_asurine_brick_slab.png"
   },
   {
     "name": "Cut Asurine Brick Stairs",
     "id": "create:cut_asurine_brick_stairs",
-    "image": "assets/create/textures/cut_asurine_brick_stairs.png"
+    "image": "cut_asurine_brick_stairs.png"
   },
   {
     "name": "Cut Asurine Brick Wall",
     "id": "create:cut_asurine_brick_wall",
-    "image": "assets/create/textures/cut_asurine_brick_wall.png"
+    "image": "cut_asurine_brick_wall.png"
   },
   {
     "name": "Cut Asurine Bricks",
     "id": "create:cut_asurine_bricks",
-    "image": "assets/create/textures/cut_asurine_bricks.png"
+    "image": "cut_asurine_bricks.png"
   },
   {
     "name": "Cut Asurine Slab",
     "id": "create:cut_asurine_slab",
-    "image": "assets/create/textures/cut_asurine_slab.png"
+    "image": "cut_asurine_slab.png"
   },
   {
     "name": "Cut Asurine Stairs",
     "id": "create:cut_asurine_stairs",
-    "image": "assets/create/textures/cut_asurine_stairs.png"
+    "image": "cut_asurine_stairs.png"
   },
   {
     "name": "Cut Asurine Wall",
     "id": "create:cut_asurine_wall",
-    "image": "assets/create/textures/cut_asurine_wall.png"
+    "image": "cut_asurine_wall.png"
   },
   {
     "name": "Cut Calcite",
     "id": "create:cut_calcite",
-    "image": "assets/create/textures/cut_calcite.png"
+    "image": "cut_calcite.png"
   },
   {
     "name": "Cut Calcite Brick Slab",
     "id": "create:cut_calcite_brick_slab",
-    "image": "assets/create/textures/cut_calcite_brick_slab.png"
+    "image": "cut_calcite_brick_slab.png"
   },
   {
     "name": "Cut Calcite Brick Stairs",
     "id": "create:cut_calcite_brick_stairs",
-    "image": "assets/create/textures/cut_calcite_brick_stairs.png"
+    "image": "cut_calcite_brick_stairs.png"
   },
   {
     "name": "Cut Calcite Brick Wall",
     "id": "create:cut_calcite_brick_wall",
-    "image": "assets/create/textures/cut_calcite_brick_wall.png"
+    "image": "cut_calcite_brick_wall.png"
   },
   {
     "name": "Cut Calcite Bricks",
     "id": "create:cut_calcite_bricks",
-    "image": "assets/create/textures/cut_calcite_bricks.png"
+    "image": "cut_calcite_bricks.png"
   },
   {
     "name": "Cut Calcite Slab",
     "id": "create:cut_calcite_slab",
-    "image": "assets/create/textures/cut_calcite_slab.png"
+    "image": "cut_calcite_slab.png"
   },
   {
     "name": "Cut Calcite Stairs",
     "id": "create:cut_calcite_stairs",
-    "image": "assets/create/textures/cut_calcite_stairs.png"
+    "image": "cut_calcite_stairs.png"
   },
   {
     "name": "Cut Calcite Wall",
     "id": "create:cut_calcite_wall",
-    "image": "assets/create/textures/cut_calcite_wall.png"
+    "image": "cut_calcite_wall.png"
   },
   {
     "name": "Cut Crimsite",
     "id": "create:cut_crimsite",
-    "image": "assets/create/textures/cut_crimsite.png"
+    "image": "cut_crimsite.png"
   },
   {
     "name": "Cut Crimsite Brick Slab",
     "id": "create:cut_crimsite_brick_slab",
-    "image": "assets/create/textures/cut_crimsite_brick_slab.png"
+    "image": "cut_crimsite_brick_slab.png"
   },
   {
     "name": "Cut Crimsite Brick Stairs",
     "id": "create:cut_crimsite_brick_stairs",
-    "image": "assets/create/textures/cut_crimsite_brick_stairs.png"
+    "image": "cut_crimsite_brick_stairs.png"
   },
   {
     "name": "Cut Crimsite Brick Wall",
     "id": "create:cut_crimsite_brick_wall",
-    "image": "assets/create/textures/cut_crimsite_brick_wall.png"
+    "image": "cut_crimsite_brick_wall.png"
   },
   {
     "name": "Cut Crimsite Bricks",
     "id": "create:cut_crimsite_bricks",
-    "image": "assets/create/textures/cut_crimsite_bricks.png"
+    "image": "cut_crimsite_bricks.png"
   },
   {
     "name": "Cut Crimsite Slab",
     "id": "create:cut_crimsite_slab",
-    "image": "assets/create/textures/cut_crimsite_slab.png"
+    "image": "cut_crimsite_slab.png"
   },
   {
     "name": "Cut Crimsite Stairs",
     "id": "create:cut_crimsite_stairs",
-    "image": "assets/create/textures/cut_crimsite_stairs.png"
+    "image": "cut_crimsite_stairs.png"
   },
   {
     "name": "Cut Crimsite Wall",
     "id": "create:cut_crimsite_wall",
-    "image": "assets/create/textures/cut_crimsite_wall.png"
+    "image": "cut_crimsite_wall.png"
   },
   {
     "name": "Cut Deepslate",
     "id": "create:cut_deepslate",
-    "image": "assets/create/textures/cut_deepslate.png"
+    "image": "cut_deepslate.png"
   },
   {
     "name": "Cut Deepslate Brick Slab",
     "id": "create:cut_deepslate_brick_slab",
-    "image": "assets/create/textures/cut_deepslate_brick_slab.png"
+    "image": "cut_deepslate_brick_slab.png"
   },
   {
     "name": "Cut Deepslate Brick Stairs",
     "id": "create:cut_deepslate_brick_stairs",
-    "image": "assets/create/textures/cut_deepslate_brick_stairs.png"
+    "image": "cut_deepslate_brick_stairs.png"
   },
   {
     "name": "Cut Deepslate Brick Wall",
     "id": "create:cut_deepslate_brick_wall",
-    "image": "assets/create/textures/cut_deepslate_brick_wall.png"
+    "image": "cut_deepslate_brick_wall.png"
   },
   {
     "name": "Cut Deepslate Bricks",
     "id": "create:cut_deepslate_bricks",
-    "image": "assets/create/textures/cut_deepslate_bricks.png"
+    "image": "cut_deepslate_bricks.png"
   },
   {
     "name": "Cut Deepslate Slab",
     "id": "create:cut_deepslate_slab",
-    "image": "assets/create/textures/cut_deepslate_slab.png"
+    "image": "cut_deepslate_slab.png"
   },
   {
     "name": "Cut Deepslate Stairs",
     "id": "create:cut_deepslate_stairs",
-    "image": "assets/create/textures/cut_deepslate_stairs.png"
+    "image": "cut_deepslate_stairs.png"
   },
   {
     "name": "Cut Deepslate Wall",
     "id": "create:cut_deepslate_wall",
-    "image": "assets/create/textures/cut_deepslate_wall.png"
+    "image": "cut_deepslate_wall.png"
   },
   {
     "name": "Cut Diorite",
     "id": "create:cut_diorite",
-    "image": "assets/create/textures/cut_diorite.png"
+    "image": "cut_diorite.png"
   },
   {
     "name": "Cut Diorite Brick Slab",
     "id": "create:cut_diorite_brick_slab",
-    "image": "assets/create/textures/cut_diorite_brick_slab.png"
+    "image": "cut_diorite_brick_slab.png"
   },
   {
     "name": "Cut Diorite Brick Stairs",
     "id": "create:cut_diorite_brick_stairs",
-    "image": "assets/create/textures/cut_diorite_brick_stairs.png"
+    "image": "cut_diorite_brick_stairs.png"
   },
   {
     "name": "Cut Diorite Brick Wall",
     "id": "create:cut_diorite_brick_wall",
-    "image": "assets/create/textures/cut_diorite_brick_wall.png"
+    "image": "cut_diorite_brick_wall.png"
   },
   {
     "name": "Cut Diorite Bricks",
     "id": "create:cut_diorite_bricks",
-    "image": "assets/create/textures/cut_diorite_bricks.png"
+    "image": "cut_diorite_bricks.png"
   },
   {
     "name": "Cut Diorite Slab",
     "id": "create:cut_diorite_slab",
-    "image": "assets/create/textures/cut_diorite_slab.png"
+    "image": "cut_diorite_slab.png"
   },
   {
     "name": "Cut Diorite Stairs",
     "id": "create:cut_diorite_stairs",
-    "image": "assets/create/textures/cut_diorite_stairs.png"
+    "image": "cut_diorite_stairs.png"
   },
   {
     "name": "Cut Diorite Wall",
     "id": "create:cut_diorite_wall",
-    "image": "assets/create/textures/cut_diorite_wall.png"
+    "image": "cut_diorite_wall.png"
   },
   {
     "name": "Cut Dripstone",
     "id": "create:cut_dripstone",
-    "image": "assets/create/textures/cut_dripstone.png"
+    "image": "cut_dripstone.png"
   },
   {
     "name": "Cut Dripstone Brick Slab",
     "id": "create:cut_dripstone_brick_slab",
-    "image": "assets/create/textures/cut_dripstone_brick_slab.png"
+    "image": "cut_dripstone_brick_slab.png"
   },
   {
     "name": "Cut Dripstone Brick Stairs",
     "id": "create:cut_dripstone_brick_stairs",
-    "image": "assets/create/textures/cut_dripstone_brick_stairs.png"
+    "image": "cut_dripstone_brick_stairs.png"
   },
   {
     "name": "Cut Dripstone Brick Wall",
     "id": "create:cut_dripstone_brick_wall",
-    "image": "assets/create/textures/cut_dripstone_brick_wall.png"
+    "image": "cut_dripstone_brick_wall.png"
   },
   {
     "name": "Cut Dripstone Bricks",
     "id": "create:cut_dripstone_bricks",
-    "image": "assets/create/textures/cut_dripstone_bricks.png"
+    "image": "cut_dripstone_bricks.png"
   },
   {
     "name": "Cut Dripstone Slab",
     "id": "create:cut_dripstone_slab",
-    "image": "assets/create/textures/cut_dripstone_slab.png"
+    "image": "cut_dripstone_slab.png"
   },
   {
     "name": "Cut Dripstone Stairs",
     "id": "create:cut_dripstone_stairs",
-    "image": "assets/create/textures/cut_dripstone_stairs.png"
+    "image": "cut_dripstone_stairs.png"
   },
   {
     "name": "Cut Dripstone Wall",
     "id": "create:cut_dripstone_wall",
-    "image": "assets/create/textures/cut_dripstone_wall.png"
+    "image": "cut_dripstone_wall.png"
   },
   {
     "name": "Cut Granite",
     "id": "create:cut_granite",
-    "image": "assets/create/textures/cut_granite.png"
+    "image": "cut_granite.png"
   },
   {
     "name": "Cut Granite Brick Slab",
     "id": "create:cut_granite_brick_slab",
-    "image": "assets/create/textures/cut_granite_brick_slab.png"
+    "image": "cut_granite_brick_slab.png"
   },
   {
     "name": "Cut Granite Brick Stairs",
     "id": "create:cut_granite_brick_stairs",
-    "image": "assets/create/textures/cut_granite_brick_stairs.png"
+    "image": "cut_granite_brick_stairs.png"
   },
   {
     "name": "Cut Granite Brick Wall",
     "id": "create:cut_granite_brick_wall",
-    "image": "assets/create/textures/cut_granite_brick_wall.png"
+    "image": "cut_granite_brick_wall.png"
   },
   {
     "name": "Cut Granite Bricks",
     "id": "create:cut_granite_bricks",
-    "image": "assets/create/textures/cut_granite_bricks.png"
+    "image": "cut_granite_bricks.png"
   },
   {
     "name": "Cut Granite Slab",
     "id": "create:cut_granite_slab",
-    "image": "assets/create/textures/cut_granite_slab.png"
+    "image": "cut_granite_slab.png"
   },
   {
     "name": "Cut Granite Stairs",
     "id": "create:cut_granite_stairs",
-    "image": "assets/create/textures/cut_granite_stairs.png"
+    "image": "cut_granite_stairs.png"
   },
   {
     "name": "Cut Granite Wall",
     "id": "create:cut_granite_wall",
-    "image": "assets/create/textures/cut_granite_wall.png"
+    "image": "cut_granite_wall.png"
   },
   {
     "name": "Cut Limestone",
     "id": "create:cut_limestone",
-    "image": "assets/create/textures/cut_limestone.png"
+    "image": "cut_limestone.png"
   },
   {
     "name": "Cut Limestone Brick Slab",
     "id": "create:cut_limestone_brick_slab",
-    "image": "assets/create/textures/cut_limestone_brick_slab.png"
+    "image": "cut_limestone_brick_slab.png"
   },
   {
     "name": "Cut Limestone Brick Stairs",
     "id": "create:cut_limestone_brick_stairs",
-    "image": "assets/create/textures/cut_limestone_brick_stairs.png"
+    "image": "cut_limestone_brick_stairs.png"
   },
   {
     "name": "Cut Limestone Brick Wall",
     "id": "create:cut_limestone_brick_wall",
-    "image": "assets/create/textures/cut_limestone_brick_wall.png"
+    "image": "cut_limestone_brick_wall.png"
   },
   {
     "name": "Cut Limestone Bricks",
     "id": "create:cut_limestone_bricks",
-    "image": "assets/create/textures/cut_limestone_bricks.png"
+    "image": "cut_limestone_bricks.png"
   },
   {
     "name": "Cut Limestone Slab",
     "id": "create:cut_limestone_slab",
-    "image": "assets/create/textures/cut_limestone_slab.png"
+    "image": "cut_limestone_slab.png"
   },
   {
     "name": "Cut Limestone Stairs",
     "id": "create:cut_limestone_stairs",
-    "image": "assets/create/textures/cut_limestone_stairs.png"
+    "image": "cut_limestone_stairs.png"
   },
   {
     "name": "Cut Limestone Wall",
     "id": "create:cut_limestone_wall",
-    "image": "assets/create/textures/cut_limestone_wall.png"
+    "image": "cut_limestone_wall.png"
   },
   {
     "name": "Cut Ochrum",
     "id": "create:cut_ochrum",
-    "image": "assets/create/textures/cut_ochrum.png"
+    "image": "cut_ochrum.png"
   },
   {
     "name": "Cut Ochrum Brick Slab",
     "id": "create:cut_ochrum_brick_slab",
-    "image": "assets/create/textures/cut_ochrum_brick_slab.png"
+    "image": "cut_ochrum_brick_slab.png"
   },
   {
     "name": "Cut Ochrum Brick Stairs",
     "id": "create:cut_ochrum_brick_stairs",
-    "image": "assets/create/textures/cut_ochrum_brick_stairs.png"
+    "image": "cut_ochrum_brick_stairs.png"
   },
   {
     "name": "Cut Ochrum Brick Wall",
     "id": "create:cut_ochrum_brick_wall",
-    "image": "assets/create/textures/cut_ochrum_brick_wall.png"
+    "image": "cut_ochrum_brick_wall.png"
   },
   {
     "name": "Cut Ochrum Bricks",
     "id": "create:cut_ochrum_bricks",
-    "image": "assets/create/textures/cut_ochrum_bricks.png"
+    "image": "cut_ochrum_bricks.png"
   },
   {
     "name": "Cut Ochrum Slab",
     "id": "create:cut_ochrum_slab",
-    "image": "assets/create/textures/cut_ochrum_slab.png"
+    "image": "cut_ochrum_slab.png"
   },
   {
     "name": "Cut Ochrum Stairs",
     "id": "create:cut_ochrum_stairs",
-    "image": "assets/create/textures/cut_ochrum_stairs.png"
+    "image": "cut_ochrum_stairs.png"
   },
   {
     "name": "Cut Ochrum Wall",
     "id": "create:cut_ochrum_wall",
-    "image": "assets/create/textures/cut_ochrum_wall.png"
+    "image": "cut_ochrum_wall.png"
   },
   {
     "name": "Cut Scorchia",
     "id": "create:cut_scorchia",
-    "image": "assets/create/textures/cut_scorchia.png"
+    "image": "cut_scorchia.png"
   },
   {
     "name": "Cut Scorchia Brick Slab",
     "id": "create:cut_scorchia_brick_slab",
-    "image": "assets/create/textures/cut_scorchia_brick_slab.png"
+    "image": "cut_scorchia_brick_slab.png"
   },
   {
     "name": "Cut Scorchia Brick Stairs",
     "id": "create:cut_scorchia_brick_stairs",
-    "image": "assets/create/textures/cut_scorchia_brick_stairs.png"
+    "image": "cut_scorchia_brick_stairs.png"
   },
   {
     "name": "Cut Scorchia Brick Wall",
     "id": "create:cut_scorchia_brick_wall",
-    "image": "assets/create/textures/cut_scorchia_brick_wall.png"
+    "image": "cut_scorchia_brick_wall.png"
   },
   {
     "name": "Cut Scorchia Bricks",
     "id": "create:cut_scorchia_bricks",
-    "image": "assets/create/textures/cut_scorchia_bricks.png"
+    "image": "cut_scorchia_bricks.png"
   },
   {
     "name": "Cut Scorchia Slab",
     "id": "create:cut_scorchia_slab",
-    "image": "assets/create/textures/cut_scorchia_slab.png"
+    "image": "cut_scorchia_slab.png"
   },
   {
     "name": "Cut Scorchia Stairs",
     "id": "create:cut_scorchia_stairs",
-    "image": "assets/create/textures/cut_scorchia_stairs.png"
+    "image": "cut_scorchia_stairs.png"
   },
   {
     "name": "Cut Scorchia Wall",
     "id": "create:cut_scorchia_wall",
-    "image": "assets/create/textures/cut_scorchia_wall.png"
+    "image": "cut_scorchia_wall.png"
   },
   {
     "name": "Cut Scoria",
     "id": "create:cut_scoria",
-    "image": "assets/create/textures/cut_scoria.png"
+    "image": "cut_scoria.png"
   },
   {
     "name": "Cut Scoria Brick Slab",
     "id": "create:cut_scoria_brick_slab",
-    "image": "assets/create/textures/cut_scoria_brick_slab.png"
+    "image": "cut_scoria_brick_slab.png"
   },
   {
     "name": "Cut Scoria Brick Stairs",
     "id": "create:cut_scoria_brick_stairs",
-    "image": "assets/create/textures/cut_scoria_brick_stairs.png"
+    "image": "cut_scoria_brick_stairs.png"
   },
   {
     "name": "Cut Scoria Brick Wall",
     "id": "create:cut_scoria_brick_wall",
-    "image": "assets/create/textures/cut_scoria_brick_wall.png"
+    "image": "cut_scoria_brick_wall.png"
   },
   {
     "name": "Cut Scoria Bricks",
     "id": "create:cut_scoria_bricks",
-    "image": "assets/create/textures/cut_scoria_bricks.png"
+    "image": "cut_scoria_bricks.png"
   },
   {
     "name": "Cut Scoria Slab",
     "id": "create:cut_scoria_slab",
-    "image": "assets/create/textures/cut_scoria_slab.png"
+    "image": "cut_scoria_slab.png"
   },
   {
     "name": "Cut Scoria Stairs",
     "id": "create:cut_scoria_stairs",
-    "image": "assets/create/textures/cut_scoria_stairs.png"
+    "image": "cut_scoria_stairs.png"
   },
   {
     "name": "Cut Scoria Wall",
     "id": "create:cut_scoria_wall",
-    "image": "assets/create/textures/cut_scoria_wall.png"
+    "image": "cut_scoria_wall.png"
   },
   {
     "name": "Cut Tuff",
     "id": "create:cut_tuff",
-    "image": "assets/create/textures/cut_tuff.png"
+    "image": "cut_tuff.png"
   },
   {
     "name": "Cut Tuff Brick Slab",
     "id": "create:cut_tuff_brick_slab",
-    "image": "assets/create/textures/cut_tuff_brick_slab.png"
+    "image": "cut_tuff_brick_slab.png"
   },
   {
     "name": "Cut Tuff Brick Stairs",
     "id": "create:cut_tuff_brick_stairs",
-    "image": "assets/create/textures/cut_tuff_brick_stairs.png"
+    "image": "cut_tuff_brick_stairs.png"
   },
   {
     "name": "Cut Tuff Brick Wall",
     "id": "create:cut_tuff_brick_wall",
-    "image": "assets/create/textures/cut_tuff_brick_wall.png"
+    "image": "cut_tuff_brick_wall.png"
   },
   {
     "name": "Cut Tuff Bricks",
     "id": "create:cut_tuff_bricks",
-    "image": "assets/create/textures/cut_tuff_bricks.png"
+    "image": "cut_tuff_bricks.png"
   },
   {
     "name": "Cut Tuff Slab",
     "id": "create:cut_tuff_slab",
-    "image": "assets/create/textures/cut_tuff_slab.png"
+    "image": "cut_tuff_slab.png"
   },
   {
     "name": "Cut Tuff Stairs",
     "id": "create:cut_tuff_stairs",
-    "image": "assets/create/textures/cut_tuff_stairs.png"
+    "image": "cut_tuff_stairs.png"
   },
   {
     "name": "Cut Tuff Wall",
     "id": "create:cut_tuff_wall",
-    "image": "assets/create/textures/cut_tuff_wall.png"
+    "image": "cut_tuff_wall.png"
   },
   {
     "name": "Cut Veridium",
     "id": "create:cut_veridium",
-    "image": "assets/create/textures/cut_veridium.png"
+    "image": "cut_veridium.png"
   },
   {
     "name": "Cut Veridium Brick Slab",
     "id": "create:cut_veridium_brick_slab",
-    "image": "assets/create/textures/cut_veridium_brick_slab.png"
+    "image": "cut_veridium_brick_slab.png"
   },
   {
     "name": "Cut Veridium Brick Stairs",
     "id": "create:cut_veridium_brick_stairs",
-    "image": "assets/create/textures/cut_veridium_brick_stairs.png"
+    "image": "cut_veridium_brick_stairs.png"
   },
   {
     "name": "Cut Veridium Brick Wall",
     "id": "create:cut_veridium_brick_wall",
-    "image": "assets/create/textures/cut_veridium_brick_wall.png"
+    "image": "cut_veridium_brick_wall.png"
   },
   {
     "name": "Cut Veridium Bricks",
     "id": "create:cut_veridium_bricks",
-    "image": "assets/create/textures/cut_veridium_bricks.png"
+    "image": "cut_veridium_bricks.png"
   },
   {
     "name": "Cut Veridium Slab",
     "id": "create:cut_veridium_slab",
-    "image": "assets/create/textures/cut_veridium_slab.png"
+    "image": "cut_veridium_slab.png"
   },
   {
     "name": "Cut Veridium Stairs",
     "id": "create:cut_veridium_stairs",
-    "image": "assets/create/textures/cut_veridium_stairs.png"
+    "image": "cut_veridium_stairs.png"
   },
   {
     "name": "Cut Veridium Wall",
     "id": "create:cut_veridium_wall",
-    "image": "assets/create/textures/cut_veridium_wall.png"
+    "image": "cut_veridium_wall.png"
   },
   {
     "name": "Cyan Postbox",
     "id": "create:cyan_postbox",
-    "image": "assets/create/textures/cyan_postbox.png"
+    "image": "cyan_postbox.png"
   },
   {
     "name": "Cyan Seat",
     "id": "create:cyan_seat",
-    "image": "assets/create/textures/cyan_seat.png"
+    "image": "cyan_seat.png"
   },
   {
     "name": "Cyan Table Cloth",
     "id": "create:cyan_table_cloth",
-    "image": "assets/create/textures/cyan_table_cloth.png"
+    "image": "cyan_table_cloth.png"
   },
   {
     "name": "Cyan Toolbox",
     "id": "create:cyan_toolbox",
-    "image": "assets/create/textures/cyan_toolbox.png"
+    "image": "cyan_toolbox.png"
   },
   {
     "name": "Cyan Valve Handle",
     "id": "create:cyan_valve_handle",
-    "image": "assets/create/textures/cyan_valve_handle.png"
+    "image": "cyan_valve_handle.png"
   },
   {
     "name": "Dark Oak Window",
     "id": "create:dark_oak_window",
-    "image": "assets/create/textures/dark_oak_window.png"
+    "image": "dark_oak_window.png"
   },
   {
     "name": "Dark Oak Window Pane",
     "id": "create:dark_oak_window_pane",
-    "image": "assets/create/textures/block/palettes/dark_oak_window.png"
+    "image": "dark_oak_window.png"
   },
   {
     "name": "Deepslate Pillar",
     "id": "create:deepslate_pillar",
-    "image": "assets/create/textures/deepslate_pillar.png"
+    "image": "deepslate_pillar.png"
   },
   {
     "name": "Deepslate Zinc Ore",
     "id": "create:deepslate_zinc_ore",
-    "image": "assets/create/textures/deepslate_zinc_ore.png"
+    "image": "deepslate_zinc_ore.png"
   },
   {
     "name": "Deployer",
     "id": "create:deployer",
-    "image": "assets/create/textures/deployer.png"
+    "image": "deployer.png"
   },
   {
     "name": "Depot",
     "id": "create:depot",
-    "image": "assets/create/textures/depot.png"
+    "image": "depot.png"
   },
   {
     "name": "Desk Bell",
     "id": "create:desk_bell",
-    "image": "assets/create/textures/desk_bell.png"
+    "image": "desk_bell.png"
   },
   {
     "name": "Diorite Pillar",
     "id": "create:diorite_pillar",
-    "image": "assets/create/textures/diorite_pillar.png"
+    "image": "diorite_pillar.png"
   },
   {
     "name": "Display Board",
     "id": "create:display_board",
-    "image": "assets/create/textures/display_board.png"
+    "image": "display_board.png"
   },
   {
     "name": "Display Link",
     "id": "create:display_link",
-    "image": "assets/create/textures/display_link.png"
+    "image": "display_link.png"
   },
   {
     "name": "Dough",
     "id": "create:dough",
-    "image": "assets/create/textures/item/dough.png"
+    "image": "dough.png"
   },
   {
     "name": "Dripstone Pillar",
     "id": "create:dripstone_pillar",
-    "image": "assets/create/textures/dripstone_pillar.png"
+    "image": "dripstone_pillar.png"
   },
   {
     "name": "Electron Tube",
     "id": "create:electron_tube",
-    "image": "assets/create/textures/item/electron_tube.png"
+    "image": "electron_tube.png"
   },
   {
     "name": "Elevator Contact",
     "id": "create:elevator_contact",
-    "image": "assets/create/textures/elevator_contact.png"
+    "image": "elevator_contact.png"
   },
   {
     "name": "Elevator Pulley",
     "id": "create:elevator_pulley",
-    "image": "assets/create/textures/elevator_pulley.png"
+    "image": "elevator_pulley.png"
   },
   {
     "name": "Empty Blaze Burner",
     "id": "create:empty_blaze_burner",
-    "image": "assets/create/textures/empty_blaze_burner.png"
+    "image": "empty_blaze_burner.png"
   },
   {
     "name": "Empty Schematic",
     "id": "create:empty_schematic",
-    "image": "assets/create/textures/item/empty_schematic.png"
+    "image": "empty_schematic.png"
   },
   {
     "name": "Encased Chain Drive",
     "id": "create:encased_chain_drive",
-    "image": "assets/create/textures/encased_chain_drive.png"
+    "image": "encased_chain_drive.png"
   },
   {
     "name": "Encased Fan",
     "id": "create:encased_fan",
-    "image": "assets/create/textures/encased_fan.png"
+    "image": "encased_fan.png"
   },
   {
     "name": "Experience Block",
     "id": "create:experience_block",
-    "image": "assets/create/textures/experience_block.png"
+    "image": "experience_block.png"
   },
   {
     "name": "Experience Nugget",
     "id": "create:experience_nugget",
-    "image": "assets/create/textures/item/experience_nugget.png"
+    "image": "experience_nugget.png"
   },
   {
     "name": "Exposed Copper Shingle Slab",
     "id": "create:exposed_copper_shingle_slab",
-    "image": "assets/create/textures/exposed_copper_shingle_slab.png"
+    "image": "exposed_copper_shingle_slab.png"
   },
   {
     "name": "Exposed Copper Shingle Stairs",
     "id": "create:exposed_copper_shingle_stairs",
-    "image": "assets/create/textures/exposed_copper_shingle_stairs.png"
+    "image": "exposed_copper_shingle_stairs.png"
   },
   {
     "name": "Exposed Copper Shingles",
     "id": "create:exposed_copper_shingles",
-    "image": "assets/create/textures/exposed_copper_shingles.png"
+    "image": "exposed_copper_shingles.png"
   },
   {
     "name": "Exposed Copper Tile Slab",
     "id": "create:exposed_copper_tile_slab",
-    "image": "assets/create/textures/exposed_copper_tile_slab.png"
+    "image": "exposed_copper_tile_slab.png"
   },
   {
     "name": "Exposed Copper Tile Stairs",
     "id": "create:exposed_copper_tile_stairs",
-    "image": "assets/create/textures/exposed_copper_tile_stairs.png"
+    "image": "exposed_copper_tile_stairs.png"
   },
   {
     "name": "Exposed Copper Tiles",
     "id": "create:exposed_copper_tiles",
-    "image": "assets/create/textures/exposed_copper_tiles.png"
+    "image": "exposed_copper_tiles.png"
   },
   {
     "name": "Extendo Grip",
     "id": "create:extendo_grip",
-    "image": "assets/create/textures/extendo_grip.png"
+    "image": "extendo_grip.png"
   },
   {
     "name": "Cog",
     "id": "create:cog",
-    "image": "assets/create/textures/cog.png"
+    "image": "cog.png"
   },
   {
     "name": "Item",
     "id": "create:item",
-    "image": "assets/create/textures/item.png"
+    "image": "item.png"
   },
   {
     "name": "Thin Long",
     "id": "create:thin_long",
-    "image": "assets/create/textures/thin_long.png"
+    "image": "thin_long.png"
   },
   {
     "name": "Thin Short",
     "id": "create:thin_short",
-    "image": "assets/create/textures/thin_short.png"
+    "image": "thin_short.png"
   },
   {
     "name": "Wide Long",
     "id": "create:wide_long",
-    "image": "assets/create/textures/wide_long.png"
+    "image": "wide_long.png"
   },
   {
     "name": "Wide Short",
     "id": "create:wide_short",
-    "image": "assets/create/textures/wide_short.png"
+    "image": "wide_short.png"
   },
   {
     "name": "Factory Gauge",
     "id": "create:factory_gauge",
-    "image": "assets/create/textures/factory_gauge.png"
+    "image": "factory_gauge.png"
   },
   {
     "name": "Filter",
     "id": "create:filter",
-    "image": "assets/create/textures/item/filter.png"
+    "image": "filter.png"
   },
   {
     "name": "Fluid Pipe",
     "id": "create:fluid_pipe",
-    "image": "assets/create/textures/fluid_pipe.png"
+    "image": "fluid_pipe.png"
   },
   {
     "name": "Fluid Tank",
     "id": "create:fluid_tank",
-    "image": "assets/create/textures/fluid_tank.png"
+    "image": "fluid_tank.png"
   },
   {
     "name": "Fluid Valve",
     "id": "create:fluid_valve",
-    "image": "assets/create/textures/fluid_valve.png"
+    "image": "fluid_valve.png"
   },
   {
     "name": "Flywheel",
     "id": "create:flywheel",
-    "image": "assets/create/textures/flywheel.png"
+    "image": "flywheel.png"
   },
   {
     "name": "Framed Glass",
     "id": "create:framed_glass",
-    "image": "assets/create/textures/framed_glass.png"
+    "image": "framed_glass.png"
   },
   {
     "name": "Framed Glass Door",
     "id": "create:framed_glass_door",
-    "image": "assets/create/textures/item/glass_door.png"
+    "image": "glass_door.png"
   },
   {
     "name": "Framed Glass Pane",
     "id": "create:framed_glass_pane",
-    "image": "assets/create/textures/block/palettes/framed_glass.png"
+    "image": "framed_glass.png"
   },
   {
     "name": "Framed Glass Trapdoor",
     "id": "create:framed_glass_trapdoor",
-    "image": "assets/create/textures/framed_glass_trapdoor.png"
+    "image": "framed_glass_trapdoor.png"
   },
   {
     "name": "Furnace Minecart Contraption",
     "id": "create:furnace_minecart_contraption",
-    "image": "assets/create/textures/item/furnace_minecart_contraption.png"
+    "image": "furnace_minecart_contraption.png"
   },
   {
     "name": "Gantry Carriage",
     "id": "create:gantry_carriage",
-    "image": "assets/create/textures/gantry_carriage.png"
+    "image": "gantry_carriage.png"
   },
   {
     "name": "Gantry Shaft",
     "id": "create:gantry_shaft",
-    "image": "assets/create/textures/gantry_shaft.png"
+    "image": "gantry_shaft.png"
   },
   {
     "name": "Gearbox",
     "id": "create:gearbox",
-    "image": "assets/create/textures/gearbox.png"
+    "image": "gearbox.png"
   },
   {
     "name": "Gearshift",
     "id": "create:gearshift",
-    "image": "assets/create/textures/gearshift.png"
+    "image": "gearshift.png"
   },
   {
     "name": "Goggles",
     "id": "create:goggles",
-    "image": "assets/create/textures/item/goggles.png"
+    "image": "goggles.png"
   },
   {
     "name": "Golden Sheet",
     "id": "create:golden_sheet",
-    "image": "assets/create/textures/item/golden_sheet.png"
+    "image": "golden_sheet.png"
   },
   {
     "name": "Granite Pillar",
     "id": "create:granite_pillar",
-    "image": "assets/create/textures/granite_pillar.png"
+    "image": "granite_pillar.png"
   },
   {
     "name": "Gray Postbox",
     "id": "create:gray_postbox",
-    "image": "assets/create/textures/gray_postbox.png"
+    "image": "gray_postbox.png"
   },
   {
     "name": "Gray Seat",
     "id": "create:gray_seat",
-    "image": "assets/create/textures/gray_seat.png"
+    "image": "gray_seat.png"
   },
   {
     "name": "Gray Table Cloth",
     "id": "create:gray_table_cloth",
-    "image": "assets/create/textures/gray_table_cloth.png"
+    "image": "gray_table_cloth.png"
   },
   {
     "name": "Gray Toolbox",
     "id": "create:gray_toolbox",
-    "image": "assets/create/textures/gray_toolbox.png"
+    "image": "gray_toolbox.png"
   },
   {
     "name": "Gray Valve Handle",
     "id": "create:gray_valve_handle",
-    "image": "assets/create/textures/gray_valve_handle.png"
+    "image": "gray_valve_handle.png"
   },
   {
     "name": "Green Postbox",
     "id": "create:green_postbox",
-    "image": "assets/create/textures/green_postbox.png"
+    "image": "green_postbox.png"
   },
   {
     "name": "Green Seat",
     "id": "create:green_seat",
-    "image": "assets/create/textures/green_seat.png"
+    "image": "green_seat.png"
   },
   {
     "name": "Green Table Cloth",
     "id": "create:green_table_cloth",
-    "image": "assets/create/textures/green_table_cloth.png"
+    "image": "green_table_cloth.png"
   },
   {
     "name": "Green Toolbox",
     "id": "create:green_toolbox",
-    "image": "assets/create/textures/green_toolbox.png"
+    "image": "green_toolbox.png"
   },
   {
     "name": "Green Valve Handle",
     "id": "create:green_valve_handle",
-    "image": "assets/create/textures/green_valve_handle.png"
+    "image": "green_valve_handle.png"
   },
   {
     "name": "Hand Crank",
     "id": "create:hand_crank",
-    "image": "assets/create/textures/hand_crank.png"
+    "image": "hand_crank.png"
   },
   {
     "name": "Handheld Worldshaper",
     "id": "create:handheld_worldshaper",
-    "image": "assets/create/textures/handheld_worldshaper.png"
+    "image": "handheld_worldshaper.png"
   },
   {
     "name": "Accelerator",
     "id": "create:accelerator",
-    "image": "assets/create/textures/accelerator.png"
+    "image": "accelerator.png"
   },
   {
     "name": "Core",
     "id": "create:core",
-    "image": "assets/create/textures/core.png"
+    "image": "core.png"
   },
   {
     "name": "Core Glow",
     "id": "create:core_glow",
-    "image": "assets/create/textures/core_glow.png"
+    "image": "core_glow.png"
   },
   {
     "name": "Item",
     "id": "create:item",
-    "image": "assets/create/textures/item.png"
+    "image": "item.png"
   },
   {
     "name": "Haunted Bell",
     "id": "create:haunted_bell",
-    "image": "assets/create/textures/haunted_bell.png"
+    "image": "haunted_bell.png"
   },
   {
     "name": "Honey Bucket",
     "id": "create:honey_bucket",
-    "image": "assets/create/textures/item/honey_bucket.png"
+    "image": "honey_bucket.png"
   },
   {
     "name": "Honeyed Apple",
     "id": "create:honeyed_apple",
-    "image": "assets/create/textures/item/honeyed_apple.png"
+    "image": "honeyed_apple.png"
   },
   {
     "name": "Horizontal Framed Glass",
     "id": "create:horizontal_framed_glass",
-    "image": "assets/create/textures/horizontal_framed_glass.png"
+    "image": "horizontal_framed_glass.png"
   },
   {
     "name": "Horizontal Framed Glass Pane",
     "id": "create:horizontal_framed_glass_pane",
-    "image": "assets/create/textures/block/palettes/horizontal_framed_glass.png"
+    "image": "horizontal_framed_glass.png"
   },
   {
     "name": "Hose Pulley",
     "id": "create:hose_pulley",
-    "image": "assets/create/textures/hose_pulley.png"
+    "image": "hose_pulley.png"
   },
   {
     "name": "Incomplete Precision Mechanism",
     "id": "create:incomplete_precision_mechanism",
-    "image": "assets/create/textures/item/incomplete_precision_mechanism.png"
+    "image": "incomplete_precision_mechanism.png"
   },
   {
     "name": "Incomplete Track",
     "id": "create:incomplete_track",
-    "image": "assets/create/textures/item/incomplete_track.png"
+    "image": "incomplete_track.png"
   },
   {
     "name": "Industrial Iron Block",
     "id": "create:industrial_iron_block",
-    "image": "assets/create/textures/industrial_iron_block.png"
+    "image": "industrial_iron_block.png"
   },
   {
     "name": "Industrial Iron Window",
     "id": "create:industrial_iron_window",
-    "image": "assets/create/textures/industrial_iron_window.png"
+    "image": "industrial_iron_window.png"
   },
   {
     "name": "Industrial Iron Window Pane",
     "id": "create:industrial_iron_window_pane",
-    "image": "assets/create/textures/block/palettes/industrial_iron_window.png"
+    "image": "industrial_iron_window.png"
   },
   {
     "name": "Iron Sheet",
     "id": "create:iron_sheet",
-    "image": "assets/create/textures/item/iron_sheet.png"
+    "image": "iron_sheet.png"
   },
   {
     "name": "Item Drain",
     "id": "create:item_drain",
-    "image": "assets/create/textures/item_drain.png"
+    "image": "item_drain.png"
   },
   {
     "name": "Item Hatch",
     "id": "create:item_hatch",
-    "image": "assets/create/textures/item_hatch.png"
+    "image": "item_hatch.png"
   },
   {
     "name": "Item Vault",
     "id": "create:item_vault",
-    "image": "assets/create/textures/item_vault.png"
+    "image": "item_vault.png"
   },
   {
     "name": "Jungle Window",
     "id": "create:jungle_window",
-    "image": "assets/create/textures/jungle_window.png"
+    "image": "jungle_window.png"
   },
   {
     "name": "Jungle Window Pane",
     "id": "create:jungle_window_pane",
-    "image": "assets/create/textures/block/palettes/jungle_window.png"
+    "image": "jungle_window.png"
   },
   {
     "name": "Large Cogwheel",
     "id": "create:large_cogwheel",
-    "image": "assets/create/textures/large_cogwheel.png"
+    "image": "large_cogwheel.png"
   },
   {
     "name": "Large Water Wheel",
     "id": "create:large_water_wheel",
-    "image": "assets/create/textures/large_water_wheel.png"
+    "image": "large_water_wheel.png"
   },
   {
     "name": "Layered Andesite",
     "id": "create:layered_andesite",
-    "image": "assets/create/textures/layered_andesite.png"
+    "image": "layered_andesite.png"
   },
   {
     "name": "Layered Asurine",
     "id": "create:layered_asurine",
-    "image": "assets/create/textures/layered_asurine.png"
+    "image": "layered_asurine.png"
   },
   {
     "name": "Layered Calcite",
     "id": "create:layered_calcite",
-    "image": "assets/create/textures/layered_calcite.png"
+    "image": "layered_calcite.png"
   },
   {
     "name": "Layered Crimsite",
     "id": "create:layered_crimsite",
-    "image": "assets/create/textures/layered_crimsite.png"
+    "image": "layered_crimsite.png"
   },
   {
     "name": "Layered Deepslate",
     "id": "create:layered_deepslate",
-    "image": "assets/create/textures/layered_deepslate.png"
+    "image": "layered_deepslate.png"
   },
   {
     "name": "Layered Diorite",
     "id": "create:layered_diorite",
-    "image": "assets/create/textures/layered_diorite.png"
+    "image": "layered_diorite.png"
   },
   {
     "name": "Layered Dripstone",
     "id": "create:layered_dripstone",
-    "image": "assets/create/textures/layered_dripstone.png"
+    "image": "layered_dripstone.png"
   },
   {
     "name": "Layered Granite",
     "id": "create:layered_granite",
-    "image": "assets/create/textures/layered_granite.png"
+    "image": "layered_granite.png"
   },
   {
     "name": "Layered Limestone",
     "id": "create:layered_limestone",
-    "image": "assets/create/textures/layered_limestone.png"
+    "image": "layered_limestone.png"
   },
   {
     "name": "Layered Ochrum",
     "id": "create:layered_ochrum",
-    "image": "assets/create/textures/layered_ochrum.png"
+    "image": "layered_ochrum.png"
   },
   {
     "name": "Layered Scorchia",
     "id": "create:layered_scorchia",
-    "image": "assets/create/textures/layered_scorchia.png"
+    "image": "layered_scorchia.png"
   },
   {
     "name": "Layered Scoria",
     "id": "create:layered_scoria",
-    "image": "assets/create/textures/layered_scoria.png"
+    "image": "layered_scoria.png"
   },
   {
     "name": "Layered Tuff",
     "id": "create:layered_tuff",
-    "image": "assets/create/textures/layered_tuff.png"
+    "image": "layered_tuff.png"
   },
   {
     "name": "Layered Veridium",
     "id": "create:layered_veridium",
-    "image": "assets/create/textures/layered_veridium.png"
+    "image": "layered_veridium.png"
   },
   {
     "name": "Light Blue Postbox",
     "id": "create:light_blue_postbox",
-    "image": "assets/create/textures/light_blue_postbox.png"
+    "image": "light_blue_postbox.png"
   },
   {
     "name": "Light Blue Seat",
     "id": "create:light_blue_seat",
-    "image": "assets/create/textures/light_blue_seat.png"
+    "image": "light_blue_seat.png"
   },
   {
     "name": "Light Blue Table Cloth",
     "id": "create:light_blue_table_cloth",
-    "image": "assets/create/textures/light_blue_table_cloth.png"
+    "image": "light_blue_table_cloth.png"
   },
   {
     "name": "Light Blue Toolbox",
     "id": "create:light_blue_toolbox",
-    "image": "assets/create/textures/light_blue_toolbox.png"
+    "image": "light_blue_toolbox.png"
   },
   {
     "name": "Light Blue Valve Handle",
     "id": "create:light_blue_valve_handle",
-    "image": "assets/create/textures/light_blue_valve_handle.png"
+    "image": "light_blue_valve_handle.png"
   },
   {
     "name": "Light Gray Postbox",
     "id": "create:light_gray_postbox",
-    "image": "assets/create/textures/light_gray_postbox.png"
+    "image": "light_gray_postbox.png"
   },
   {
     "name": "Light Gray Seat",
     "id": "create:light_gray_seat",
-    "image": "assets/create/textures/light_gray_seat.png"
+    "image": "light_gray_seat.png"
   },
   {
     "name": "Light Gray Table Cloth",
     "id": "create:light_gray_table_cloth",
-    "image": "assets/create/textures/light_gray_table_cloth.png"
+    "image": "light_gray_table_cloth.png"
   },
   {
     "name": "Light Gray Toolbox",
     "id": "create:light_gray_toolbox",
-    "image": "assets/create/textures/light_gray_toolbox.png"
+    "image": "light_gray_toolbox.png"
   },
   {
     "name": "Light Gray Valve Handle",
     "id": "create:light_gray_valve_handle",
-    "image": "assets/create/textures/light_gray_valve_handle.png"
+    "image": "light_gray_valve_handle.png"
   },
   {
     "name": "Lime Postbox",
     "id": "create:lime_postbox",
-    "image": "assets/create/textures/lime_postbox.png"
+    "image": "lime_postbox.png"
   },
   {
     "name": "Lime Seat",
     "id": "create:lime_seat",
-    "image": "assets/create/textures/lime_seat.png"
+    "image": "lime_seat.png"
   },
   {
     "name": "Lime Table Cloth",
     "id": "create:lime_table_cloth",
-    "image": "assets/create/textures/lime_table_cloth.png"
+    "image": "lime_table_cloth.png"
   },
   {
     "name": "Lime Toolbox",
     "id": "create:lime_toolbox",
-    "image": "assets/create/textures/lime_toolbox.png"
+    "image": "lime_toolbox.png"
   },
   {
     "name": "Lime Valve Handle",
     "id": "create:lime_valve_handle",
-    "image": "assets/create/textures/lime_valve_handle.png"
+    "image": "lime_valve_handle.png"
   },
   {
     "name": "Limestone",
     "id": "create:limestone",
-    "image": "assets/create/textures/limestone.png"
+    "image": "limestone.png"
   },
   {
     "name": "Limestone Pillar",
     "id": "create:limestone_pillar",
-    "image": "assets/create/textures/limestone_pillar.png"
+    "image": "limestone_pillar.png"
   },
   {
     "name": "Linear Chassis",
     "id": "create:linear_chassis",
-    "image": "assets/create/textures/linear_chassis.png"
+    "image": "linear_chassis.png"
   },
   {
     "name": "Linked Controller",
     "id": "create:linked_controller",
-    "image": "assets/create/textures/linked_controller.png"
+    "image": "linked_controller.png"
   },
   {
     "name": "Button",
     "id": "create:button",
-    "image": "assets/create/textures/item/linked_controller.png"
+    "image": "linked_controller.png"
   },
   {
     "name": "Item",
     "id": "create:item",
-    "image": "assets/create/textures/item/linked_controller.png"
+    "image": "linked_controller.png"
   },
   {
     "name": "Powered",
     "id": "create:powered",
-    "image": "assets/create/textures/item/linked_controller_powered.png"
+    "image": "linked_controller_powered.png"
   },
   {
     "name": "Magenta Postbox",
     "id": "create:magenta_postbox",
-    "image": "assets/create/textures/magenta_postbox.png"
+    "image": "magenta_postbox.png"
   },
   {
     "name": "Magenta Seat",
     "id": "create:magenta_seat",
-    "image": "assets/create/textures/magenta_seat.png"
+    "image": "magenta_seat.png"
   },
   {
     "name": "Magenta Table Cloth",
     "id": "create:magenta_table_cloth",
-    "image": "assets/create/textures/magenta_table_cloth.png"
+    "image": "magenta_table_cloth.png"
   },
   {
     "name": "Magenta Toolbox",
     "id": "create:magenta_toolbox",
-    "image": "assets/create/textures/magenta_toolbox.png"
+    "image": "magenta_toolbox.png"
   },
   {
     "name": "Magenta Valve Handle",
     "id": "create:magenta_valve_handle",
-    "image": "assets/create/textures/magenta_valve_handle.png"
+    "image": "magenta_valve_handle.png"
   },
   {
     "name": "Mangrove Window",
     "id": "create:mangrove_window",
-    "image": "assets/create/textures/mangrove_window.png"
+    "image": "mangrove_window.png"
   },
   {
     "name": "Mangrove Window Pane",
     "id": "create:mangrove_window_pane",
-    "image": "assets/create/textures/block/palettes/mangrove_window.png"
+    "image": "mangrove_window.png"
   },
   {
     "name": "Mechanical Arm",
     "id": "create:mechanical_arm",
-    "image": "assets/create/textures/mechanical_arm.png"
+    "image": "mechanical_arm.png"
   },
   {
     "name": "Mechanical Bearing",
     "id": "create:mechanical_bearing",
-    "image": "assets/create/textures/mechanical_bearing.png"
+    "image": "mechanical_bearing.png"
   },
   {
     "name": "Mechanical Crafter",
     "id": "create:mechanical_crafter",
-    "image": "assets/create/textures/mechanical_crafter.png"
+    "image": "mechanical_crafter.png"
   },
   {
     "name": "Mechanical Drill",
     "id": "create:mechanical_drill",
-    "image": "assets/create/textures/mechanical_drill.png"
+    "image": "mechanical_drill.png"
   },
   {
     "name": "Mechanical Harvester",
     "id": "create:mechanical_harvester",
-    "image": "assets/create/textures/mechanical_harvester.png"
+    "image": "mechanical_harvester.png"
   },
   {
     "name": "Mechanical Mixer",
     "id": "create:mechanical_mixer",
-    "image": "assets/create/textures/mechanical_mixer.png"
+    "image": "mechanical_mixer.png"
   },
   {
     "name": "Mechanical Piston",
     "id": "create:mechanical_piston",
-    "image": "assets/create/textures/mechanical_piston.png"
+    "image": "mechanical_piston.png"
   },
   {
     "name": "Mechanical Plough",
     "id": "create:mechanical_plough",
-    "image": "assets/create/textures/mechanical_plough.png"
+    "image": "mechanical_plough.png"
   },
   {
     "name": "Mechanical Press",
     "id": "create:mechanical_press",
-    "image": "assets/create/textures/mechanical_press.png"
+    "image": "mechanical_press.png"
   },
   {
     "name": "Mechanical Pump",
     "id": "create:mechanical_pump",
-    "image": "assets/create/textures/mechanical_pump.png"
+    "image": "mechanical_pump.png"
   },
   {
     "name": "Mechanical Roller",
     "id": "create:mechanical_roller",
-    "image": "assets/create/textures/mechanical_roller.png"
+    "image": "mechanical_roller.png"
   },
   {
     "name": "Mechanical Saw",
     "id": "create:mechanical_saw",
-    "image": "assets/create/textures/mechanical_saw.png"
+    "image": "mechanical_saw.png"
   },
   {
     "name": "Metal Bracket",
     "id": "create:metal_bracket",
-    "image": "assets/create/textures/metal_bracket.png"
+    "image": "metal_bracket.png"
   },
   {
     "name": "Metal Girder",
     "id": "create:metal_girder",
-    "image": "assets/create/textures/metal_girder.png"
+    "image": "metal_girder.png"
   },
   {
     "name": "Millstone",
     "id": "create:millstone",
-    "image": "assets/create/textures/millstone.png"
+    "image": "millstone.png"
   },
   {
     "name": "Minecart Contraption",
     "id": "create:minecart_contraption",
-    "image": "assets/create/textures/item/minecart_contraption.png"
+    "image": "minecart_contraption.png"
   },
   {
     "name": "Minecart Coupling",
     "id": "create:minecart_coupling",
-    "image": "assets/create/textures/item/minecart_coupling.png"
+    "image": "minecart_coupling.png"
   },
   {
     "name": "Mysterious Cuckoo Clock",
     "id": "create:mysterious_cuckoo_clock",
-    "image": "assets/create/textures/mysterious_cuckoo_clock.png"
+    "image": "mysterious_cuckoo_clock.png"
   },
   {
     "name": "Netherite Backtank",
     "id": "create:netherite_backtank",
-    "image": "assets/create/textures/netherite_backtank.png"
+    "image": "netherite_backtank.png"
   },
   {
     "name": "Netherite Backtank Placeable",
     "id": "create:netherite_backtank_placeable",
-    "image": "assets/create/textures/netherite_backtank_placeable.png"
+    "image": "netherite_backtank_placeable.png"
   },
   {
     "name": "Netherite Diving Boots",
     "id": "create:netherite_diving_boots",
-    "image": "assets/create/textures/item/netherite_diving_boots.png"
+    "image": "netherite_diving_boots.png"
   },
   {
     "name": "Netherite Diving Helmet",
     "id": "create:netherite_diving_helmet",
-    "image": "assets/create/textures/item/netherite_diving_helmet.png"
+    "image": "netherite_diving_helmet.png"
   },
   {
     "name": "Nixie Tube",
     "id": "create:nixie_tube",
-    "image": "assets/create/textures/nixie_tube.png"
+    "image": "nixie_tube.png"
   },
   {
     "name": "Nozzle",
     "id": "create:nozzle",
-    "image": "assets/create/textures/nozzle.png"
+    "image": "nozzle.png"
   },
   {
     "name": "Oak Window",
     "id": "create:oak_window",
-    "image": "assets/create/textures/oak_window.png"
+    "image": "oak_window.png"
   },
   {
     "name": "Oak Window Pane",
     "id": "create:oak_window_pane",
-    "image": "assets/create/textures/block/palettes/oak_window.png"
+    "image": "oak_window.png"
   },
   {
     "name": "Ochrum",
     "id": "create:ochrum",
-    "image": "assets/create/textures/ochrum.png"
+    "image": "ochrum.png"
   },
   {
     "name": "Ochrum Pillar",
     "id": "create:ochrum_pillar",
-    "image": "assets/create/textures/ochrum_pillar.png"
+    "image": "ochrum_pillar.png"
   },
   {
     "name": "Orange Postbox",
     "id": "create:orange_postbox",
-    "image": "assets/create/textures/orange_postbox.png"
+    "image": "orange_postbox.png"
   },
   {
     "name": "Orange Seat",
     "id": "create:orange_seat",
-    "image": "assets/create/textures/orange_seat.png"
+    "image": "orange_seat.png"
   },
   {
     "name": "Orange Table Cloth",
     "id": "create:orange_table_cloth",
-    "image": "assets/create/textures/orange_table_cloth.png"
+    "image": "orange_table_cloth.png"
   },
   {
     "name": "Orange Toolbox",
     "id": "create:orange_toolbox",
-    "image": "assets/create/textures/orange_toolbox.png"
+    "image": "orange_toolbox.png"
   },
   {
     "name": "Orange Valve Handle",
     "id": "create:orange_valve_handle",
-    "image": "assets/create/textures/orange_valve_handle.png"
+    "image": "orange_valve_handle.png"
   },
   {
     "name": "Ornate Iron Window",
     "id": "create:ornate_iron_window",
-    "image": "assets/create/textures/ornate_iron_window.png"
+    "image": "ornate_iron_window.png"
   },
   {
     "name": "Ornate Iron Window Pane",
     "id": "create:ornate_iron_window_pane",
-    "image": "assets/create/textures/block/palettes/ornate_iron_window.png"
+    "image": "ornate_iron_window.png"
   },
   {
     "name": "Oxidized Copper Shingle Slab",
     "id": "create:oxidized_copper_shingle_slab",
-    "image": "assets/create/textures/oxidized_copper_shingle_slab.png"
+    "image": "oxidized_copper_shingle_slab.png"
   },
   {
     "name": "Oxidized Copper Shingle Stairs",
     "id": "create:oxidized_copper_shingle_stairs",
-    "image": "assets/create/textures/oxidized_copper_shingle_stairs.png"
+    "image": "oxidized_copper_shingle_stairs.png"
   },
   {
     "name": "Oxidized Copper Shingles",
     "id": "create:oxidized_copper_shingles",
-    "image": "assets/create/textures/oxidized_copper_shingles.png"
+    "image": "oxidized_copper_shingles.png"
   },
   {
     "name": "Oxidized Copper Tile Slab",
     "id": "create:oxidized_copper_tile_slab",
-    "image": "assets/create/textures/oxidized_copper_tile_slab.png"
+    "image": "oxidized_copper_tile_slab.png"
   },
   {
     "name": "Oxidized Copper Tile Stairs",
     "id": "create:oxidized_copper_tile_stairs",
-    "image": "assets/create/textures/oxidized_copper_tile_stairs.png"
+    "image": "oxidized_copper_tile_stairs.png"
   },
   {
     "name": "Oxidized Copper Tiles",
     "id": "create:oxidized_copper_tiles",
-    "image": "assets/create/textures/oxidized_copper_tiles.png"
+    "image": "oxidized_copper_tiles.png"
   },
   {
     "name": "Cardboard 10X12",
     "id": "create:cardboard_10x12",
-    "image": "assets/create/textures/item/package/cardboard_particle.png"
+    "image": "cardboard_particle.png"
   },
   {
     "name": "Cardboard 10X8",
     "id": "create:cardboard_10x8",
-    "image": "assets/create/textures/item/package/cardboard_particle.png"
+    "image": "cardboard_particle.png"
   },
   {
     "name": "Cardboard 12X10",
     "id": "create:cardboard_12x10",
-    "image": "assets/create/textures/item/package/cardboard_particle.png"
+    "image": "cardboard_particle.png"
   },
   {
     "name": "Cardboard 12X12",
     "id": "create:cardboard_12x12",
-    "image": "assets/create/textures/item/package/cardboard_particle.png"
+    "image": "cardboard_particle.png"
   },
   {
     "name": "Custom 12X10",
     "id": "create:custom_12x10",
-    "image": "assets/create/textures/custom_12x10.png"
+    "image": "custom_12x10.png"
   },
   {
     "name": "Rigging 10X12",
     "id": "create:rigging_10x12",
-    "image": "assets/create/textures/item/package/cardboard_particle.png"
+    "image": "cardboard_particle.png"
   },
   {
     "name": "Rigging 10X8",
     "id": "create:rigging_10x8",
-    "image": "assets/create/textures/item/package/cardboard_particle.png"
+    "image": "cardboard_particle.png"
   },
   {
     "name": "Rigging 12X10",
     "id": "create:rigging_12x10",
-    "image": "assets/create/textures/item/package/cardboard_particle.png"
+    "image": "cardboard_particle.png"
   },
   {
     "name": "Rigging 12X12",
     "id": "create:rigging_12x12",
-    "image": "assets/create/textures/item/package/cardboard_particle.png"
+    "image": "cardboard_particle.png"
   },
   {
     "name": "Package Filter",
     "id": "create:package_filter",
-    "image": "assets/create/textures/item/package_filter.png"
+    "image": "package_filter.png"
   },
   {
     "name": "Package Frogport",
     "id": "create:package_frogport",
-    "image": "assets/create/textures/package_frogport.png"
+    "image": "package_frogport.png"
   },
   {
     "name": "Package Transforms",
     "id": "create:package_transforms",
-    "image": "assets/create/textures/package_transforms.png"
+    "image": "package_transforms.png"
   },
   {
     "name": "Packager",
     "id": "create:packager",
-    "image": "assets/create/textures/packager.png"
+    "image": "packager.png"
   },
   {
     "name": "Peculiar Bell",
     "id": "create:peculiar_bell",
-    "image": "assets/create/textures/peculiar_bell.png"
+    "image": "peculiar_bell.png"
   },
   {
     "name": "Pink Postbox",
     "id": "create:pink_postbox",
-    "image": "assets/create/textures/pink_postbox.png"
+    "image": "pink_postbox.png"
   },
   {
     "name": "Pink Seat",
     "id": "create:pink_seat",
-    "image": "assets/create/textures/pink_seat.png"
+    "image": "pink_seat.png"
   },
   {
     "name": "Pink Table Cloth",
     "id": "create:pink_table_cloth",
-    "image": "assets/create/textures/pink_table_cloth.png"
+    "image": "pink_table_cloth.png"
   },
   {
     "name": "Pink Toolbox",
     "id": "create:pink_toolbox",
-    "image": "assets/create/textures/pink_toolbox.png"
+    "image": "pink_toolbox.png"
   },
   {
     "name": "Pink Valve Handle",
     "id": "create:pink_valve_handle",
-    "image": "assets/create/textures/pink_valve_handle.png"
+    "image": "pink_valve_handle.png"
   },
   {
     "name": "Piston Extension Pole",
     "id": "create:piston_extension_pole",
-    "image": "assets/create/textures/piston_extension_pole.png"
+    "image": "piston_extension_pole.png"
   },
   {
     "name": "Placard",
     "id": "create:placard",
-    "image": "assets/create/textures/placard.png"
+    "image": "placard.png"
   },
   {
     "name": "Polished Cut Andesite",
     "id": "create:polished_cut_andesite",
-    "image": "assets/create/textures/polished_cut_andesite.png"
+    "image": "polished_cut_andesite.png"
   },
   {
     "name": "Polished Cut Andesite Slab",
     "id": "create:polished_cut_andesite_slab",
-    "image": "assets/create/textures/polished_cut_andesite_slab.png"
+    "image": "polished_cut_andesite_slab.png"
   },
   {
     "name": "Polished Cut Andesite Stairs",
     "id": "create:polished_cut_andesite_stairs",
-    "image": "assets/create/textures/polished_cut_andesite_stairs.png"
+    "image": "polished_cut_andesite_stairs.png"
   },
   {
     "name": "Polished Cut Andesite Wall",
     "id": "create:polished_cut_andesite_wall",
-    "image": "assets/create/textures/polished_cut_andesite_wall.png"
+    "image": "polished_cut_andesite_wall.png"
   },
   {
     "name": "Polished Cut Asurine",
     "id": "create:polished_cut_asurine",
-    "image": "assets/create/textures/polished_cut_asurine.png"
+    "image": "polished_cut_asurine.png"
   },
   {
     "name": "Polished Cut Asurine Slab",
     "id": "create:polished_cut_asurine_slab",
-    "image": "assets/create/textures/polished_cut_asurine_slab.png"
+    "image": "polished_cut_asurine_slab.png"
   },
   {
     "name": "Polished Cut Asurine Stairs",
     "id": "create:polished_cut_asurine_stairs",
-    "image": "assets/create/textures/polished_cut_asurine_stairs.png"
+    "image": "polished_cut_asurine_stairs.png"
   },
   {
     "name": "Polished Cut Asurine Wall",
     "id": "create:polished_cut_asurine_wall",
-    "image": "assets/create/textures/polished_cut_asurine_wall.png"
+    "image": "polished_cut_asurine_wall.png"
   },
   {
     "name": "Polished Cut Calcite",
     "id": "create:polished_cut_calcite",
-    "image": "assets/create/textures/polished_cut_calcite.png"
+    "image": "polished_cut_calcite.png"
   },
   {
     "name": "Polished Cut Calcite Slab",
     "id": "create:polished_cut_calcite_slab",
-    "image": "assets/create/textures/polished_cut_calcite_slab.png"
+    "image": "polished_cut_calcite_slab.png"
   },
   {
     "name": "Polished Cut Calcite Stairs",
     "id": "create:polished_cut_calcite_stairs",
-    "image": "assets/create/textures/polished_cut_calcite_stairs.png"
+    "image": "polished_cut_calcite_stairs.png"
   },
   {
     "name": "Polished Cut Calcite Wall",
     "id": "create:polished_cut_calcite_wall",
-    "image": "assets/create/textures/polished_cut_calcite_wall.png"
+    "image": "polished_cut_calcite_wall.png"
   },
   {
     "name": "Polished Cut Crimsite",
     "id": "create:polished_cut_crimsite",
-    "image": "assets/create/textures/polished_cut_crimsite.png"
+    "image": "polished_cut_crimsite.png"
   },
   {
     "name": "Polished Cut Crimsite Slab",
     "id": "create:polished_cut_crimsite_slab",
-    "image": "assets/create/textures/polished_cut_crimsite_slab.png"
+    "image": "polished_cut_crimsite_slab.png"
   },
   {
     "name": "Polished Cut Crimsite Stairs",
     "id": "create:polished_cut_crimsite_stairs",
-    "image": "assets/create/textures/polished_cut_crimsite_stairs.png"
+    "image": "polished_cut_crimsite_stairs.png"
   },
   {
     "name": "Polished Cut Crimsite Wall",
     "id": "create:polished_cut_crimsite_wall",
-    "image": "assets/create/textures/polished_cut_crimsite_wall.png"
+    "image": "polished_cut_crimsite_wall.png"
   },
   {
     "name": "Polished Cut Deepslate",
     "id": "create:polished_cut_deepslate",
-    "image": "assets/create/textures/polished_cut_deepslate.png"
+    "image": "polished_cut_deepslate.png"
   },
   {
     "name": "Polished Cut Deepslate Slab",
     "id": "create:polished_cut_deepslate_slab",
-    "image": "assets/create/textures/polished_cut_deepslate_slab.png"
+    "image": "polished_cut_deepslate_slab.png"
   },
   {
     "name": "Polished Cut Deepslate Stairs",
     "id": "create:polished_cut_deepslate_stairs",
-    "image": "assets/create/textures/polished_cut_deepslate_stairs.png"
+    "image": "polished_cut_deepslate_stairs.png"
   },
   {
     "name": "Polished Cut Deepslate Wall",
     "id": "create:polished_cut_deepslate_wall",
-    "image": "assets/create/textures/polished_cut_deepslate_wall.png"
+    "image": "polished_cut_deepslate_wall.png"
   },
   {
     "name": "Polished Cut Diorite",
     "id": "create:polished_cut_diorite",
-    "image": "assets/create/textures/polished_cut_diorite.png"
+    "image": "polished_cut_diorite.png"
   },
   {
     "name": "Polished Cut Diorite Slab",
     "id": "create:polished_cut_diorite_slab",
-    "image": "assets/create/textures/polished_cut_diorite_slab.png"
+    "image": "polished_cut_diorite_slab.png"
   },
   {
     "name": "Polished Cut Diorite Stairs",
     "id": "create:polished_cut_diorite_stairs",
-    "image": "assets/create/textures/polished_cut_diorite_stairs.png"
+    "image": "polished_cut_diorite_stairs.png"
   },
   {
     "name": "Polished Cut Diorite Wall",
     "id": "create:polished_cut_diorite_wall",
-    "image": "assets/create/textures/polished_cut_diorite_wall.png"
+    "image": "polished_cut_diorite_wall.png"
   },
   {
     "name": "Polished Cut Dripstone",
     "id": "create:polished_cut_dripstone",
-    "image": "assets/create/textures/polished_cut_dripstone.png"
+    "image": "polished_cut_dripstone.png"
   },
   {
     "name": "Polished Cut Dripstone Slab",
     "id": "create:polished_cut_dripstone_slab",
-    "image": "assets/create/textures/polished_cut_dripstone_slab.png"
+    "image": "polished_cut_dripstone_slab.png"
   },
   {
     "name": "Polished Cut Dripstone Stairs",
     "id": "create:polished_cut_dripstone_stairs",
-    "image": "assets/create/textures/polished_cut_dripstone_stairs.png"
+    "image": "polished_cut_dripstone_stairs.png"
   },
   {
     "name": "Polished Cut Dripstone Wall",
     "id": "create:polished_cut_dripstone_wall",
-    "image": "assets/create/textures/polished_cut_dripstone_wall.png"
+    "image": "polished_cut_dripstone_wall.png"
   },
   {
     "name": "Polished Cut Granite",
     "id": "create:polished_cut_granite",
-    "image": "assets/create/textures/polished_cut_granite.png"
+    "image": "polished_cut_granite.png"
   },
   {
     "name": "Polished Cut Granite Slab",
     "id": "create:polished_cut_granite_slab",
-    "image": "assets/create/textures/polished_cut_granite_slab.png"
+    "image": "polished_cut_granite_slab.png"
   },
   {
     "name": "Polished Cut Granite Stairs",
     "id": "create:polished_cut_granite_stairs",
-    "image": "assets/create/textures/polished_cut_granite_stairs.png"
+    "image": "polished_cut_granite_stairs.png"
   },
   {
     "name": "Polished Cut Granite Wall",
     "id": "create:polished_cut_granite_wall",
-    "image": "assets/create/textures/polished_cut_granite_wall.png"
+    "image": "polished_cut_granite_wall.png"
   },
   {
     "name": "Polished Cut Limestone",
     "id": "create:polished_cut_limestone",
-    "image": "assets/create/textures/polished_cut_limestone.png"
+    "image": "polished_cut_limestone.png"
   },
   {
     "name": "Polished Cut Limestone Slab",
     "id": "create:polished_cut_limestone_slab",
-    "image": "assets/create/textures/polished_cut_limestone_slab.png"
+    "image": "polished_cut_limestone_slab.png"
   },
   {
     "name": "Polished Cut Limestone Stairs",
     "id": "create:polished_cut_limestone_stairs",
-    "image": "assets/create/textures/polished_cut_limestone_stairs.png"
+    "image": "polished_cut_limestone_stairs.png"
   },
   {
     "name": "Polished Cut Limestone Wall",
     "id": "create:polished_cut_limestone_wall",
-    "image": "assets/create/textures/polished_cut_limestone_wall.png"
+    "image": "polished_cut_limestone_wall.png"
   },
   {
     "name": "Polished Cut Ochrum",
     "id": "create:polished_cut_ochrum",
-    "image": "assets/create/textures/polished_cut_ochrum.png"
+    "image": "polished_cut_ochrum.png"
   },
   {
     "name": "Polished Cut Ochrum Slab",
     "id": "create:polished_cut_ochrum_slab",
-    "image": "assets/create/textures/polished_cut_ochrum_slab.png"
+    "image": "polished_cut_ochrum_slab.png"
   },
   {
     "name": "Polished Cut Ochrum Stairs",
     "id": "create:polished_cut_ochrum_stairs",
-    "image": "assets/create/textures/polished_cut_ochrum_stairs.png"
+    "image": "polished_cut_ochrum_stairs.png"
   },
   {
     "name": "Polished Cut Ochrum Wall",
     "id": "create:polished_cut_ochrum_wall",
-    "image": "assets/create/textures/polished_cut_ochrum_wall.png"
+    "image": "polished_cut_ochrum_wall.png"
   },
   {
     "name": "Polished Cut Scorchia",
     "id": "create:polished_cut_scorchia",
-    "image": "assets/create/textures/polished_cut_scorchia.png"
+    "image": "polished_cut_scorchia.png"
   },
   {
     "name": "Polished Cut Scorchia Slab",
     "id": "create:polished_cut_scorchia_slab",
-    "image": "assets/create/textures/polished_cut_scorchia_slab.png"
+    "image": "polished_cut_scorchia_slab.png"
   },
   {
     "name": "Polished Cut Scorchia Stairs",
     "id": "create:polished_cut_scorchia_stairs",
-    "image": "assets/create/textures/polished_cut_scorchia_stairs.png"
+    "image": "polished_cut_scorchia_stairs.png"
   },
   {
     "name": "Polished Cut Scorchia Wall",
     "id": "create:polished_cut_scorchia_wall",
-    "image": "assets/create/textures/polished_cut_scorchia_wall.png"
+    "image": "polished_cut_scorchia_wall.png"
   },
   {
     "name": "Polished Cut Scoria",
     "id": "create:polished_cut_scoria",
-    "image": "assets/create/textures/polished_cut_scoria.png"
+    "image": "polished_cut_scoria.png"
   },
   {
     "name": "Polished Cut Scoria Slab",
     "id": "create:polished_cut_scoria_slab",
-    "image": "assets/create/textures/polished_cut_scoria_slab.png"
+    "image": "polished_cut_scoria_slab.png"
   },
   {
     "name": "Polished Cut Scoria Stairs",
     "id": "create:polished_cut_scoria_stairs",
-    "image": "assets/create/textures/polished_cut_scoria_stairs.png"
+    "image": "polished_cut_scoria_stairs.png"
   },
   {
     "name": "Polished Cut Scoria Wall",
     "id": "create:polished_cut_scoria_wall",
-    "image": "assets/create/textures/polished_cut_scoria_wall.png"
+    "image": "polished_cut_scoria_wall.png"
   },
   {
     "name": "Polished Cut Tuff",
     "id": "create:polished_cut_tuff",
-    "image": "assets/create/textures/polished_cut_tuff.png"
+    "image": "polished_cut_tuff.png"
   },
   {
     "name": "Polished Cut Tuff Slab",
     "id": "create:polished_cut_tuff_slab",
-    "image": "assets/create/textures/polished_cut_tuff_slab.png"
+    "image": "polished_cut_tuff_slab.png"
   },
   {
     "name": "Polished Cut Tuff Stairs",
     "id": "create:polished_cut_tuff_stairs",
-    "image": "assets/create/textures/polished_cut_tuff_stairs.png"
+    "image": "polished_cut_tuff_stairs.png"
   },
   {
     "name": "Polished Cut Tuff Wall",
     "id": "create:polished_cut_tuff_wall",
-    "image": "assets/create/textures/polished_cut_tuff_wall.png"
+    "image": "polished_cut_tuff_wall.png"
   },
   {
     "name": "Polished Cut Veridium",
     "id": "create:polished_cut_veridium",
-    "image": "assets/create/textures/polished_cut_veridium.png"
+    "image": "polished_cut_veridium.png"
   },
   {
     "name": "Polished Cut Veridium Slab",
     "id": "create:polished_cut_veridium_slab",
-    "image": "assets/create/textures/polished_cut_veridium_slab.png"
+    "image": "polished_cut_veridium_slab.png"
   },
   {
     "name": "Polished Cut Veridium Stairs",
     "id": "create:polished_cut_veridium_stairs",
-    "image": "assets/create/textures/polished_cut_veridium_stairs.png"
+    "image": "polished_cut_veridium_stairs.png"
   },
   {
     "name": "Polished Cut Veridium Wall",
     "id": "create:polished_cut_veridium_wall",
-    "image": "assets/create/textures/polished_cut_veridium_wall.png"
+    "image": "polished_cut_veridium_wall.png"
   },
   {
     "name": "Polished Rose Quartz",
     "id": "create:polished_rose_quartz",
-    "image": "assets/create/textures/item/polished_rose_quartz.png"
+    "image": "polished_rose_quartz.png"
   },
   {
     "name": "Portable Fluid Interface",
     "id": "create:portable_fluid_interface",
-    "image": "assets/create/textures/portable_fluid_interface.png"
+    "image": "portable_fluid_interface.png"
   },
   {
     "name": "Portable Storage Interface",
     "id": "create:portable_storage_interface",
-    "image": "assets/create/textures/portable_storage_interface.png"
+    "image": "portable_storage_interface.png"
   },
   {
     "name": "Potato Cannon",
     "id": "create:potato_cannon",
-    "image": "assets/create/textures/potato_cannon.png"
+    "image": "potato_cannon.png"
   },
   {
     "name": "Cog",
     "id": "create:cog",
-    "image": "assets/create/textures/block/copper_casing.png"
+    "image": "copper_casing.png"
   },
   {
     "name": "Item",
     "id": "create:item",
-    "image": "assets/create/textures/block/copper_casing.png"
+    "image": "copper_casing.png"
   },
   {
     "name": "Powdered Obsidian",
     "id": "create:powdered_obsidian",
-    "image": "assets/create/textures/item/powdered_obsidian.png"
+    "image": "powdered_obsidian.png"
   },
   {
     "name": "Powered Latch",
     "id": "create:powered_latch",
-    "image": "assets/create/textures/powered_latch.png"
+    "image": "powered_latch.png"
   },
   {
     "name": "Powered Toggle Latch",
     "id": "create:powered_toggle_latch",
-    "image": "assets/create/textures/powered_toggle_latch.png"
+    "image": "powered_toggle_latch.png"
   },
   {
     "name": "Precision Mechanism",
     "id": "create:precision_mechanism",
-    "image": "assets/create/textures/item/precision_mechanism.png"
+    "image": "precision_mechanism.png"
   },
   {
     "name": "Propeller",
     "id": "create:propeller",
-    "image": "assets/create/textures/item/propeller.png"
+    "image": "propeller.png"
   },
   {
     "name": "Pulp",
     "id": "create:pulp",
-    "image": "assets/create/textures/item/pulp.png"
+    "image": "pulp.png"
   },
   {
     "name": "Pulse Extender",
     "id": "create:pulse_extender",
-    "image": "assets/create/textures/pulse_extender.png"
+    "image": "pulse_extender.png"
   },
   {
     "name": "Pulse Repeater",
     "id": "create:pulse_repeater",
-    "image": "assets/create/textures/pulse_repeater.png"
+    "image": "pulse_repeater.png"
   },
   {
     "name": "Pulse Timer",
     "id": "create:pulse_timer",
-    "image": "assets/create/textures/pulse_timer.png"
+    "image": "pulse_timer.png"
   },
   {
     "name": "Purple Postbox",
     "id": "create:purple_postbox",
-    "image": "assets/create/textures/purple_postbox.png"
+    "image": "purple_postbox.png"
   },
   {
     "name": "Purple Seat",
     "id": "create:purple_seat",
-    "image": "assets/create/textures/purple_seat.png"
+    "image": "purple_seat.png"
   },
   {
     "name": "Purple Table Cloth",
     "id": "create:purple_table_cloth",
-    "image": "assets/create/textures/purple_table_cloth.png"
+    "image": "purple_table_cloth.png"
   },
   {
     "name": "Purple Toolbox",
     "id": "create:purple_toolbox",
-    "image": "assets/create/textures/purple_toolbox.png"
+    "image": "purple_toolbox.png"
   },
   {
     "name": "Purple Valve Handle",
     "id": "create:purple_valve_handle",
-    "image": "assets/create/textures/purple_valve_handle.png"
+    "image": "purple_valve_handle.png"
   },
   {
     "name": "Radial Chassis",
     "id": "create:radial_chassis",
-    "image": "assets/create/textures/radial_chassis.png"
+    "image": "radial_chassis.png"
   },
   {
     "name": "Railway Casing",
     "id": "create:railway_casing",
-    "image": "assets/create/textures/railway_casing.png"
+    "image": "railway_casing.png"
   },
   {
     "name": "Rare Creeper Package",
     "id": "create:rare_creeper_package",
-    "image": "assets/create/textures/rare_creeper_package.png"
+    "image": "rare_creeper_package.png"
   },
   {
     "name": "Rare Darcy Package",
     "id": "create:rare_darcy_package",
-    "image": "assets/create/textures/rare_darcy_package.png"
+    "image": "rare_darcy_package.png"
   },
   {
     "name": "Rare Evan Package",
     "id": "create:rare_evan_package",
-    "image": "assets/create/textures/rare_evan_package.png"
+    "image": "rare_evan_package.png"
   },
   {
     "name": "Rare Jinx Package",
     "id": "create:rare_jinx_package",
-    "image": "assets/create/textures/rare_jinx_package.png"
+    "image": "rare_jinx_package.png"
   },
   {
     "name": "Rare Kryppers Package",
     "id": "create:rare_kryppers_package",
-    "image": "assets/create/textures/rare_kryppers_package.png"
+    "image": "rare_kryppers_package.png"
   },
   {
     "name": "Rare Simi Package",
     "id": "create:rare_simi_package",
-    "image": "assets/create/textures/rare_simi_package.png"
+    "image": "rare_simi_package.png"
   },
   {
     "name": "Rare Starlotte Package",
     "id": "create:rare_starlotte_package",
-    "image": "assets/create/textures/rare_starlotte_package.png"
+    "image": "rare_starlotte_package.png"
   },
   {
     "name": "Rare Thunder Package",
     "id": "create:rare_thunder_package",
-    "image": "assets/create/textures/rare_thunder_package.png"
+    "image": "rare_thunder_package.png"
   },
   {
     "name": "Rare Up Package",
     "id": "create:rare_up_package",
-    "image": "assets/create/textures/rare_up_package.png"
+    "image": "rare_up_package.png"
   },
   {
     "name": "Rare Vector Package",
     "id": "create:rare_vector_package",
-    "image": "assets/create/textures/rare_vector_package.png"
+    "image": "rare_vector_package.png"
   },
   {
     "name": "Raw Zinc",
     "id": "create:raw_zinc",
-    "image": "assets/create/textures/item/raw_zinc.png"
+    "image": "raw_zinc.png"
   },
   {
     "name": "Raw Zinc Block",
     "id": "create:raw_zinc_block",
-    "image": "assets/create/textures/raw_zinc_block.png"
+    "image": "raw_zinc_block.png"
   },
   {
     "name": "Red Postbox",
     "id": "create:red_postbox",
-    "image": "assets/create/textures/red_postbox.png"
+    "image": "red_postbox.png"
   },
   {
     "name": "Red Sand Paper",
     "id": "create:red_sand_paper",
-    "image": "assets/create/textures/item/red_sand_paper.png"
+    "image": "red_sand_paper.png"
   },
   {
     "name": "Red Seat",
     "id": "create:red_seat",
-    "image": "assets/create/textures/red_seat.png"
+    "image": "red_seat.png"
   },
   {
     "name": "Red Table Cloth",
     "id": "create:red_table_cloth",
-    "image": "assets/create/textures/red_table_cloth.png"
+    "image": "red_table_cloth.png"
   },
   {
     "name": "Red Toolbox",
     "id": "create:red_toolbox",
-    "image": "assets/create/textures/red_toolbox.png"
+    "image": "red_toolbox.png"
   },
   {
     "name": "Red Valve Handle",
     "id": "create:red_valve_handle",
-    "image": "assets/create/textures/red_valve_handle.png"
+    "image": "red_valve_handle.png"
   },
   {
     "name": "Redstone Contact",
     "id": "create:redstone_contact",
-    "image": "assets/create/textures/redstone_contact.png"
+    "image": "redstone_contact.png"
   },
   {
     "name": "Redstone Link",
     "id": "create:redstone_link",
-    "image": "assets/create/textures/redstone_link.png"
+    "image": "redstone_link.png"
   },
   {
     "name": "Redstone Requester",
     "id": "create:redstone_requester",
-    "image": "assets/create/textures/redstone_requester.png"
+    "image": "redstone_requester.png"
   },
   {
     "name": "Refined Radiance",
     "id": "create:refined_radiance",
-    "image": "assets/create/textures/item/refined_radiance.png"
+    "image": "refined_radiance.png"
   },
   {
     "name": "Refined Radiance Casing",
     "id": "create:refined_radiance_casing",
-    "image": "assets/create/textures/refined_radiance_casing.png"
+    "image": "refined_radiance_casing.png"
   },
   {
     "name": "Repackager",
     "id": "create:repackager",
-    "image": "assets/create/textures/repackager.png"
+    "image": "repackager.png"
   },
   {
     "name": "Rope Pulley",
     "id": "create:rope_pulley",
-    "image": "assets/create/textures/rope_pulley.png"
+    "image": "rope_pulley.png"
   },
   {
     "name": "Rose Quartz",
     "id": "create:rose_quartz",
-    "image": "assets/create/textures/item/rose_quartz.png"
+    "image": "rose_quartz.png"
   },
   {
     "name": "Rose Quartz Block",
     "id": "create:rose_quartz_block",
-    "image": "assets/create/textures/rose_quartz_block.png"
+    "image": "rose_quartz_block.png"
   },
   {
     "name": "Rose Quartz Lamp",
     "id": "create:rose_quartz_lamp",
-    "image": "assets/create/textures/rose_quartz_lamp.png"
+    "image": "rose_quartz_lamp.png"
   },
   {
     "name": "Rose Quartz Tiles",
     "id": "create:rose_quartz_tiles",
-    "image": "assets/create/textures/rose_quartz_tiles.png"
+    "image": "rose_quartz_tiles.png"
   },
   {
     "name": "Rotation Speed Controller",
     "id": "create:rotation_speed_controller",
-    "image": "assets/create/textures/rotation_speed_controller.png"
+    "image": "rotation_speed_controller.png"
   },
   {
     "name": "Sail Frame",
     "id": "create:sail_frame",
-    "image": "assets/create/textures/sail_frame.png"
+    "image": "sail_frame.png"
   },
   {
     "name": "Sand Paper",
     "id": "create:sand_paper",
-    "image": "assets/create/textures/item/sand_paper.png"
+    "image": "sand_paper.png"
   },
   {
     "name": "Schedule",
     "id": "create:schedule",
-    "image": "assets/create/textures/item/schedule.png"
+    "image": "schedule.png"
   },
   {
     "name": "Schematic",
     "id": "create:schematic",
-    "image": "assets/create/textures/item/schematic.png"
+    "image": "schematic.png"
   },
   {
     "name": "Schematic And Quill",
     "id": "create:schematic_and_quill",
-    "image": "assets/create/textures/item/schematic_and_quill.png"
+    "image": "schematic_and_quill.png"
   },
   {
     "name": "Schematic Table",
     "id": "create:schematic_table",
-    "image": "assets/create/textures/schematic_table.png"
+    "image": "schematic_table.png"
   },
   {
     "name": "Schematicannon",
     "id": "create:schematicannon",
-    "image": "assets/create/textures/schematicannon.png"
+    "image": "schematicannon.png"
   },
   {
     "name": "Scorchia",
     "id": "create:scorchia",
-    "image": "assets/create/textures/scorchia.png"
+    "image": "scorchia.png"
   },
   {
     "name": "Scorchia Pillar",
     "id": "create:scorchia_pillar",
-    "image": "assets/create/textures/scorchia_pillar.png"
+    "image": "scorchia_pillar.png"
   },
   {
     "name": "Scoria",
     "id": "create:scoria",
-    "image": "assets/create/textures/scoria.png"
+    "image": "scoria.png"
   },
   {
     "name": "Scoria Pillar",
     "id": "create:scoria_pillar",
-    "image": "assets/create/textures/scoria_pillar.png"
+    "image": "scoria_pillar.png"
   },
   {
     "name": "Secondary Linear Chassis",
     "id": "create:secondary_linear_chassis",
-    "image": "assets/create/textures/secondary_linear_chassis.png"
+    "image": "secondary_linear_chassis.png"
   },
   {
     "name": "Sequenced Gearshift",
     "id": "create:sequenced_gearshift",
-    "image": "assets/create/textures/sequenced_gearshift.png"
+    "image": "sequenced_gearshift.png"
   },
   {
     "name": "Shadow Steel",
     "id": "create:shadow_steel",
-    "image": "assets/create/textures/item/shadow_steel.png"
+    "image": "shadow_steel.png"
   },
   {
     "name": "Shadow Steel Casing",
     "id": "create:shadow_steel_casing",
-    "image": "assets/create/textures/shadow_steel_casing.png"
+    "image": "shadow_steel_casing.png"
   },
   {
     "name": "Shaft",
     "id": "create:shaft",
-    "image": "assets/create/textures/shaft.png"
+    "image": "shaft.png"
   },
   {
     "name": "Shopping List",
     "id": "create:shopping_list",
-    "image": "assets/create/textures/item/shopping_list.png"
+    "image": "shopping_list.png"
   },
   {
     "name": "Small Andesite Brick Slab",
     "id": "create:small_andesite_brick_slab",
-    "image": "assets/create/textures/small_andesite_brick_slab.png"
+    "image": "small_andesite_brick_slab.png"
   },
   {
     "name": "Small Andesite Brick Stairs",
     "id": "create:small_andesite_brick_stairs",
-    "image": "assets/create/textures/small_andesite_brick_stairs.png"
+    "image": "small_andesite_brick_stairs.png"
   },
   {
     "name": "Small Andesite Brick Wall",
     "id": "create:small_andesite_brick_wall",
-    "image": "assets/create/textures/small_andesite_brick_wall.png"
+    "image": "small_andesite_brick_wall.png"
   },
   {
     "name": "Small Andesite Bricks",
     "id": "create:small_andesite_bricks",
-    "image": "assets/create/textures/small_andesite_bricks.png"
+    "image": "small_andesite_bricks.png"
   },
   {
     "name": "Small Asurine Brick Slab",
     "id": "create:small_asurine_brick_slab",
-    "image": "assets/create/textures/small_asurine_brick_slab.png"
+    "image": "small_asurine_brick_slab.png"
   },
   {
     "name": "Small Asurine Brick Stairs",
     "id": "create:small_asurine_brick_stairs",
-    "image": "assets/create/textures/small_asurine_brick_stairs.png"
+    "image": "small_asurine_brick_stairs.png"
   },
   {
     "name": "Small Asurine Brick Wall",
     "id": "create:small_asurine_brick_wall",
-    "image": "assets/create/textures/small_asurine_brick_wall.png"
+    "image": "small_asurine_brick_wall.png"
   },
   {
     "name": "Small Asurine Bricks",
     "id": "create:small_asurine_bricks",
-    "image": "assets/create/textures/small_asurine_bricks.png"
+    "image": "small_asurine_bricks.png"
   },
   {
     "name": "Small Calcite Brick Slab",
     "id": "create:small_calcite_brick_slab",
-    "image": "assets/create/textures/small_calcite_brick_slab.png"
+    "image": "small_calcite_brick_slab.png"
   },
   {
     "name": "Small Calcite Brick Stairs",
     "id": "create:small_calcite_brick_stairs",
-    "image": "assets/create/textures/small_calcite_brick_stairs.png"
+    "image": "small_calcite_brick_stairs.png"
   },
   {
     "name": "Small Calcite Brick Wall",
     "id": "create:small_calcite_brick_wall",
-    "image": "assets/create/textures/small_calcite_brick_wall.png"
+    "image": "small_calcite_brick_wall.png"
   },
   {
     "name": "Small Calcite Bricks",
     "id": "create:small_calcite_bricks",
-    "image": "assets/create/textures/small_calcite_bricks.png"
+    "image": "small_calcite_bricks.png"
   },
   {
     "name": "Small Crimsite Brick Slab",
     "id": "create:small_crimsite_brick_slab",
-    "image": "assets/create/textures/small_crimsite_brick_slab.png"
+    "image": "small_crimsite_brick_slab.png"
   },
   {
     "name": "Small Crimsite Brick Stairs",
     "id": "create:small_crimsite_brick_stairs",
-    "image": "assets/create/textures/small_crimsite_brick_stairs.png"
+    "image": "small_crimsite_brick_stairs.png"
   },
   {
     "name": "Small Crimsite Brick Wall",
     "id": "create:small_crimsite_brick_wall",
-    "image": "assets/create/textures/small_crimsite_brick_wall.png"
+    "image": "small_crimsite_brick_wall.png"
   },
   {
     "name": "Small Crimsite Bricks",
     "id": "create:small_crimsite_bricks",
-    "image": "assets/create/textures/small_crimsite_bricks.png"
+    "image": "small_crimsite_bricks.png"
   },
   {
     "name": "Small Deepslate Brick Slab",
     "id": "create:small_deepslate_brick_slab",
-    "image": "assets/create/textures/small_deepslate_brick_slab.png"
+    "image": "small_deepslate_brick_slab.png"
   },
   {
     "name": "Small Deepslate Brick Stairs",
     "id": "create:small_deepslate_brick_stairs",
-    "image": "assets/create/textures/small_deepslate_brick_stairs.png"
+    "image": "small_deepslate_brick_stairs.png"
   },
   {
     "name": "Small Deepslate Brick Wall",
     "id": "create:small_deepslate_brick_wall",
-    "image": "assets/create/textures/small_deepslate_brick_wall.png"
+    "image": "small_deepslate_brick_wall.png"
   },
   {
     "name": "Small Deepslate Bricks",
     "id": "create:small_deepslate_bricks",
-    "image": "assets/create/textures/small_deepslate_bricks.png"
+    "image": "small_deepslate_bricks.png"
   },
   {
     "name": "Small Diorite Brick Slab",
     "id": "create:small_diorite_brick_slab",
-    "image": "assets/create/textures/small_diorite_brick_slab.png"
+    "image": "small_diorite_brick_slab.png"
   },
   {
     "name": "Small Diorite Brick Stairs",
     "id": "create:small_diorite_brick_stairs",
-    "image": "assets/create/textures/small_diorite_brick_stairs.png"
+    "image": "small_diorite_brick_stairs.png"
   },
   {
     "name": "Small Diorite Brick Wall",
     "id": "create:small_diorite_brick_wall",
-    "image": "assets/create/textures/small_diorite_brick_wall.png"
+    "image": "small_diorite_brick_wall.png"
   },
   {
     "name": "Small Diorite Bricks",
     "id": "create:small_diorite_bricks",
-    "image": "assets/create/textures/small_diorite_bricks.png"
+    "image": "small_diorite_bricks.png"
   },
   {
     "name": "Small Dripstone Brick Slab",
     "id": "create:small_dripstone_brick_slab",
-    "image": "assets/create/textures/small_dripstone_brick_slab.png"
+    "image": "small_dripstone_brick_slab.png"
   },
   {
     "name": "Small Dripstone Brick Stairs",
     "id": "create:small_dripstone_brick_stairs",
-    "image": "assets/create/textures/small_dripstone_brick_stairs.png"
+    "image": "small_dripstone_brick_stairs.png"
   },
   {
     "name": "Small Dripstone Brick Wall",
     "id": "create:small_dripstone_brick_wall",
-    "image": "assets/create/textures/small_dripstone_brick_wall.png"
+    "image": "small_dripstone_brick_wall.png"
   },
   {
     "name": "Small Dripstone Bricks",
     "id": "create:small_dripstone_bricks",
-    "image": "assets/create/textures/small_dripstone_bricks.png"
+    "image": "small_dripstone_bricks.png"
   },
   {
     "name": "Small Granite Brick Slab",
     "id": "create:small_granite_brick_slab",
-    "image": "assets/create/textures/small_granite_brick_slab.png"
+    "image": "small_granite_brick_slab.png"
   },
   {
     "name": "Small Granite Brick Stairs",
     "id": "create:small_granite_brick_stairs",
-    "image": "assets/create/textures/small_granite_brick_stairs.png"
+    "image": "small_granite_brick_stairs.png"
   },
   {
     "name": "Small Granite Brick Wall",
     "id": "create:small_granite_brick_wall",
-    "image": "assets/create/textures/small_granite_brick_wall.png"
+    "image": "small_granite_brick_wall.png"
   },
   {
     "name": "Small Granite Bricks",
     "id": "create:small_granite_bricks",
-    "image": "assets/create/textures/small_granite_bricks.png"
+    "image": "small_granite_bricks.png"
   },
   {
     "name": "Small Limestone Brick Slab",
     "id": "create:small_limestone_brick_slab",
-    "image": "assets/create/textures/small_limestone_brick_slab.png"
+    "image": "small_limestone_brick_slab.png"
   },
   {
     "name": "Small Limestone Brick Stairs",
     "id": "create:small_limestone_brick_stairs",
-    "image": "assets/create/textures/small_limestone_brick_stairs.png"
+    "image": "small_limestone_brick_stairs.png"
   },
   {
     "name": "Small Limestone Brick Wall",
     "id": "create:small_limestone_brick_wall",
-    "image": "assets/create/textures/small_limestone_brick_wall.png"
+    "image": "small_limestone_brick_wall.png"
   },
   {
     "name": "Small Limestone Bricks",
     "id": "create:small_limestone_bricks",
-    "image": "assets/create/textures/small_limestone_bricks.png"
+    "image": "small_limestone_bricks.png"
   },
   {
     "name": "Small Ochrum Brick Slab",
     "id": "create:small_ochrum_brick_slab",
-    "image": "assets/create/textures/small_ochrum_brick_slab.png"
+    "image": "small_ochrum_brick_slab.png"
   },
   {
     "name": "Small Ochrum Brick Stairs",
     "id": "create:small_ochrum_brick_stairs",
-    "image": "assets/create/textures/small_ochrum_brick_stairs.png"
+    "image": "small_ochrum_brick_stairs.png"
   },
   {
     "name": "Small Ochrum Brick Wall",
     "id": "create:small_ochrum_brick_wall",
-    "image": "assets/create/textures/small_ochrum_brick_wall.png"
+    "image": "small_ochrum_brick_wall.png"
   },
   {
     "name": "Small Ochrum Bricks",
     "id": "create:small_ochrum_bricks",
-    "image": "assets/create/textures/small_ochrum_bricks.png"
+    "image": "small_ochrum_bricks.png"
   },
   {
     "name": "Small Rose Quartz Tiles",
     "id": "create:small_rose_quartz_tiles",
-    "image": "assets/create/textures/small_rose_quartz_tiles.png"
+    "image": "small_rose_quartz_tiles.png"
   },
   {
     "name": "Small Scorchia Brick Slab",
     "id": "create:small_scorchia_brick_slab",
-    "image": "assets/create/textures/small_scorchia_brick_slab.png"
+    "image": "small_scorchia_brick_slab.png"
   },
   {
     "name": "Small Scorchia Brick Stairs",
     "id": "create:small_scorchia_brick_stairs",
-    "image": "assets/create/textures/small_scorchia_brick_stairs.png"
+    "image": "small_scorchia_brick_stairs.png"
   },
   {
     "name": "Small Scorchia Brick Wall",
     "id": "create:small_scorchia_brick_wall",
-    "image": "assets/create/textures/small_scorchia_brick_wall.png"
+    "image": "small_scorchia_brick_wall.png"
   },
   {
     "name": "Small Scorchia Bricks",
     "id": "create:small_scorchia_bricks",
-    "image": "assets/create/textures/small_scorchia_bricks.png"
+    "image": "small_scorchia_bricks.png"
   },
   {
     "name": "Small Scoria Brick Slab",
     "id": "create:small_scoria_brick_slab",
-    "image": "assets/create/textures/small_scoria_brick_slab.png"
+    "image": "small_scoria_brick_slab.png"
   },
   {
     "name": "Small Scoria Brick Stairs",
     "id": "create:small_scoria_brick_stairs",
-    "image": "assets/create/textures/small_scoria_brick_stairs.png"
+    "image": "small_scoria_brick_stairs.png"
   },
   {
     "name": "Small Scoria Brick Wall",
     "id": "create:small_scoria_brick_wall",
-    "image": "assets/create/textures/small_scoria_brick_wall.png"
+    "image": "small_scoria_brick_wall.png"
   },
   {
     "name": "Small Scoria Bricks",
     "id": "create:small_scoria_bricks",
-    "image": "assets/create/textures/small_scoria_bricks.png"
+    "image": "small_scoria_bricks.png"
   },
   {
     "name": "Small Tuff Brick Slab",
     "id": "create:small_tuff_brick_slab",
-    "image": "assets/create/textures/small_tuff_brick_slab.png"
+    "image": "small_tuff_brick_slab.png"
   },
   {
     "name": "Small Tuff Brick Stairs",
     "id": "create:small_tuff_brick_stairs",
-    "image": "assets/create/textures/small_tuff_brick_stairs.png"
+    "image": "small_tuff_brick_stairs.png"
   },
   {
     "name": "Small Tuff Brick Wall",
     "id": "create:small_tuff_brick_wall",
-    "image": "assets/create/textures/small_tuff_brick_wall.png"
+    "image": "small_tuff_brick_wall.png"
   },
   {
     "name": "Small Tuff Bricks",
     "id": "create:small_tuff_bricks",
-    "image": "assets/create/textures/small_tuff_bricks.png"
+    "image": "small_tuff_bricks.png"
   },
   {
     "name": "Small Veridium Brick Slab",
     "id": "create:small_veridium_brick_slab",
-    "image": "assets/create/textures/small_veridium_brick_slab.png"
+    "image": "small_veridium_brick_slab.png"
   },
   {
     "name": "Small Veridium Brick Stairs",
     "id": "create:small_veridium_brick_stairs",
-    "image": "assets/create/textures/small_veridium_brick_stairs.png"
+    "image": "small_veridium_brick_stairs.png"
   },
   {
     "name": "Small Veridium Brick Wall",
     "id": "create:small_veridium_brick_wall",
-    "image": "assets/create/textures/small_veridium_brick_wall.png"
+    "image": "small_veridium_brick_wall.png"
   },
   {
     "name": "Small Veridium Bricks",
     "id": "create:small_veridium_bricks",
-    "image": "assets/create/textures/small_veridium_bricks.png"
+    "image": "small_veridium_bricks.png"
   },
   {
     "name": "Smart Chute",
     "id": "create:smart_chute",
-    "image": "assets/create/textures/smart_chute.png"
+    "image": "smart_chute.png"
   },
   {
     "name": "Smart Fluid Pipe",
     "id": "create:smart_fluid_pipe",
-    "image": "assets/create/textures/smart_fluid_pipe.png"
+    "image": "smart_fluid_pipe.png"
   },
   {
     "name": "Speedometer",
     "id": "create:speedometer",
-    "image": "assets/create/textures/speedometer.png"
+    "image": "speedometer.png"
   },
   {
     "name": "Spout",
     "id": "create:spout",
-    "image": "assets/create/textures/spout.png"
+    "image": "spout.png"
   },
   {
     "name": "Spruce Window",
     "id": "create:spruce_window",
-    "image": "assets/create/textures/spruce_window.png"
+    "image": "spruce_window.png"
   },
   {
     "name": "Spruce Window Pane",
     "id": "create:spruce_window_pane",
-    "image": "assets/create/textures/block/palettes/spruce_window.png"
+    "image": "spruce_window.png"
   },
   {
     "name": "Steam Engine",
     "id": "create:steam_engine",
-    "image": "assets/create/textures/steam_engine.png"
+    "image": "steam_engine.png"
   },
   {
     "name": "Steam Whistle",
     "id": "create:steam_whistle",
-    "image": "assets/create/textures/steam_whistle.png"
+    "image": "steam_whistle.png"
   },
   {
     "name": "Sticker",
     "id": "create:sticker",
-    "image": "assets/create/textures/sticker.png"
+    "image": "sticker.png"
   },
   {
     "name": "Sticky Mechanical Piston",
     "id": "create:sticky_mechanical_piston",
-    "image": "assets/create/textures/sticky_mechanical_piston.png"
+    "image": "sticky_mechanical_piston.png"
   },
   {
     "name": "Stock Link",
     "id": "create:stock_link",
-    "image": "assets/create/textures/stock_link.png"
+    "image": "stock_link.png"
   },
   {
     "name": "Stock Ticker",
     "id": "create:stock_ticker",
-    "image": "assets/create/textures/stock_ticker.png"
+    "image": "stock_ticker.png"
   },
   {
     "name": "Stockpile Switch",
     "id": "create:stockpile_switch",
-    "image": "assets/create/textures/stockpile_switch.png"
+    "image": "stockpile_switch.png"
   },
   {
     "name": "Stressometer",
     "id": "create:stressometer",
-    "image": "assets/create/textures/stressometer.png"
+    "image": "stressometer.png"
   },
   {
     "name": "Sturdy Sheet",
     "id": "create:sturdy_sheet",
-    "image": "assets/create/textures/item/sturdy_sheet.png"
+    "image": "sturdy_sheet.png"
   },
   {
     "name": "Super Glue",
     "id": "create:super_glue",
-    "image": "assets/create/textures/item/super_glue.png"
+    "image": "super_glue.png"
   },
   {
     "name": "Sweet Roll",
     "id": "create:sweet_roll",
-    "image": "assets/create/textures/item/sweet_roll.png"
+    "image": "sweet_roll.png"
   },
   {
     "name": "Tiled Glass",
     "id": "create:tiled_glass",
-    "image": "assets/create/textures/tiled_glass.png"
+    "image": "tiled_glass.png"
   },
   {
     "name": "Tiled Glass Pane",
     "id": "create:tiled_glass_pane",
-    "image": "assets/create/textures/block/palettes/tiled_glass.png"
+    "image": "tiled_glass.png"
   },
   {
     "name": "Track",
     "id": "create:track",
-    "image": "assets/create/textures/item/track.png"
+    "image": "track.png"
   },
   {
     "name": "Track Observer",
     "id": "create:track_observer",
-    "image": "assets/create/textures/track_observer.png"
+    "image": "track_observer.png"
   },
   {
     "name": "Track Signal",
     "id": "create:track_signal",
-    "image": "assets/create/textures/track_signal.png"
+    "image": "track_signal.png"
   },
   {
     "name": "Track Station",
     "id": "create:track_station",
-    "image": "assets/create/textures/track_station.png"
+    "image": "track_station.png"
   },
   {
     "name": "Train Door",
     "id": "create:train_door",
-    "image": "assets/create/textures/item/train_door.png"
+    "image": "train_door.png"
   },
   {
     "name": "Train Trapdoor",
     "id": "create:train_trapdoor",
-    "image": "assets/create/textures/train_trapdoor.png"
+    "image": "train_trapdoor.png"
   },
   {
     "name": "Transmitter",
     "id": "create:transmitter",
-    "image": "assets/create/textures/item/transmitter.png"
+    "image": "transmitter.png"
   },
   {
     "name": "Tree Fertilizer",
     "id": "create:tree_fertilizer",
-    "image": "assets/create/textures/item/tree_fertilizer.png"
+    "image": "tree_fertilizer.png"
   },
   {
     "name": "Tuff Pillar",
     "id": "create:tuff_pillar",
-    "image": "assets/create/textures/tuff_pillar.png"
+    "image": "tuff_pillar.png"
   },
   {
     "name": "Turntable",
     "id": "create:turntable",
-    "image": "assets/create/textures/turntable.png"
+    "image": "turntable.png"
   },
   {
     "name": "Unprocessed Obsidian Sheet",
     "id": "create:unprocessed_obsidian_sheet",
-    "image": "assets/create/textures/item/unprocessed_obsidian_sheet.png"
+    "image": "unprocessed_obsidian_sheet.png"
   },
   {
     "name": "Veridium",
     "id": "create:veridium",
-    "image": "assets/create/textures/veridium.png"
+    "image": "veridium.png"
   },
   {
     "name": "Veridium Pillar",
     "id": "create:veridium_pillar",
-    "image": "assets/create/textures/veridium_pillar.png"
+    "image": "veridium_pillar.png"
   },
   {
     "name": "Vertical Framed Glass",
     "id": "create:vertical_framed_glass",
-    "image": "assets/create/textures/vertical_framed_glass.png"
+    "image": "vertical_framed_glass.png"
   },
   {
     "name": "Vertical Framed Glass Pane",
     "id": "create:vertical_framed_glass_pane",
-    "image": "assets/create/textures/block/palettes/vertical_framed_glass.png"
+    "image": "vertical_framed_glass.png"
   },
   {
     "name": "Vertical Gearbox",
     "id": "create:vertical_gearbox",
-    "image": "assets/create/textures/vertical_gearbox.png"
+    "image": "vertical_gearbox.png"
   },
   {
     "name": "Wand Of Symmetry",
     "id": "create:wand_of_symmetry",
-    "image": "assets/create/textures/wand_of_symmetry.png"
+    "image": "wand_of_symmetry.png"
   },
   {
     "name": "Bits",
     "id": "create:bits",
-    "image": "assets/create/textures/bits.png"
+    "image": "bits.png"
   },
   {
     "name": "Core",
     "id": "create:core",
-    "image": "assets/create/textures/core.png"
+    "image": "core.png"
   },
   {
     "name": "Core Glow",
     "id": "create:core_glow",
-    "image": "assets/create/textures/core_glow.png"
+    "image": "core_glow.png"
   },
   {
     "name": "Item",
     "id": "create:item",
-    "image": "assets/create/textures/block/brass_block.png"
+    "image": "brass_block.png"
   },
   {
     "name": "Warped Window",
     "id": "create:warped_window",
-    "image": "assets/create/textures/warped_window.png"
+    "image": "warped_window.png"
   },
   {
     "name": "Warped Window Pane",
     "id": "create:warped_window_pane",
-    "image": "assets/create/textures/block/palettes/warped_window.png"
+    "image": "warped_window.png"
   },
   {
     "name": "Water Wheel",
     "id": "create:water_wheel",
-    "image": "assets/create/textures/water_wheel.png"
+    "image": "water_wheel.png"
   },
   {
     "name": "Waxed Copper Shingle Slab",
     "id": "create:waxed_copper_shingle_slab",
-    "image": "assets/create/textures/waxed_copper_shingle_slab.png"
+    "image": "waxed_copper_shingle_slab.png"
   },
   {
     "name": "Waxed Copper Shingle Stairs",
     "id": "create:waxed_copper_shingle_stairs",
-    "image": "assets/create/textures/waxed_copper_shingle_stairs.png"
+    "image": "waxed_copper_shingle_stairs.png"
   },
   {
     "name": "Waxed Copper Shingles",
     "id": "create:waxed_copper_shingles",
-    "image": "assets/create/textures/waxed_copper_shingles.png"
+    "image": "waxed_copper_shingles.png"
   },
   {
     "name": "Waxed Copper Tile Slab",
     "id": "create:waxed_copper_tile_slab",
-    "image": "assets/create/textures/waxed_copper_tile_slab.png"
+    "image": "waxed_copper_tile_slab.png"
   },
   {
     "name": "Waxed Copper Tile Stairs",
     "id": "create:waxed_copper_tile_stairs",
-    "image": "assets/create/textures/waxed_copper_tile_stairs.png"
+    "image": "waxed_copper_tile_stairs.png"
   },
   {
     "name": "Waxed Copper Tiles",
     "id": "create:waxed_copper_tiles",
-    "image": "assets/create/textures/waxed_copper_tiles.png"
+    "image": "waxed_copper_tiles.png"
   },
   {
     "name": "Waxed Exposed Copper Shingle Slab",
     "id": "create:waxed_exposed_copper_shingle_slab",
-    "image": "assets/create/textures/waxed_exposed_copper_shingle_slab.png"
+    "image": "waxed_exposed_copper_shingle_slab.png"
   },
   {
     "name": "Waxed Exposed Copper Shingle Stairs",
     "id": "create:waxed_exposed_copper_shingle_stairs",
-    "image": "assets/create/textures/waxed_exposed_copper_shingle_stairs.png"
+    "image": "waxed_exposed_copper_shingle_stairs.png"
   },
   {
     "name": "Waxed Exposed Copper Shingles",
     "id": "create:waxed_exposed_copper_shingles",
-    "image": "assets/create/textures/waxed_exposed_copper_shingles.png"
+    "image": "waxed_exposed_copper_shingles.png"
   },
   {
     "name": "Waxed Exposed Copper Tile Slab",
     "id": "create:waxed_exposed_copper_tile_slab",
-    "image": "assets/create/textures/waxed_exposed_copper_tile_slab.png"
+    "image": "waxed_exposed_copper_tile_slab.png"
   },
   {
     "name": "Waxed Exposed Copper Tile Stairs",
     "id": "create:waxed_exposed_copper_tile_stairs",
-    "image": "assets/create/textures/waxed_exposed_copper_tile_stairs.png"
+    "image": "waxed_exposed_copper_tile_stairs.png"
   },
   {
     "name": "Waxed Exposed Copper Tiles",
     "id": "create:waxed_exposed_copper_tiles",
-    "image": "assets/create/textures/waxed_exposed_copper_tiles.png"
+    "image": "waxed_exposed_copper_tiles.png"
   },
   {
     "name": "Waxed Oxidized Copper Shingle Slab",
     "id": "create:waxed_oxidized_copper_shingle_slab",
-    "image": "assets/create/textures/waxed_oxidized_copper_shingle_slab.png"
+    "image": "waxed_oxidized_copper_shingle_slab.png"
   },
   {
     "name": "Waxed Oxidized Copper Shingle Stairs",
     "id": "create:waxed_oxidized_copper_shingle_stairs",
-    "image": "assets/create/textures/waxed_oxidized_copper_shingle_stairs.png"
+    "image": "waxed_oxidized_copper_shingle_stairs.png"
   },
   {
     "name": "Waxed Oxidized Copper Shingles",
     "id": "create:waxed_oxidized_copper_shingles",
-    "image": "assets/create/textures/waxed_oxidized_copper_shingles.png"
+    "image": "waxed_oxidized_copper_shingles.png"
   },
   {
     "name": "Waxed Oxidized Copper Tile Slab",
     "id": "create:waxed_oxidized_copper_tile_slab",
-    "image": "assets/create/textures/waxed_oxidized_copper_tile_slab.png"
+    "image": "waxed_oxidized_copper_tile_slab.png"
   },
   {
     "name": "Waxed Oxidized Copper Tile Stairs",
     "id": "create:waxed_oxidized_copper_tile_stairs",
-    "image": "assets/create/textures/waxed_oxidized_copper_tile_stairs.png"
+    "image": "waxed_oxidized_copper_tile_stairs.png"
   },
   {
     "name": "Waxed Oxidized Copper Tiles",
     "id": "create:waxed_oxidized_copper_tiles",
-    "image": "assets/create/textures/waxed_oxidized_copper_tiles.png"
+    "image": "waxed_oxidized_copper_tiles.png"
   },
   {
     "name": "Waxed Weathered Copper Shingle Slab",
     "id": "create:waxed_weathered_copper_shingle_slab",
-    "image": "assets/create/textures/waxed_weathered_copper_shingle_slab.png"
+    "image": "waxed_weathered_copper_shingle_slab.png"
   },
   {
     "name": "Waxed Weathered Copper Shingle Stairs",
     "id": "create:waxed_weathered_copper_shingle_stairs",
-    "image": "assets/create/textures/waxed_weathered_copper_shingle_stairs.png"
+    "image": "waxed_weathered_copper_shingle_stairs.png"
   },
   {
     "name": "Waxed Weathered Copper Shingles",
     "id": "create:waxed_weathered_copper_shingles",
-    "image": "assets/create/textures/waxed_weathered_copper_shingles.png"
+    "image": "waxed_weathered_copper_shingles.png"
   },
   {
     "name": "Waxed Weathered Copper Tile Slab",
     "id": "create:waxed_weathered_copper_tile_slab",
-    "image": "assets/create/textures/waxed_weathered_copper_tile_slab.png"
+    "image": "waxed_weathered_copper_tile_slab.png"
   },
   {
     "name": "Waxed Weathered Copper Tile Stairs",
     "id": "create:waxed_weathered_copper_tile_stairs",
-    "image": "assets/create/textures/waxed_weathered_copper_tile_stairs.png"
+    "image": "waxed_weathered_copper_tile_stairs.png"
   },
   {
     "name": "Waxed Weathered Copper Tiles",
     "id": "create:waxed_weathered_copper_tiles",
-    "image": "assets/create/textures/waxed_weathered_copper_tiles.png"
+    "image": "waxed_weathered_copper_tiles.png"
   },
   {
     "name": "Weathered Copper Shingle Slab",
     "id": "create:weathered_copper_shingle_slab",
-    "image": "assets/create/textures/weathered_copper_shingle_slab.png"
+    "image": "weathered_copper_shingle_slab.png"
   },
   {
     "name": "Weathered Copper Shingle Stairs",
     "id": "create:weathered_copper_shingle_stairs",
-    "image": "assets/create/textures/weathered_copper_shingle_stairs.png"
+    "image": "weathered_copper_shingle_stairs.png"
   },
   {
     "name": "Weathered Copper Shingles",
     "id": "create:weathered_copper_shingles",
-    "image": "assets/create/textures/weathered_copper_shingles.png"
+    "image": "weathered_copper_shingles.png"
   },
   {
     "name": "Weathered Copper Tile Slab",
     "id": "create:weathered_copper_tile_slab",
-    "image": "assets/create/textures/weathered_copper_tile_slab.png"
+    "image": "weathered_copper_tile_slab.png"
   },
   {
     "name": "Weathered Copper Tile Stairs",
     "id": "create:weathered_copper_tile_stairs",
-    "image": "assets/create/textures/weathered_copper_tile_stairs.png"
+    "image": "weathered_copper_tile_stairs.png"
   },
   {
     "name": "Weathered Copper Tiles",
     "id": "create:weathered_copper_tiles",
-    "image": "assets/create/textures/weathered_copper_tiles.png"
+    "image": "weathered_copper_tiles.png"
   },
   {
     "name": "Weathered Iron Block",
     "id": "create:weathered_iron_block",
-    "image": "assets/create/textures/weathered_iron_block.png"
+    "image": "weathered_iron_block.png"
   },
   {
     "name": "Weathered Iron Window",
     "id": "create:weathered_iron_window",
-    "image": "assets/create/textures/weathered_iron_window.png"
+    "image": "weathered_iron_window.png"
   },
   {
     "name": "Weathered Iron Window Pane",
     "id": "create:weathered_iron_window_pane",
-    "image": "assets/create/textures/block/palettes/weathered_iron_window.png"
+    "image": "weathered_iron_window.png"
   },
   {
     "name": "Weighted Ejector",
     "id": "create:weighted_ejector",
-    "image": "assets/create/textures/weighted_ejector.png"
+    "image": "weighted_ejector.png"
   },
   {
     "name": "Wheat Flour",
     "id": "create:wheat_flour",
-    "image": "assets/create/textures/item/wheat_flour.png"
+    "image": "wheat_flour.png"
   },
   {
     "name": "Whisk",
     "id": "create:whisk",
-    "image": "assets/create/textures/item/whisk.png"
+    "image": "whisk.png"
   },
   {
     "name": "White Postbox",
     "id": "create:white_postbox",
-    "image": "assets/create/textures/white_postbox.png"
+    "image": "white_postbox.png"
   },
   {
     "name": "White Sail",
     "id": "create:white_sail",
-    "image": "assets/create/textures/white_sail.png"
+    "image": "white_sail.png"
   },
   {
     "name": "White Seat",
     "id": "create:white_seat",
-    "image": "assets/create/textures/white_seat.png"
+    "image": "white_seat.png"
   },
   {
     "name": "White Table Cloth",
     "id": "create:white_table_cloth",
-    "image": "assets/create/textures/white_table_cloth.png"
+    "image": "white_table_cloth.png"
   },
   {
     "name": "White Toolbox",
     "id": "create:white_toolbox",
-    "image": "assets/create/textures/white_toolbox.png"
+    "image": "white_toolbox.png"
   },
   {
     "name": "White Valve Handle",
     "id": "create:white_valve_handle",
-    "image": "assets/create/textures/white_valve_handle.png"
+    "image": "white_valve_handle.png"
   },
   {
     "name": "Windmill Bearing",
     "id": "create:windmill_bearing",
-    "image": "assets/create/textures/windmill_bearing.png"
+    "image": "windmill_bearing.png"
   },
   {
     "name": "Wooden Bracket",
     "id": "create:wooden_bracket",
-    "image": "assets/create/textures/wooden_bracket.png"
+    "image": "wooden_bracket.png"
   },
   {
     "name": "Wrench",
     "id": "create:wrench",
-    "image": "assets/create/textures/wrench.png"
+    "image": "wrench.png"
   },
   {
     "name": "Gear",
     "id": "create:gear",
-    "image": "assets/create/textures/item/wrench.png"
+    "image": "wrench.png"
   },
   {
     "name": "Item",
     "id": "create:item",
-    "image": "assets/create/textures/item/wrench.png"
+    "image": "wrench.png"
   },
   {
     "name": "Yellow Postbox",
     "id": "create:yellow_postbox",
-    "image": "assets/create/textures/yellow_postbox.png"
+    "image": "yellow_postbox.png"
   },
   {
     "name": "Yellow Seat",
     "id": "create:yellow_seat",
-    "image": "assets/create/textures/yellow_seat.png"
+    "image": "yellow_seat.png"
   },
   {
     "name": "Yellow Table Cloth",
     "id": "create:yellow_table_cloth",
-    "image": "assets/create/textures/yellow_table_cloth.png"
+    "image": "yellow_table_cloth.png"
   },
   {
     "name": "Yellow Toolbox",
     "id": "create:yellow_toolbox",
-    "image": "assets/create/textures/yellow_toolbox.png"
+    "image": "yellow_toolbox.png"
   },
   {
     "name": "Yellow Valve Handle",
     "id": "create:yellow_valve_handle",
-    "image": "assets/create/textures/yellow_valve_handle.png"
+    "image": "yellow_valve_handle.png"
   },
   {
     "name": "Zinc Block",
     "id": "create:zinc_block",
-    "image": "assets/create/textures/zinc_block.png"
+    "image": "zinc_block.png"
   },
   {
     "name": "Zinc Ingot",
     "id": "create:zinc_ingot",
-    "image": "assets/create/textures/item/zinc_ingot.png"
+    "image": "zinc_ingot.png"
   },
   {
     "name": "Zinc Nugget",
     "id": "create:zinc_nugget",
-    "image": "assets/create/textures/item/zinc_nugget.png"
+    "image": "zinc_nugget.png"
   },
   {
     "name": "Zinc Ore",
     "id": "create:zinc_ore",
-    "image": "assets/create/textures/zinc_ore.png"
+    "image": "zinc_ore.png"
   }
 ]

@@ -52,6 +52,6 @@ def extract_items(create_jar_path: str, output_dir: str = "gaugepanel/src/main/r
 
 
 if __name__ == '__main__':
-    create_jar_path = "/home/joey/Downloads/create-1.20.1-6.0.4.jar"
+    create_jar_path = "C:/Users/Ennur/curseforge/minecraft/Downloads/create-1.21.1-6.0.6.jar"
     items = extract_items(create_jar_path)
     print(f'Extracted {len(items)} items to output/items.json')

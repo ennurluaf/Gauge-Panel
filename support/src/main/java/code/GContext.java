@@ -1,4 +1,4 @@
-package support;
+package code;
 
 import java.awt.*;
 import java.awt.geom.AffineTransform;
@@ -108,6 +108,12 @@ public class GContext {
     }
 
     public GContext rotate(double theta) {
+        g.rotate(theta);
+        return this;
+    }
+
+    public GContext rotate(double theta, int x, int y) {
+        g.translate(x, y);
         g.rotate(theta);
         return this;
     }

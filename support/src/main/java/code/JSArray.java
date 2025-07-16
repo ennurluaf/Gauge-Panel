@@ -1,4 +1,4 @@
-package support;
+package code;
 
 import java.util.*;
 import java.util.function.*;
@@ -8,7 +8,7 @@ public class JSArray<T> extends ArrayList<T> {
     public JSArray() {
         super();
     }
-    
+
     @SuppressWarnings("unchecked")
     public JSArray(T... elements) {
         super();
@@ -17,7 +17,7 @@ public class JSArray<T> extends ArrayList<T> {
         }
     }
 
-    public JSArray(List<T> list){
+    public JSArray(List<T> list) {
         super(list);
     }
 
@@ -25,6 +25,14 @@ public class JSArray<T> extends ArrayList<T> {
         JSArray<R> result = new JSArray<>();
         for (T item : this) {
             result.add(function.apply(item));
+        }
+        return result;
+    }
+
+    public <R> JSArray<R> map(BiFunction<T, Integer, R> function) {
+        JSArray<R> result = new JSArray<>();
+        for (int i = 0; i < this.size(); i++) {
+            result.add(function.apply(this.get(i), i));
         }
         return result;
     }
@@ -38,24 +46,27 @@ public class JSArray<T> extends ArrayList<T> {
         }
         return result;
     }
-    
+
     public T find(Predicate<T> predicate) {
         for (T item : this) {
-            if (predicate.test(item)) return item;
+            if (predicate.test(item))
+                return item;
         }
         return null;
     }
-    
+
     public boolean some(Predicate<T> predicate) {
         for (T item : this) {
-            if (predicate.test(item)) return true;
+            if (predicate.test(item))
+                return true;
         }
         return false;
     }
-    
+
     public boolean all(Predicate<T> predicate) {
         for (T item : this) {
-            if (!predicate.test(item)) return false;
+            if (!predicate.test(item))
+                return false;
         }
         return true;
     }
@@ -72,7 +83,8 @@ public class JSArray<T> extends ArrayList<T> {
     }
 
     public T reduce(BinaryOperator<T> accumulator) {
-        if (this.isEmpty()) throw new NoSuchElementException("Reduce of empty array with no initial value");
+        if (this.isEmpty())
+            throw new NoSuchElementException("Reduce of empty array with no initial value");
         T result = this.get(0);
         for (int i = 1; i < this.size(); i++) {
             result = accumulator.apply(result, this.get(i));

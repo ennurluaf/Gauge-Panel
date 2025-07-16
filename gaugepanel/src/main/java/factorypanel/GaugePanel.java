@@ -5,7 +5,6 @@ import java.awt.Dimension;
 import java.awt.Graphics;
 import java.io.IOException;
 import java.io.InputStream;
-import java.util.List;
 
 import javax.swing.JFrame;
 import javax.swing.JPanel;
@@ -23,10 +22,6 @@ public class GaugePanel extends JPanel {
     }
 
     public static record Item(String idString, String name, Sprite sprite, int id) {
-
-        public void draw(GContext c, int x, int y) {
-            sprite.draw(c, x, y, 50, 50);
-        }
     }
 
     private JSArray<Item> items;
@@ -34,7 +29,7 @@ public class GaugePanel extends JPanel {
     public GaugePanel() {
         try (InputStream is = GaugePanel.class.getClassLoader().getResourceAsStream("items.json")) {
             JSArray<ItemData> data = new ObjectMapper().readValue(is, new TypeReference<JSArray<ItemData>>() {});
-            items = data.map((d, id) -> new Item(d.id, d.name, Sprite.load(d.image), id));
+            items = data.map((d, id) -> new Item(d.id, d.name, Sprite.load(d.image).resize(50, 50), id));
         } catch (IOException e) {
             e.printStackTrace();
         }
@@ -48,7 +43,7 @@ public class GaugePanel extends JPanel {
         for (int row = 0, index = 0; row < rows; row++) {
             for (int col = 0; col < cols; col++, index++) {
                 if (index < items.size()) {
-                    items.get(index).draw(c, col * 55, row * 55);
+                    items.get(index).sprite().draw(c, col * 55, row * 55);
                 }
             }
         }

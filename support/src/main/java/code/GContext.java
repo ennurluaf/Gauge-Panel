@@ -19,6 +19,10 @@ public class GContext {
         this.g = (Graphics2D) g;
     }
 
+    public static GContext create(Graphics2D g) {
+        return new GContext(g);
+    }
+
     public Graphics2D getGraphics() {
         return g;
     }
@@ -97,8 +101,8 @@ public class GContext {
     }
 
     public GContext restore() {
-        if (af != null)
-            g.setTransform(af);
+        if (af == null) return null;
+        g.setTransform(af);
         return this;
     }
 
@@ -113,8 +117,7 @@ public class GContext {
     }
 
     public GContext rotate(double theta, int x, int y) {
-        g.translate(x, y);
-        g.rotate(theta);
+        g.rotate(theta, x, y);
         return this;
     }
 
@@ -122,6 +125,10 @@ public class GContext {
         g.scale(sx, sy);
         return this;
     }
+
+    public GContext scale(double s) {
+        return scale(s, s);
+    }   
 
     public GContext text(String text, float x, float y) {
         if (centered) {
@@ -158,5 +165,9 @@ public class GContext {
         rect(rect.x, rect.y, rect.width, rect.height);
         return this;
     }
+
+
+
+
 
 }

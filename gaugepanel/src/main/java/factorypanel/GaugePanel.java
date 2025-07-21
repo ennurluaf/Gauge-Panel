@@ -30,7 +30,8 @@ public class GaugePanel extends JPanel {
 
     public JTextField searchField = new JTextField();
     private JSArray<Item> items;
-    private Rectangle factorypanel, jei;
+    private Rectangle factorypanel;
+    private JEI jei;
 
     public GaugePanel() {
         try (InputStream is = loader().getResourceAsStream("minecraft/items.json")) {
@@ -41,7 +42,7 @@ public class GaugePanel extends JPanel {
         }
 
         factorypanel = new Rectangle(0, 0, (5*1200)/8, 900);
-        jei = new Rectangle((5*1200)/8, 0, (3*1200)/8, 900);
+        jei = new JEI((5*1200)/8, 0, (3*1200)/8, 900, items, 50);
     }
 
     private static Sprite load(String path) {
@@ -65,14 +66,7 @@ public class GaugePanel extends JPanel {
         c.fill(255,0,0,100).rect(factorypanel);
         c.fill(0,0,255,100).rect(jei);
 
-        int cols = jei.width / 50, rows = (getHeight()-50) / 50;
-        for (int row = 0, index = 0; row < rows; row++) {
-            for (int col = 0; col < cols; col++, index++) {
-                if (index < items.size()) {
-                    items.get(index).sprite().draw(c, jei.x + col * 50, row * 50);
-                }
-            }
-        }
+        jei.draw(c);
     }
 
     public static void main(String[] args) {

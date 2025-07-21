@@ -142,6 +142,13 @@ public class GContext {
         return this;
     }
 
+    public Point textPos(String text) {
+        FontMetrics fm = g.getFontMetrics();
+        int textWidth = fm.stringWidth(text);
+        int textHeight = fm.getAscent();
+        return new Point(-textWidth / 2, textHeight / 2);
+    }
+
     public GContext drawImage(BufferedImage img, int x, int y, int w, int h) {
         g.drawImage(img, x, y, w, h, null);
         return this;

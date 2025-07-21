@@ -18,9 +18,8 @@ public class Sprite extends BufferedImage implements Size{
         return new GContext(createGraphics());
     }
 
-    @Override
-    public Rectangle getRect(Pos pos, int x, int y) {
-        return pos.calcPos(this, x, y);
+    public Rectangle getRect(int x, int y) {
+        return Pos.TOPLEFT.calcPos(this, x, y);
     }
 
     public Rectangle getRect() {

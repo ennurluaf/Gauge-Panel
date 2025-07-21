@@ -6,7 +6,6 @@ public interface Size {
 
     public int getWidth();
     public int getHeight();
-    public Rectangle getRect(Pos pos, int x, int y);
 
     public static enum Pos {
         SIZE((x, y, w, h) -> rect(0, 0, w, h)),

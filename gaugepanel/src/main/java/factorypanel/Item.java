@@ -2,7 +2,7 @@ package factorypanel;
 
 import java.awt.Rectangle;
 
-import code.Sprite;
+import code.*;
 
 public class Item extends Rectangle {
 
@@ -10,6 +10,7 @@ public class Item extends Rectangle {
     private final String idString;
     private final String name;
     private final Sprite sprite;
+    public boolean hovered, selected;
     private final int id;
 
     public Item(String idString, String name, Sprite sprite, int id) {
@@ -34,6 +35,27 @@ public class Item extends Rectangle {
 
     public int id() {
         return id;
+    }
+
+    public void draw(GContext c, int x, int y) {
+        this.setBounds(x,y, sprite.getWidth(), sprite.getHeight());
+        sprite.draw(c, x, y);
+        if (hovered) {
+            c.fill(255, 0, 0, 100).rect(this);
+        }
+        if (selected) {
+            c.stroke(0, 255, 0, 100).rect(this);  
+        }
+
+    }
+
+    @Override
+    public String toString() {
+        return "Item{" +
+                "idString='" + idString + '\'' +
+                ", name='" + name + '\'' +
+                ", id=" + id +
+                '}';
     }
 
 }

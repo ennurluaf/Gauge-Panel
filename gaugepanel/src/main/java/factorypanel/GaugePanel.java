@@ -5,6 +5,7 @@ import java.awt.Color;
 import java.awt.Dimension;
 import java.awt.Graphics;
 import java.awt.Rectangle;
+import java.awt.event.MouseAdapter;
 import java.io.IOException;
 import java.io.InputStream;
 
@@ -40,6 +41,9 @@ public class GaugePanel extends JPanel {
 
         factorypanel = new Rectangle(0, 0, (5*1200)/8, 900);
         jei = new JEI((5*1200)/8, 0, (3*1200)/8, 900, items, 50);
+
+        addMouseListener(mouseAdapter);
+        addMouseMotionListener(mouseAdapter);
     }
 
     private static Sprite load(String path) {
@@ -55,13 +59,31 @@ public class GaugePanel extends JPanel {
         return GaugePanel.class.getClassLoader();
     }
 
+    private MouseAdapter mouseAdapter = new MouseAdapter() {
+        @Override
+        public void mousePressed(java.awt.event.MouseEvent e) {
+            jei.press(e.getPoint());
+            repaint();
+        }
+
+        public void mouseMoved(java.awt.event.MouseEvent e) {
+            jei.move(e.getPoint());
+            repaint();
+        };
+    };
+
+    {
+        addMouseListener(mouseAdapter);
+        addMouseMotionListener(mouseAdapter);
+    }
+
     @Override
     protected void paintComponent(Graphics g) {
         super.paintComponent(g);
         GContext c = new GContext(g);
 
         c.fill(255,0,0,100).rect(factorypanel);
-        c.fill(0,0,255,100).rect(jei);
+        // c.fill(0,0,255,100).rect(jei);
 
         jei.draw(c);
     }

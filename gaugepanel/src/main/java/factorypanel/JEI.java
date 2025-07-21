@@ -2,7 +2,6 @@ package factorypanel;
 
 import java.awt.Rectangle;
 
-import factorypanel.GaugePanel.Item;
 import code.*;
 
 public class JEI extends Rectangle {

@@ -25,9 +25,6 @@ public class GaugePanel extends JPanel {
     private record ItemData(String id, String name, String image) {
     }
 
-    public static record Item(String idString, String name, Sprite sprite, int id) {
-    }
-
     public JTextField searchField = new JTextField();
     private JSArray<Item> items;
     private Rectangle factorypanel;

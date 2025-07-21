@@ -5,7 +5,6 @@ import java.awt.Color;
 import java.awt.Dimension;
 import java.awt.Graphics;
 import java.awt.Rectangle;
-import java.io.File;
 import java.io.IOException;
 import java.io.InputStream;
 
@@ -34,7 +33,7 @@ public class GaugePanel extends JPanel {
     private Rectangle factorypanel, jei;
 
     public GaugePanel() {
-        try (InputStream is = loader().getResourceAsStream("create/items.json")) {
+        try (InputStream is = loader().getResourceAsStream("minecraft/items.json")) {
             JSArray<ItemData> data = new ObjectMapper().readValue(is, new TypeReference<JSArray<ItemData>>() {});
             items = data.map((d, id) -> new Item(d.id, d.name, load(d.image).resize(50, 50), id));
         } catch (IOException e) {
@@ -46,7 +45,7 @@ public class GaugePanel extends JPanel {
     }
 
     private static Sprite load(String path) {
-        try(InputStream is = loader().getResourceAsStream("create/textures/" + path)) {
+        try(InputStream is = loader().getResourceAsStream("minecraft/textures/" + path)) {
             return new Sprite(ImageIO.read(is));
         } catch (IOException e) {
             e.printStackTrace();
@@ -66,11 +65,11 @@ public class GaugePanel extends JPanel {
         c.fill(255,0,0,100).rect(factorypanel);
         c.fill(0,0,255,100).rect(jei);
 
-        int cols = jei.width / 55, rows = getHeight() / 50;
+        int cols = jei.width / 50, rows = (getHeight()-50) / 50;
         for (int row = 0, index = 0; row < rows; row++) {
             for (int col = 0; col < cols; col++, index++) {
                 if (index < items.size()) {
-                    items.get(index).sprite().draw(c, jei.x + col * 55 + 5, row * 55 + 5);
+                    items.get(index).sprite().draw(c, jei.x + col * 50, row * 50);
                 }
             }
         }

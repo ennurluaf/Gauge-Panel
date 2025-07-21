@@ -125,6 +125,7 @@ public class JSArray<T> extends ArrayList<T> {
         return result;
     }   
 
+    @SuppressWarnings("unchecked")
     public JSArray<T> concat(T... elements) {
         JSArray<T> result = new JSArray<>(this);
         Collections.addAll(result, elements);
@@ -234,6 +235,7 @@ public class JSArray<T> extends ArrayList<T> {
         return "JSArray{" + super.toString() + '}';
     }
 
+    @SuppressWarnings("unchecked")
     public static <T> JSArray<T> of(T... elements) {
         return new JSArray<>(elements);
     }
@@ -361,8 +363,5 @@ public class JSArray<T> extends ArrayList<T> {
     public static <T> JSArray<T> fromStream(Stream<T> stream, int limit) {
         return stream.limit(limit).collect(Collectors.toCollection(JSArray::new));
     }
-
-
-    
 
 }

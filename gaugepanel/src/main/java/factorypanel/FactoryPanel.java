@@ -75,3 +75,28 @@ public class FactoryPanel extends Rectangle {
     }
 
 }
+
+class Box extends Rectangle {
+
+    private static final long serialVersionUID = 1L;
+    private boolean hovered = false, selected = false;
+
+    public Box(int x, int y) {
+        super(x, y, SIZE, SIZE);
+    }
+
+    public void update(Point mouse) {
+        setLocation(mouse);
+    }
+
+    public void draw(GContext c) {
+        c.fill(255,100,100,100).rect(this);
+        if (hovered) {
+            c.fill(0, 50).rect(this);
+        }
+        if (selected) {
+            c.stroke(0, 255).rect(this);
+        }
+    }
+
+}

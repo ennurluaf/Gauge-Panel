@@ -5,42 +5,42 @@ import java.util.function.*;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
-public class JSArray<T> extends ArrayList<T> {
+public class JSList<T> extends ArrayList<T> {
 
-    public JSArray() {
+    public JSList() {
         super();
     }
 
     @SuppressWarnings("unchecked")
-    public JSArray(T... elements) {
+    public JSList(T... elements) {
         super();
         for (T t : elements) {
             this.add(t);
         }
     }
 
-    public JSArray(List<T> list) {
+    public JSList(List<T> list) {
         super(list);
     }
 
-    public <R> JSArray<R> map(Function<T, R> function) {
-        JSArray<R> result = new JSArray<>();
+    public <R> JSList<R> map(Function<T, R> function) {
+        JSList<R> result = new JSList<>();
         for (T item : this) {
             result.add(function.apply(item));
         }
         return result;
     }
 
-    public <R> JSArray<R> map(BiFunction<T, Integer, R> function) {
-        JSArray<R> result = new JSArray<>();
+    public <R> JSList<R> map(BiFunction<T, Integer, R> function) {
+        JSList<R> result = new JSList<>();
         for (int i = 0; i < this.size(); i++) {
             result.add(function.apply(this.get(i), i));
         }
         return result;
     }
 
-    public JSArray<T> filter(Predicate<T> predicate) {
-        JSArray<T> result = new JSArray<>();
+    public JSList<T> filter(Predicate<T> predicate) {
+        JSList<T> result = new JSList<>();
         for (T item : this) {
             if (predicate.test(item)) 
                 result.add(item);
@@ -101,39 +101,39 @@ public class JSArray<T> extends ArrayList<T> {
         return result;
     }
 
-    public <R> JSArray<R> flatMap(Function<T, JSArray<R>> mapper) {
-        JSArray<R> result = new JSArray<>();
+    public <R> JSList<R> flatMap(Function<T, JSList<R>> mapper) {
+        JSList<R> result = new JSList<>();
         for (T item : this) {
             result.addAll(mapper.apply(item));
         }
         return result;
     }
 
-    public JSArray<T> slice(int start, int end) {
+    public JSList<T> slice(int start, int end) {
         if (start < 0) start = 0;
         if (end > this.size()) end = this.size();
-        return new JSArray<>(this.subList(start, end));
+        return new JSList<>(this.subList(start, end));
     }
 
-    public JSArray<T> slice(int start) {
+    public JSList<T> slice(int start) {
         return slice(start, this.size());
     }   
 
-    public JSArray<T> concat(JSArray<T> other) {
-        JSArray<T> result = new JSArray<>(this);
+    public JSList<T> concat(JSList<T> other) {
+        JSList<T> result = new JSList<>(this);
         result.addAll(other);
         return result;
     }   
 
     @SuppressWarnings("unchecked")
-    public JSArray<T> concat(T... elements) {
-        JSArray<T> result = new JSArray<>(this);
+    public JSList<T> concat(T... elements) {
+        JSList<T> result = new JSList<>(this);
         Collections.addAll(result, elements);
         return result;
     }   
 
-    public JSArray<T> reverse() {
-        JSArray<T> result = new JSArray<>(this);
+    public JSList<T> reverse() {
+        JSList<T> result = new JSList<>(this);
         Collections.reverse(result);
         return result;
     }
@@ -222,9 +222,9 @@ public class JSArray<T> extends ArrayList<T> {
 
     public boolean equals(Object o) {
         if (this == o) return true;
-        if (!(o instanceof JSArray)) return false;
-        JSArray<?> jsArray = (JSArray<?>) o;
-        return super.equals(jsArray);
+        if (!(o instanceof JSList)) return false;
+        JSList<?> JSList = (JSList<?>) o;
+        return super.equals(JSList);
     }
 
     public int hashCode() {
@@ -232,32 +232,32 @@ public class JSArray<T> extends ArrayList<T> {
     }
 
     public String toString() {
-        return "JSArray{" + super.toString() + '}';
+        return "JSList{" + super.toString() + '}';
     }
 
     @SuppressWarnings("unchecked")
-    public static <T> JSArray<T> of(T... elements) {
-        return new JSArray<>(elements);
+    public static <T> JSList<T> of(T... elements) {
+        return new JSList<>(elements);
     }
 
-    public static <T> JSArray<T> from(Collection<T> collection) {
-        return new JSArray<>(new ArrayList<>(collection));
+    public static <T> JSList<T> from(Collection<T> collection) {
+        return new JSList<>(new ArrayList<>(collection));
     }
 
-    public static <T> JSArray<T> from(T[] array) {
-        return new JSArray<>(Arrays.asList(array));
+    public static <T> JSList<T> from(T[] array) {
+        return new JSList<>(Arrays.asList(array));
     }
 
-    public static <T> JSArray<T> empty() {
-        return new JSArray<>();
+    public static <T> JSList<T> empty() {
+        return new JSList<>();
     }
 
-    public static <T> JSArray<T> ofSize(int size) {
-        return new JSArray<>(Collections.nCopies(size, null));
+    public static <T> JSList<T> ofSize(int size) {
+        return new JSList<>(Collections.nCopies(size, null));
     }
 
-    public static <T> JSArray<T> ofSize(int size, T defaultValue) {
-        JSArray<T> array = new JSArray<>();
+    public static <T> JSList<T> ofSize(int size, T defaultValue) {
+        JSList<T> array = new JSList<>();
         for (int i = 0; i < size; i++) {
             array.add(defaultValue);
         }
@@ -265,8 +265,8 @@ public class JSArray<T> extends ArrayList<T> {
     }
 
     @SuppressWarnings("unchecked")
-    public static <T> JSArray<T> range(int start, int end) {
-        JSArray<T> array = new JSArray<>();
+    public static <T> JSList<T> range(int start, int end) {
+        JSList<T> array = new JSList<>();
         for (int i = start; i < end; i++) {
             array.add((T) Integer.valueOf(i));
         }
@@ -274,94 +274,94 @@ public class JSArray<T> extends ArrayList<T> {
     }
 
     @SuppressWarnings("unchecked")
-    public static <T> JSArray<T> range(int start, int end, int step) {
-        JSArray<T> array = new JSArray<>();
+    public static <T> JSList<T> range(int start, int end, int step) {
+        JSList<T> array = new JSList<>();
         for (int i = start; i < end; i += step) {
             array.add((T) Integer.valueOf(i));
         }
         return array;
     }
 
-    public static <T> JSArray<T> repeat(T item, int times) {
-        JSArray<T> array = new JSArray<>();
+    public static <T> JSList<T> repeat(T item, int times) {
+        JSList<T> array = new JSList<>();
         for (int i = 0; i < times; i++) {
             array.add(item);
         }
         return array;
     }
 
-    public static <T> JSArray<T> fromStream(Stream<T> stream) {
-        return stream.collect(Collectors.toCollection(JSArray::new));
+    public static <T> JSList<T> fromStream(Stream<T> stream) {
+        return stream.collect(Collectors.toCollection(JSList::new));
     }
 
-    public static <T> JSArray<T> fromIterable(Iterable<T> iterable) {
-        JSArray<T> array = new JSArray<>();
+    public static <T> JSList<T> fromIterable(Iterable<T> iterable) {
+        JSList<T> array = new JSList<>();
         for (T item : iterable) {
             array.add(item);
         }
         return array;
     }
 
-    public static <T> JSArray<T> fromEnumeration(Enumeration<T> enumeration) {
-        JSArray<T> array = new JSArray<>();
+    public static <T> JSList<T> fromEnumeration(Enumeration<T> enumeration) {
+        JSList<T> array = new JSList<>();
         while (enumeration.hasMoreElements()) {
             array.add(enumeration.nextElement());
         }
         return array;
     }
 
-    public static <T> JSArray<T> fromIterator(Iterator<T> iterator) {
-        JSArray<T> array = new JSArray<>();
+    public static <T> JSList<T> fromIterator(Iterator<T> iterator) {
+        JSList<T> array = new JSList<>();
         while (iterator.hasNext()) {
             array.add(iterator.next());
         }
         return array;
     }
 
-    public static <T> JSArray<T> fromSpliterator(Spliterator<T> spliterator) {
-        JSArray<T> array = new JSArray<>();
+    public static <T> JSList<T> fromSpliterator(Spliterator<T> spliterator) {
+        JSList<T> array = new JSList<>();
         spliterator.forEachRemaining(array::add);
         return array;
     }
 
-    public static <T> JSArray<T> fromCollection(Collection<T> collection) {
-        return new JSArray<>(new ArrayList<>(collection));
+    public static <T> JSList<T> fromCollection(Collection<T> collection) {
+        return new JSList<>(new ArrayList<>(collection));
     }
 
-    public static <T> JSArray<T> fromArray(T[] array) {
-        return new JSArray<>(Arrays.asList(array));
+    public static <T> JSList<T> fromArray(T[] array) {
+        return new JSList<>(Arrays.asList(array));
     }
 
-    public static <T> JSArray<T> fromList(List<T> list) {
-        return new JSArray<>(list);
+    public static <T> JSList<T> fromList(List<T> list) {
+        return new JSList<>(list);
     }
 
-    public static <T> JSArray<T> fromSet(Set<T> set) {
-        return new JSArray<>(new ArrayList<>(set));
+    public static <T> JSList<T> fromSet(Set<T> set) {
+        return new JSList<>(new ArrayList<>(set));
     }
 
-    public static <T> JSArray<T> fromMap(Map<?, T> map) {
-        JSArray<T> array = new JSArray<>();
+    public static <T> JSList<T> fromMap(Map<?, T> map) {
+        JSList<T> array = new JSList<>();
         for (T value : map.values()) {
             array.add(value);
         }
         return array;
     }
 
-    public static <T> JSArray<T> fromOptional(Optional<T> optional) {
-        JSArray<T> array = new JSArray<>();
+    public static <T> JSList<T> fromOptional(Optional<T> optional) {
+        JSList<T> array = new JSList<>();
         optional.ifPresent(array::add);
         return array;
     }
 
-    public static <T> JSArray<T> fromOptional(Optional<T> optional, T defaultValue) {
-        JSArray<T> array = new JSArray<>();
+    public static <T> JSList<T> fromOptional(Optional<T> optional, T defaultValue) {
+        JSList<T> array = new JSList<>();
         array.add(optional.orElse(defaultValue));
         return array;
     }
 
-    public static <T> JSArray<T> fromStream(Stream<T> stream, int limit) {
-        return stream.limit(limit).collect(Collectors.toCollection(JSArray::new));
+    public static <T> JSList<T> fromStream(Stream<T> stream, int limit) {
+        return stream.limit(limit).collect(Collectors.toCollection(JSList::new));
     }
 
 }

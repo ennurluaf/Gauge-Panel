@@ -9,14 +9,14 @@ import code.*;
 public class JEI extends Rectangle {
 
     private static final long serialVersionUID = 1L;
-    private final JSArray<Item> items;
+    private final JSList<Item> items;
     private final int cols, rows, pages;
     private int index = 0;
     private long clock = System.currentTimeMillis(), cd = 500; // cooldown in milliseconds
     private final Rectangle button;
     private String searchQuery = "";
 
-    public JEI(int x, int y, int width, int height, JSArray<Item> items, int size) {
+    public JEI(int x, int y, int width, int height, JSList<Item> items, int size) {
         super(x, y, width, height);
         this.items = items;
         this.cols = width / size;
@@ -58,13 +58,14 @@ public class JEI extends Rectangle {
         });
     }
 
-    private JSArray<Item> getCurrentPageItems() {
+    private JSList<Item> getCurrentPageItems() {
         int start = index * cols * rows;
         int end = Math.min(start + cols * rows, items.size());
         return items.filter(item -> item.name().contains(searchQuery)).slice(start, end);
     }
 
     public void draw(GContext c) {
+        c.fill(0).rect(this);
         drawName(c);
         drawItems(c);
         drawButton(c);
@@ -73,12 +74,11 @@ public class JEI extends Rectangle {
     private void drawName(GContext c) {
         var item = getCurrentPageItems().find(i -> i.hovered);
         String text = item != null ? item.name() : "No item selected";
-        c.fill(255).text(text, x + 5, button.height / 2 + c.textPos(text).y);
+        c.fill(255).text(text, x + 10, button.height / 2 + c.textPos(text).y);
     }
 
     private void drawItems(GContext c) {
         var list = getCurrentPageItems();
-        c.fill(0).rect(this);
         for (int row = 0, i = 0; row < rows; row++) {
             for (int col = 0; col < cols; col++, i++) {
                 if (i < list.size()) {

@@ -6,6 +6,7 @@ import java.io.*;
 
 import javax.imageio.ImageIO;
 import javax.swing.*;
+import javax.swing.Box;
 
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
@@ -20,14 +21,14 @@ public class GaugePanel extends JPanel {
     public static final int SIZE = 50;
     public JMenuBar menuBar = new JMenuBar();
     public JTextField searchField = new JTextField();
-    private JSArray<Item> items;
+    private JSList<Item> items;
     private FactoryPanel factorypanel;
     private JEI jei;
     private int mode = -1;
 
     public GaugePanel() {
         try (InputStream is = loader().getResourceAsStream("minecraft/items.json")) {
-            JSArray<ItemData> data = new ObjectMapper().readValue(is, new TypeReference<JSArray<ItemData>>() {});
+            JSList<ItemData> data = new ObjectMapper().readValue(is, new TypeReference<JSList<ItemData>>() {});
             items = data.map((d, id) -> new Item(d.id, d.name, load(d.image).resize(SIZE, SIZE), id));
         } catch (IOException e) {
             e.printStackTrace();

@@ -17,22 +17,24 @@ public class GaugePanel extends JPanel {
     private record ItemData(String id, String name, String image) {
     }
 
+    public static final int SIZE = 50;
     public JMenuBar menuBar = new JMenuBar();
     public JTextField searchField = new JTextField();
     private JSArray<Item> items;
-    private Rectangle factorypanel;
+    private FactoryPanel factorypanel;
     private JEI jei;
+    private int mode = -1;
 
     public GaugePanel() {
         try (InputStream is = loader().getResourceAsStream("minecraft/items.json")) {
             JSArray<ItemData> data = new ObjectMapper().readValue(is, new TypeReference<JSArray<ItemData>>() {});
-            items = data.map((d, id) -> new Item(d.id, d.name, load(d.image).resize(50, 50), id));
+            items = data.map((d, id) -> new Item(d.id, d.name, load(d.image).resize(SIZE, SIZE), id));
         } catch (IOException e) {
             e.printStackTrace();
         }
 
-        factorypanel = new Rectangle(0, 0, (5*1200)/8, 900);
-        jei = new JEI((5*1200)/8, 0, (3*1200)/8, 900, items, 50);
+        factorypanel = new FactoryPanel(0, 0, (5*1200)/8, 900);
+        jei = new JEI((5*1200)/8, 0, (3*1200)/8, 900, items, SIZE);
 
         menuBar.setLayout(new BoxLayout(menuBar, BoxLayout.X_AXIS));    
         
@@ -101,14 +103,45 @@ public class GaugePanel extends JPanel {
         return new MouseAdapter() {
         @Override
         public void mousePressed(java.awt.event.MouseEvent e) {
-            jei.press(e.getPoint());
+            if(factorypanel.contains(e.getPoint())) {
+                mode = 0;
+                factorypanel.press(e.getPoint());
+            } else {
+                mode = 1;
+                jei.press(e.getPoint());
+            }
             repaint();
         }
 
         public void mouseMoved(java.awt.event.MouseEvent e) {
-            jei.move(e.getPoint());
+            if (factorypanel.contains(e.getPoint())) {
+                factorypanel.move(e.getPoint());
+            } else if (jei.contains(e.getPoint())) {
+                jei.move(e.getPoint());
+            }
             repaint();
         };
+
+        @Override
+        public void mouseDragged(MouseEvent e) {
+            if (mode == 0) {
+                factorypanel.drag(e.getPoint());
+            } else if (mode == 1) {
+                // jei.move(e.getPoint());
+            }
+            repaint();
+        }
+
+        @Override
+        public void mouseReleased(MouseEvent e) {
+            if (mode == 0) {
+                factorypanel.release();
+            } else if (mode == 1) {
+                // jei.release();
+            }
+            mode = -1; // Reset mode on release
+            repaint();
+        }
     };
 }
 
@@ -118,10 +151,11 @@ public class GaugePanel extends JPanel {
         super.paintComponent(g);
         GContext c = new GContext(g);
 
-        c.fill(255,0,0,100).rect(factorypanel);
-        // c.fill(0,0,255,100).rect(jei);
-
+        factorypanel.draw(c);
         jei.draw(c);
+
+        c.stroke(0,mode == 0 ? 255 : 0).rect(factorypanel);
+        c.stroke(0,mode == 1 ? 255 : 0).rect(jei);
     }
 
     public static void main(String[] args) {

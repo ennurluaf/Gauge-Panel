@@ -2,6 +2,7 @@ package factorypanel;
 
 import java.awt.Point;
 import java.awt.Rectangle;
+import static factorypanel.GaugePanel.SIZE;
 
 import code.*;
 
@@ -20,7 +21,7 @@ public class JEI extends Rectangle {
         this.items = items;
         this.cols = width / size;
         this.rows = height / size - 2;
-        this.button = new Rectangle(x, height - 50, width, 50);
+        this.button = new Rectangle(x, height - SIZE, width, SIZE);
         this.pages = (int) Math.ceil((double) items.size() / (cols * rows));
     }
 
@@ -81,7 +82,7 @@ public class JEI extends Rectangle {
         for (int row = 0, i = 0; row < rows; row++) {
             for (int col = 0; col < cols; col++, i++) {
                 if (i < list.size()) {
-                    list.get(i).draw(c, x + col * 50, y + row * 50+ 50);
+                    list.get(i).draw(c, x + col * SIZE, y + row * SIZE+ SIZE);
                 }
             }
         }

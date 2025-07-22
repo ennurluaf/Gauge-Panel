@@ -112,7 +112,7 @@ public class GContext {
         return this;
     }
 
-    public GContext translate(int x, int y) {
+    public GContext translate(double x, double y) {
         g.translate(x, y);
         return this;
     }

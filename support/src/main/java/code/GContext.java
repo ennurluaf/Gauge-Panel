@@ -4,6 +4,8 @@ import java.awt.*;
 import java.awt.geom.AffineTransform;
 import java.awt.image.BufferedImage;
 
+import org.w3c.dom.css.Rect;
+
 public class GContext {
 
     private Graphics2D g;
@@ -101,7 +103,8 @@ public class GContext {
     }
 
     public GContext restore() {
-        if (af == null) return null;
+        if (af == null)
+            return null;
         g.setTransform(af);
         g.setClip(null);
         return this;
@@ -134,7 +137,7 @@ public class GContext {
 
     public GContext scale(double s) {
         return scale(s, s);
-    }   
+    }
 
     public GContext text(String text, float x, float y) {
         if (centered) {
@@ -153,6 +156,15 @@ public class GContext {
         int textWidth = fm.stringWidth(text);
         int textHeight = fm.getAscent();
         return new Point(-textWidth / 2, textHeight / 2);
+    }
+
+    public Point textPos(String text, Rectangle context) {
+        FontMetrics fm = g.getFontMetrics();
+        int x = context.x + context.width / 2;
+        int y = context.y + context.height / 2;
+        int textWidth = fm.stringWidth(text);
+        int textHeight = fm.getAscent();
+        return new Point(x - textWidth / 2, y + textHeight / 2);
     }
 
     public GContext drawImage(BufferedImage img, int x, int y, int w, int h) {
@@ -178,9 +190,5 @@ public class GContext {
         rect(rect.x, rect.y, rect.width, rect.height);
         return this;
     }
-
-
-
-
 
 }

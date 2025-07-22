@@ -5,20 +5,29 @@ import java.awt.Rectangle;
 import static factorypanel.GaugePanel.SIZE;
 import code.Drag;
 import code.GContext;
+import code.JSList;
 
 public class FactoryPanel extends Rectangle {
 
     private static final long serialVersionUID = 1L;
     public final Drag drag = new Drag();
     private Point mouse = new Point(0, 0);
+    private JSList<Box> boxes = new JSList<>();
 
     public FactoryPanel(int x, int y, int width, int height) {
         super(x, y, width, height);
     }
 
     public void press(Point mouse) {
-        if (contains(mouse)) {
-            drag.press(mouse);
+        drag.press(mouse);
+        var pos = tilePos();
+        var next = boxes.find(box -> box.x == pos.x && box.y == pos.y);
+        if(next == null) {
+            boxes.add(new Box(pos.x, pos.y));
+        } else if(next.selected){
+            next.selected = false;
+        } else {
+            next.selected = true;
         }
     }
 
@@ -31,6 +40,9 @@ public class FactoryPanel extends Rectangle {
 
     public void move(Point mouse) {
         this.mouse = mouse;
+        boxes.forEach(box -> {
+            box.hovered = box.contains(mouse);
+        });
     }
 
     public void release() {
@@ -39,11 +51,11 @@ public class FactoryPanel extends Rectangle {
 
     private Point tilePos() {
         var offset = drag.getMouse(mouse);
-        int negX = offset.x < 0 ? -1 : 0;
-        int negY = offset.y < 0 ? -1 : 0;
+        int negX = offset.x < 0 ? -50 : 0;
+        int negY = offset.y < 0 ? -50 : 0;
         return new Point(
-                (int) (offset.x / SIZE) + negX,
-                (int) (offset.y / SIZE) + negY);
+                (int) (offset.x / SIZE) * 50 + negX,
+                (int) (offset.y / SIZE) * 50 + negY);
     }
 
     public void draw(GContext c) {
@@ -52,7 +64,11 @@ public class FactoryPanel extends Rectangle {
         c.translate(drag.origin.x, drag.origin.y);
 
         var tilePos = tilePos();
-        c.fill(255, 100, 100).rect(tilePos.x * SIZE, tilePos.y * SIZE, SIZE, SIZE);
+        c.fill(255, 100, 100, 50).rect(tilePos.x, tilePos.y, SIZE, SIZE);
+
+        c.fill(0).circle(0, 0, 5);
+
+        boxes.forEach(box -> box.draw(c));
 
         c.restore();
     }
@@ -79,18 +95,14 @@ public class FactoryPanel extends Rectangle {
 class Box extends Rectangle {
 
     private static final long serialVersionUID = 1L;
-    private boolean hovered = false, selected = false;
+    public boolean hovered = false, selected = false;
 
     public Box(int x, int y) {
         super(x, y, SIZE, SIZE);
     }
 
-    public void update(Point mouse) {
-        setLocation(mouse);
-    }
-
     public void draw(GContext c) {
-        c.fill(255,100,100,100).rect(this);
+        c.fill(100,255,100,100).rect(this);
         if (hovered) {
             c.fill(0, 50).rect(this);
         }

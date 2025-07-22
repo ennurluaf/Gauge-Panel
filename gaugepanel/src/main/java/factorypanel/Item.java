@@ -10,6 +10,7 @@ public class Item extends Rectangle {
     private final String idString;
     private final String name;
     private final Sprite sprite;
+    public static String searchMode = "";
     public boolean hovered, selected;
     private final int id;
 
@@ -37,6 +38,20 @@ public class Item extends Rectangle {
         return id;
     }
 
+    public boolean matches(String query) {
+        if (query.isEmpty()) return true;
+        String lowerCaseQuery = query.toLowerCase();
+        if (searchMode.equals("id")) {
+            return idString.toLowerCase().contains(lowerCaseQuery);
+        } else if (searchMode.equals("mod")) {
+            String modId = idString.split(":")[0].toLowerCase();
+            return modId.toLowerCase().contains(query.split(" ")[0]) &&
+                   name.toLowerCase().contains(query.split(" ")[1]);
+        } else {
+            return name.toLowerCase().contains(lowerCaseQuery);
+        }
+    }
+
     public void draw(GContext c, int x, int y) {
         this.setBounds(x,y, sprite.getWidth(), sprite.getHeight());
         sprite.draw(c, x, y);
@@ -51,11 +66,7 @@ public class Item extends Rectangle {
 
     @Override
     public String toString() {
-        return "Item{" +
-                "idString='" + idString + '\'' +
-                ", name='" + name + '\'' +
-                ", id=" + id +
-                '}';
+        return "Item{id='" + idString + ", name='" + name + '}';
     }
 
 }

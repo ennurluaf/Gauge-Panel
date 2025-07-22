@@ -45,6 +45,7 @@ public class JEI extends Rectangle {
                     index++;
                 }
             }
+
             clock = System.currentTimeMillis();
         }
         this.getCurrentPageItems().forEach(item -> {
@@ -91,12 +92,13 @@ public class JEI extends Rectangle {
     private void drawButton(GContext c) {
         String current = (this.index + 1) + " / " + pages;
         int[] prevColor = { this.index == 0 ? 100 : 0 }, nextColor = { this.index >= pages ? 100 : 0 };
-        var textPos = c.textPos(current);
-        int textY = button.height / 2 + textPos.y;
-        c.save().clip(button).fill(255).rect(button).translate(button.x, button.y)
-                .fill(prevColor).circle(5, button.height / 2, 25)
-                .fill(nextColor).circle(button.width - 5, button.height / 2, 25)
-                .fill(0).text(current, button.width / 2 + textPos.x, textY).restore();
+        var textPos = c.textPos(current, button);
+        c.save().clip(button).fill(255).rect(button)
+                .fill(0).text(current, textPos.x, textPos.y)
+                .translate(button.x, button.y)
+                .fill(prevColor).circle(5, button.height / 2, 26)
+                .fill(nextColor).circle(button.width - 5, button.height / 2, 26)
+                .restore();
     }
 
 }

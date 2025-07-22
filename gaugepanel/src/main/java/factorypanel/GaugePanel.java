@@ -166,7 +166,7 @@ public class GaugePanel extends JPanel {
             }
 
             public void mouseMoved(java.awt.event.MouseEvent e) {
-                if (Mode.PANEL.is("factory")) {
+                if (panelMode.equalsIgnoreCase("factory")) {
                     factorypanel.move(e.getPoint());
                 } else {
                     jei.move(e.getPoint());

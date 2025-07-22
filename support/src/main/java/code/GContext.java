@@ -4,8 +4,6 @@ import java.awt.*;
 import java.awt.geom.AffineTransform;
 import java.awt.image.BufferedImage;
 
-import org.w3c.dom.css.Rect;
-
 public class GContext {
 
     private Graphics2D g;

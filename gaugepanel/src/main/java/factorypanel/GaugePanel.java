@@ -1,31 +1,23 @@
 package factorypanel;
 
-import java.awt.BorderLayout;
-import java.awt.Color;
-import java.awt.Dimension;
-import java.awt.Graphics;
-import java.awt.Rectangle;
-import java.awt.event.MouseAdapter;
-import java.io.IOException;
-import java.io.InputStream;
+import java.awt.*;
+import java.awt.event.*;
+import java.io.*;
 
 import javax.imageio.ImageIO;
-import javax.swing.JFrame;
-import javax.swing.JPanel;
-import javax.swing.JTextField;
+import javax.swing.*;
 
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
-import code.GContext;
-import code.JSArray;
-import code.Sprite;
+import code.*;
 
 public class GaugePanel extends JPanel {
 
     private record ItemData(String id, String name, String image) {
     }
 
+    public JMenuBar menuBar = new JMenuBar();
     public JTextField searchField = new JTextField();
     private JSArray<Item> items;
     private Rectangle factorypanel;
@@ -42,8 +34,54 @@ public class GaugePanel extends JPanel {
         factorypanel = new Rectangle(0, 0, (5*1200)/8, 900);
         jei = new JEI((5*1200)/8, 0, (3*1200)/8, 900, items, 50);
 
-        addMouseListener(mouseAdapter);
-        addMouseMotionListener(mouseAdapter);
+        menuBar.setLayout(new BoxLayout(menuBar, BoxLayout.X_AXIS));    
+        
+        JMenu fileMenu = new JMenu("File");
+        JMenuItem exitItem = new JMenuItem("Exit");
+        exitItem.addActionListener(e -> System.exit(0));
+        fileMenu.add(exitItem);
+        menuBar.add(fileMenu);      
+
+        JMenu editMenu = new JMenu("Edit");
+        menuBar.add(editMenu);
+
+        menuBar.add(Box.createHorizontalGlue());
+
+        searchField.setPreferredSize(new Dimension(450, 25));
+        searchField.setMaximumSize(new Dimension(450, 25));
+        searchField.setToolTipText("Search items...");
+        searchField.addActionListener(e -> {
+            String query = searchField.getText().toLowerCase();
+            jei.search(query);
+            repaint();
+        });
+        searchField.addKeyListener(new KeyAdapter() {
+            @Override
+            public void keyReleased(KeyEvent e) {
+                String query = searchField.getText().toLowerCase();
+                jei.search(query);
+                repaint();
+            }
+        });
+        searchField.addMouseListener(new MouseAdapter() {
+            @Override
+            public void mouseClicked(MouseEvent e) {
+                if (e.getButton() == MouseEvent.BUTTON2) { // Right-click to clear search
+                    searchField.setText("");
+                    jei.search("");
+                }
+                repaint();
+            }
+        });
+        menuBar.add(searchField);
+
+        JButton addButton = new JButton("+");
+        addButton.addActionListener(e -> {});
+        menuBar.add(addButton); 
+
+
+        addMouseListener(mouseAdapter());
+        addMouseMotionListener(mouseAdapter());
     }
 
     private static Sprite load(String path) {
@@ -59,7 +97,8 @@ public class GaugePanel extends JPanel {
         return GaugePanel.class.getClassLoader();
     }
 
-    private MouseAdapter mouseAdapter = new MouseAdapter() {
+    private MouseAdapter mouseAdapter(){
+        return new MouseAdapter() {
         @Override
         public void mousePressed(java.awt.event.MouseEvent e) {
             jei.press(e.getPoint());
@@ -71,11 +110,8 @@ public class GaugePanel extends JPanel {
             repaint();
         };
     };
+}
 
-    {
-        addMouseListener(mouseAdapter);
-        addMouseMotionListener(mouseAdapter);
-    }
 
     @Override
     protected void paintComponent(Graphics g) {
@@ -95,8 +131,7 @@ public class GaugePanel extends JPanel {
         GaugePanel panel = new GaugePanel();
         panel.setPreferredSize(new Dimension(1200, 900));
         panel.setBackground(Color.lightGray);
-        panel.searchField.setPreferredSize(new Dimension(1200, 30));
-        frame.add(panel.searchField, BorderLayout.NORTH);
+        frame.setJMenuBar(panel.menuBar);
         frame.add(panel, BorderLayout.CENTER);
         frame.pack();
         frame.setLocationRelativeTo(null);

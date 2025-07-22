@@ -41,10 +41,10 @@ public class Item extends Rectangle {
         this.setBounds(x,y, sprite.getWidth(), sprite.getHeight());
         sprite.draw(c, x, y);
         if (hovered) {
-            c.fill(255, 0, 0, 100).rect(this);
+            c.fill(0, 50).rect(this);
         }
         if (selected) {
-            c.stroke(0, 255, 0, 100).rect(this);  
+            c.stroke(0, 255).rect(this);  
         }
 
     }

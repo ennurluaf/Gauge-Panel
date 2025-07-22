@@ -103,6 +103,12 @@ public class GContext {
     public GContext restore() {
         if (af == null) return null;
         g.setTransform(af);
+        g.setClip(null);
+        return this;
+    }
+
+    public GContext clip(Shape shape) {
+        g.setClip(shape);
         return this;
     }
 

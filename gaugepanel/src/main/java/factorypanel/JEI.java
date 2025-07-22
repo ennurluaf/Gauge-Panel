@@ -13,6 +13,7 @@ public class JEI extends Rectangle {
     private int index = 0;
     private long clock = System.currentTimeMillis(), cd = 500; // cooldown in milliseconds
     private final Rectangle button;
+    private String searchQuery = "";
 
     public JEI(int x, int y, int width, int height, JSArray<Item> items, int size) {
         super(x, y, width, height);
@@ -21,6 +22,15 @@ public class JEI extends Rectangle {
         this.rows = height / size - 2;
         this.button = new Rectangle(x, height - 50, width, 50);
         this.pages = (int) Math.ceil((double) items.size() / (cols * rows));
+    }
+
+    public void search(String query) {
+        if (query.isEmpty()) {
+            index = 0; // Reset index if search is cleared
+            this.searchQuery = ""; // Clear search query
+        } else {
+            this.searchQuery = query.toLowerCase();
+        }
     }
 
     public void press(Point mouse) {
@@ -43,9 +53,6 @@ public class JEI extends Rectangle {
 
     public void move(Point mouse) {
         this.getCurrentPageItems().forEach(item -> {
-            item.hovered = false;
-        });
-        this.getCurrentPageItems().forEach(item -> {
             item.hovered = item.contains(mouse);
         });
     }
@@ -53,38 +60,41 @@ public class JEI extends Rectangle {
     private JSArray<Item> getCurrentPageItems() {
         int start = index * cols * rows;
         int end = Math.min(start + cols * rows, items.size());
-        return items.slice(start, end);
+        return items.filter(item -> item.name().contains(searchQuery)).slice(start, end);
     }
 
     public void draw(GContext c) {
+        drawName(c);
+        drawItems(c);
+        drawButton(c);
+    }
+
+    private void drawName(GContext c) {
+        var item = getCurrentPageItems().find(i -> i.hovered);
+        String text = item != null ? item.name() : "No item selected";
+        c.fill(255).text(text, x + 5, button.height / 2 + c.textPos(text).y);
+    }
+    
+    private void drawItems(GContext c) {
         var list = getCurrentPageItems();
         c.fill(0).rect(this);
         for (int row = 0, i = 0; row < rows; row++) {
             for (int col = 0; col < cols; col++, i++) {
                 if (i < list.size()) {
-                    list.get(i).draw(c, x + col * 50, y + row * 50);
+                    list.get(i).draw(c, x + col * 50, y + row * 50+ 50);
                 }
             }
         }
-        drawName(c);
-        drawButton(c);
-    }
-
-    private void drawName(GContext c) {
-        var item = items.find(i -> i.hovered);
-        System.out.println(item);
-        String text = item != null ? item.name() : "No item selected";
-        c.fill(255).text(text, x + 5, button.y - button.height / 2 + c.textPos(text).y);
     }
 
     private void drawButton(GContext c) {
-        String prev = "<", next = ">", current = (this.index + 1) + " / " + pages;
+        String current = (this.index + 1) + " / " + pages;
         int[] prevColor = { this.index == 0 ? 100 : 0 }, nextColor = { this.index >= pages ? 100 : 0 };
-        int textY = button.height / 2 + c.textPos(next).y;
         var textPos = c.textPos(current);
-        c.save().fill(255).rect(button).translate(button.x, button.y).setStrokeWidth(10)
-                .fill(prevColor).text(prev, 0, textY)
-                .fill(nextColor).text(next, button.width + c.textPos(next).x * 4, textY)
+        int textY = button.height / 2 + textPos.y;
+        c.save().clip(button).fill(255).rect(button).translate(button.x, button.y)
+                .fill(prevColor).circle(5, button.height/2, 25)
+                .fill(nextColor).circle(button.width - 5, button.height/2, 25)
                 .fill(0).text(current, button.width / 2 + textPos.x, textY).restore();
     }
 

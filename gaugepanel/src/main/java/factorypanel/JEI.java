@@ -75,14 +75,14 @@ public class JEI extends Rectangle {
         String text = item != null ? item.name() : "No item selected";
         c.fill(255).text(text, x + 5, button.height / 2 + c.textPos(text).y);
     }
-    
+
     private void drawItems(GContext c) {
         var list = getCurrentPageItems();
         c.fill(0).rect(this);
         for (int row = 0, i = 0; row < rows; row++) {
             for (int col = 0; col < cols; col++, i++) {
                 if (i < list.size()) {
-                    list.get(i).draw(c, x + col * SIZE, y + row * SIZE+ SIZE);
+                    list.get(i).draw(c, x + col * SIZE, y + row * SIZE + SIZE);
                 }
             }
         }
@@ -94,8 +94,8 @@ public class JEI extends Rectangle {
         var textPos = c.textPos(current);
         int textY = button.height / 2 + textPos.y;
         c.save().clip(button).fill(255).rect(button).translate(button.x, button.y)
-                .fill(prevColor).circle(5, button.height/2, 25)
-                .fill(nextColor).circle(button.width - 5, button.height/2, 25)
+                .fill(prevColor).circle(5, button.height / 2, 25)
+                .fill(nextColor).circle(button.width - 5, button.height / 2, 25)
                 .fill(0).text(current, button.width / 2 + textPos.x, textY).restore();
     }
 

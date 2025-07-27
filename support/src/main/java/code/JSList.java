@@ -219,6 +219,20 @@ public class JSList<T> extends ArrayList<T> {
     public void forEach(Consumer<? super T> action) {
         super.forEach(action);
     }
+    
+    public interface IntConsumer<T> {
+        void accept(T t, int index);
+    }
+
+    public void forEach(IntConsumer<T> action) {
+        for (int i = 0; i < this.size(); i++) {
+            action.accept(this.get(i), i);
+        }
+    }
+
+    public boolean removeIf(Predicate<? super T> filter) {
+        return super.removeIf(filter);
+    }
 
     public boolean equals(Object o) {
         if (this == o) return true;

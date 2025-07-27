@@ -2,6 +2,7 @@ package factorypanel;
 
 import java.awt.Rectangle;
 
+import factorypanel.Mode.SEARCH;
 import code.*;
 
 public class Item extends Rectangle {
@@ -10,7 +11,6 @@ public class Item extends Rectangle {
     private final String idString;
     private final String name;
     private final Sprite sprite;
-    public static String searchMode = "";
     public boolean hovered, selected;
     private final int id;
 
@@ -41,9 +41,9 @@ public class Item extends Rectangle {
     public boolean matches(String query) {
         if (query.isEmpty()) return true;
         String lowerCaseQuery = query.toLowerCase();
-        if (searchMode.equals("id")) {
+        if (SEARCH.ID.is()) {
             return idString.toLowerCase().contains(lowerCaseQuery);
-        } else if (searchMode.equals("mod")) {
+        } else if (SEARCH.MOD.is()) {
             String modId = idString.split(":")[0].toLowerCase();
             return modId.toLowerCase().contains(query.split(" ")[0]) &&
                    name.toLowerCase().contains(query.split(" ")[1]);
@@ -53,7 +53,7 @@ public class Item extends Rectangle {
     }
 
     public void draw(GContext c, int x, int y) {
-        this.setBounds(x,y, sprite.getWidth(), sprite.getHeight());
+        this.setBounds(sprite.getRect(x, y));
         sprite.draw(c, x, y);
         if (hovered) {
             c.fill(0, 50).rect(this);

@@ -62,7 +62,7 @@ public class JEI extends Rectangle {
     private JSList<Item> getCurrentPageItems() {
         int start = index * cols * rows;
         int end = Math.min(start + cols * rows, items.size());
-        return items.filter(item -> item.name().contains(searchQuery)).slice(start, end);
+        return items.filter(item -> item.matches(searchQuery)).slice(start, end);
     }
 
     public void draw(GContext c) {

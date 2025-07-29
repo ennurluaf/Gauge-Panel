@@ -85,24 +85,32 @@ public interface Mode {
         Factory(FACTORY.values()),
         Box(BOX.values()); 
 
-        private final Mode[] modes;
+        private final JSList<Mode> modes;
+        private JMenuItem selectedMenuItem = null;
         public static JSList<Modes> list = new JSList<>(values());
 
         Modes(Mode[] modes) {
-            this.modes = modes;
+            this.modes = new JSList<>(modes);
+        }
+
+        private void setSelected(JMenu menu, Mode mode, JMenuItem menuItem) {
+            mode.setMode();
+            menu.setText(name() + " - " + mode.title());
+            if (selectedMenuItem != null) {
+                selectedMenuItem.setEnabled(true);
+            }
+            selectedMenuItem = menuItem;
+            menuItem.setEnabled(false);
         }
 
         public JMenu createMenu() {
-            JMenu menu = new JMenu(name() + " - " + modes[0].title());
-            for (int i = 0; i < modes.length; i++) {
-                Mode mode = modes[i]; // Final variable for lambda
-                JMenuItem menuItem = new JMenuItem(mode.title());
-                menuItem.addActionListener(e -> {
-                    mode.setMode();
-                    menu.setText(name() + " - " + mode.title());
-                });
+            JMenu menu = new JMenu(name());
+            modes.forEach(m -> {
+                JMenuItem menuItem = new JMenuItem(m.title());
+                menuItem.addActionListener(e -> setSelected(menu, m, menuItem));
                 menu.add(menuItem);
-            }
+            });
+            setSelected(menu, modes.first(), menu.getItem(0));
             return menu;
         }
 

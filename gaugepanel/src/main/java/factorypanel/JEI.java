@@ -35,7 +35,7 @@ public class JEI extends Rectangle {
     }
 
     public void press(Point mouse) {
-        if (button.contains(mouse) && System.currentTimeMillis() - clock > cd) {
+        if (System.currentTimeMillis() - clock > cd) {
             if (mouse.x < button.x + button.width / 2) {
                 if (index > 0) {
                     index--;
@@ -45,11 +45,10 @@ public class JEI extends Rectangle {
                     index++;
                 }
             }
-
             clock = System.currentTimeMillis();
         }
         this.getCurrentPageItems().forEach(item -> {
-            item.selected = item.contains(mouse);
+            item.selected = item.contains(mouse) && !item.selected;
         });
     }
 
@@ -73,8 +72,9 @@ public class JEI extends Rectangle {
     }
 
     private void drawName(GContext c) {
-        var item = getCurrentPageItems().find(i -> i.hovered);
-        String text = item != null ? item.name() : "No item selected";
+        var selected = getCurrentPageItems().find(i -> i.selected);
+        var hover = getCurrentPageItems().find(i -> i.hovered);
+        String text = selected != null ? selected.name() : (hover != null ? hover.name() : "No item selected");
         c.fill(255).text(text, x + 10, button.height / 2 + c.textPos(text).y);
     }
 
@@ -91,13 +91,14 @@ public class JEI extends Rectangle {
 
     private void drawButton(GContext c) {
         String current = (this.index + 1) + " / " + pages;
-        int[] prevColor = { this.index == 0 ? 100 : 0 }, nextColor = { this.index >= pages ? 100 : 0 };
+        int[] prevColor = { this.index == 0 ? 100 : 0 };
+        int[] nextColor = { this.index >= pages ? 100 : 0 };
         var textPos = c.textPos(current, button);
         c.save().clip(button).fill(255).rect(button)
                 .fill(0).text(current, textPos.x, textPos.y)
                 .translate(button.x, button.y)
-                .fill(prevColor).circle(5, button.height / 2, 26)
-                .fill(nextColor).circle(button.width - 5, button.height / 2, 26)
+                .fill(prevColor).circle(0, button.height / 2, 26)
+                .fill(nextColor).circle(button.width, button.height / 2, 26)
                 .restore();
     }
 

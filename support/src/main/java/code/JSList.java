@@ -296,6 +296,12 @@ public class JSList<T> extends ArrayList<T> {
         return array;
     }
 
+    public static void iterate(int range, java.util.function.IntConsumer action) {
+        for (int i = 0; i < range; i++) {
+            action.accept(i); 
+        }
+    }
+
     public static <T> JSList<T> repeat(T item, int times) {
         JSList<T> array = new JSList<>();
         for (int i = 0; i < times; i++) {

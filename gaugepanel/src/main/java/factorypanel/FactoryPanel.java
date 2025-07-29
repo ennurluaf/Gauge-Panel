@@ -6,6 +6,7 @@ import static factorypanel.GaugePanel.SIZE;
 import code.Drag;
 import code.GContext;
 import code.JSList;
+import factorypanel.Mode.FACTORY;
 
 public class FactoryPanel extends Rectangle {
 
@@ -19,15 +20,18 @@ public class FactoryPanel extends Rectangle {
     }
 
     public void press(Point mouse) {
-        drag.press(mouse);
-        var pos = tilePos();
-        var next = boxes.find(box -> box.x == pos.x && box.y == pos.y);
-        if(next == null) {
-            boxes.add(new Box(pos.x, pos.y));
-        } else if(next.selected){
-            next.selected = false;
+        if (FACTORY.DRAG.is()) {
+            drag.press(mouse);
         } else {
-            next.selected = true;
+            var pos = tilePos();
+            var next = boxes.find(box -> box.x == pos.x && box.y == pos.y);
+            if (next == null) {
+                boxes.add(new Box(pos.x, pos.y));
+            } else if (next.selected) {
+                next.selected = false;
+            } else {
+                next.selected = true;
+            }
         }
     }
 
@@ -49,6 +53,11 @@ public class FactoryPanel extends Rectangle {
         drag.release();
     }
 
+    public void reset() {
+        drag.origin.setLocation(0, 0);
+        boxes.forEach(box -> box.selected = false);
+    }
+
     private Point tilePos() {
         var offset = drag.getMouse(mouse);
         int negX = offset.x < 0 ? -50 : 0;
@@ -64,9 +73,9 @@ public class FactoryPanel extends Rectangle {
         c.translate(drag.origin.x, drag.origin.y);
 
         var tilePos = tilePos();
-        c.fill(255, 100, 100, 50).rect(tilePos.x, tilePos.y, SIZE, SIZE);
+        c.stroke(100, 50).rect(tilePos.x, tilePos.y, SIZE, SIZE);
 
-        c.fill(0).circle(0, 0, 5);
+        c.fill(255, 50, 50).circle(0, 0, 5);
 
         boxes.forEach(box -> box.draw(c));
 
@@ -74,9 +83,7 @@ public class FactoryPanel extends Rectangle {
     }
 
     private void drawLines(GContext c) {
-        Point lineOffset = new Point(
-                (int) this.drag.origin.x - (int) (this.drag.origin.x / SIZE) * SIZE,
-                (int) this.drag.origin.y - (int) (this.drag.origin.y / SIZE) * SIZE);
+        Point lineOffset = this.drag.getLineOffset(SIZE);
         c.stroke(100, 100);
         // Vertical lines
         for (int i = 0; i <= width / SIZE; i++) {
@@ -94,7 +101,6 @@ public class FactoryPanel extends Rectangle {
 
 class Box extends Rectangle {
 
-    private static final long serialVersionUID = 1L;
     public boolean hovered = false, selected = false;
 
     public Box(int x, int y) {
@@ -102,7 +108,7 @@ class Box extends Rectangle {
     }
 
     public void draw(GContext c) {
-        c.fill(100,255,100,100).rect(this);
+        c.fill(100, 100, 255, 100).rect(this);
         if (hovered) {
             c.fill(0, 50).rect(this);
         }

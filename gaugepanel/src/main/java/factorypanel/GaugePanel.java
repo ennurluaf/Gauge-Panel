@@ -16,8 +16,8 @@ import factorypanel.Mode.*;
 
 public class GaugePanel extends JPanel {
 
-    private record ItemData(String id, String name, String image) {}
-    
+    public static record ItemData(String id, String name, String image) {}
+
     public static final int SIZE = 50;
     public JMenuBar menuBar = new JMenuBar();
     private JSList<Item> items;
@@ -25,13 +25,7 @@ public class GaugePanel extends JPanel {
     private JEI jei;
 
     public GaugePanel() {
-        try (InputStream is = loader().getResourceAsStream("minecraft/items.json")) {
-            JSList<ItemData> data = new ObjectMapper().readValue(is, new TypeReference<JSList<ItemData>>() {
-            });
-            items = data.map((d, id) -> new Item(d.id, d.name, load(d.image).resize(SIZE, SIZE), id));
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
+        items = getItemDatas().map((d, id) -> new Item(d, load(d.image), id));
 
         factorypanel = new FactoryPanel(0, 0, (5 * 1200) / 8, 900);
         jei = new JEI((5 * 1200) / 8, 0, (3 * 1200) / 8, 900, items, SIZE);
@@ -54,14 +48,8 @@ public class GaugePanel extends JPanel {
         menuBar.add(Box.createHorizontalGlue());
 
         JTextField searchField = new JTextField();
-        searchField.setPreferredSize(new Dimension(450, 25));
-        searchField.setMaximumSize(new Dimension(450, 25));
-        searchField.setToolTipText("Search items...");
-        searchField.addActionListener(e -> {
-            String query = searchField.getText().toLowerCase();
-            jei.search(query);
-            repaint();
-        });
+        searchField.setPreferredSize(new Dimension(550, 25));
+        searchField.setMaximumSize(new Dimension(550, 25));
         searchField.addKeyListener(new KeyAdapter() {
             @Override
             public void keyReleased(KeyEvent e) {
@@ -92,7 +80,7 @@ public class GaugePanel extends JPanel {
     }
 
     private static Sprite load(String path) {
-        try (InputStream is = loader().getResourceAsStream("minecraft/textures/" + path)) {
+        try (InputStream is = loader("minecraft/textures/" + path)) {
             return new Sprite(ImageIO.read(is));
         } catch (IOException e) {
             e.printStackTrace();
@@ -100,9 +88,19 @@ public class GaugePanel extends JPanel {
         return null;
     }
 
-    private static ClassLoader loader() {
-        return GaugePanel.class.getClassLoader();
+    private static InputStream loader(String path) {
+        return GaugePanel.class.getClassLoader().getResourceAsStream(path);
     }
+
+    private static JSList<ItemData> getItemDatas() {
+        try (InputStream is = loader("minecraft/items.json")) {
+            ObjectMapper mapper = new ObjectMapper();
+            return mapper.readValue(is, new TypeReference<JSList<ItemData>>() {});
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        return new JSList<>();
+    }            
 
     private MouseAdapter mouseAdapter() {
         return new MouseAdapter() {
@@ -119,11 +117,8 @@ public class GaugePanel extends JPanel {
             }
 
             public void mouseMoved(java.awt.event.MouseEvent e) {
-                if (SIDE.FACTORY.is()) {
-                    factorypanel.move(e.getPoint());
-                } else {
-                    jei.move(e.getPoint());
-                }
+                factorypanel.move(e.getPoint());
+                jei.move(e.getPoint());
                 repaint();
             };
 

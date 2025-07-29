@@ -20,6 +20,12 @@ public class Drag {
         );
     }
 
+    public Point getLineOffset(int size) {
+        int x = (int) origin.x - (int) (origin.x / size) * size;
+        int y = (int) origin.y - (int) (origin.y / size) * size;
+        return new Point(x, y);
+    }
+
     public void press(Point p) {
         this.active = true;
         this.offset.x  = p.x - this.origin.x;

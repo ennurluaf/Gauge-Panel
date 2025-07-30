@@ -1,11 +1,16 @@
 package code;
 
+import java.awt.Point;
 import java.awt.Rectangle;
 
 public interface Size {
 
     public int getWidth();
     public int getHeight();
+
+    public static <Rect extends Rectangle> Point get(Rect rect, Pos pos) {
+        return pos.posCalc.getPos(rect.x, rect.y, rect.width, rect.height).getLocation();
+    }
 
     public static enum Pos {
         SIZE((x, y, w, h) -> rect(0, 0, w, h)),

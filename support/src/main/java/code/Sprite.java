@@ -14,6 +14,11 @@ public class Sprite extends BufferedImage implements Size{
         getGraphics().drawImage(img, 0, 0, null);
     }
 
+    public Sprite(BufferedImage img, int width, int height) {
+        super(width, height, BufferedImage.TYPE_INT_ARGB);
+        getGraphics().drawImage(img, 0, 0, width, height, null);
+    }
+
     public GContext create() {
         return new GContext(createGraphics());
     }

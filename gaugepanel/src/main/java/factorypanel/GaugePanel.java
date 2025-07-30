@@ -28,7 +28,7 @@ public class GaugePanel extends JPanel {
         items = getItemDatas().map((d, id) -> new Item(d, load(d.image), id));
 
         factorypanel = new FactoryPanel(0, 0, (5 * 1200) / 8, 900);
-        jei = new JEI((5 * 1200) / 8, 0, (3 * 1200) / 8, 900, items, SIZE);
+        jei =          new JEI((5 * 1200) / 8, 0, (3 * 1200) / 8, 900, items);
 
         menuBar.setLayout(new BoxLayout(menuBar, BoxLayout.X_AXIS));
 
@@ -81,7 +81,7 @@ public class GaugePanel extends JPanel {
 
     private static Sprite load(String path) {
         try (InputStream is = loader("minecraft/textures/" + path)) {
-            return new Sprite(ImageIO.read(is));
+            return new Sprite(ImageIO.read(is), SIZE, SIZE);
         } catch (IOException e) {
             e.printStackTrace();
         }

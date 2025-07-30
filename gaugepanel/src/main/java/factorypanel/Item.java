@@ -3,7 +3,6 @@ package factorypanel;
 import java.awt.Rectangle;
 
 import factorypanel.Mode.SEARCH;
-import static factorypanel.GaugePanel.SIZE;
 import code.*;
 
 public class Item extends Rectangle {
@@ -16,10 +15,10 @@ public class Item extends Rectangle {
     private final int id;
 
     public Item(GaugePanel.ItemData data, Sprite sprite, int id) {
-        super(0, 0, SIZE, SIZE);
+        super(sprite.getRect());
         this.idString = data.id();
         this.name = data.name();
-        this.sprite = sprite.resize(SIZE, SIZE);
+        this.sprite = sprite;
         this.id = id;
     }
 
@@ -60,10 +59,11 @@ public class Item extends Rectangle {
             c.fill(0, 50).rect(this);
         }
         if (selected) {
-            c.save();
-            // c.setStrokeWidth(3);
-            c.stroke(0, 255).rect(this);
-            c.restore();  
+            float sw = 2f; // stroke width
+            Rectangle r = new Rectangle((int)(x + sw/2),(int) (y + sw/2), (int)(width - sw), (int)(height - sw));
+            c.setStrokeWidth(sw);
+            c.stroke(0, 100).rect(r);
+            c.setStrokeWidth(1);
         }
 
     }

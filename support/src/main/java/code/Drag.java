@@ -28,8 +28,8 @@ public class Drag {
 
     public void press(Point p) {
         this.active = true;
-        this.offset.x  = p.x - this.origin.x;
-        this.offset.y  = p.y - this.origin.y;
+        this.offset.x = p.x - this.origin.x;
+        this.offset.y = p.y - this.origin.y;
     }
 
     public void drag(Point p) {

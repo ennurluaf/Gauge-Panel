@@ -2,11 +2,12 @@ package factorypanel;
 
 import java.awt.Point;
 import java.awt.Rectangle;
+
 import static factorypanel.GaugePanel.SIZE;
-import code.Drag;
-import code.GContext;
-import code.JSList;
+
+import factorypanel.Mode.BOX;
 import factorypanel.Mode.FACTORY;
+import code.*;
 
 public class FactoryPanel extends Rectangle {
 
@@ -23,15 +24,42 @@ public class FactoryPanel extends Rectangle {
         if (FACTORY.DRAG.is()) {
             drag.press(mouse);
         } else {
-            var pos = tilePos();
-            var next = boxes.find(box -> box.x == pos.x && box.y == pos.y);
-            if (next == null) {
-                boxes.add(new Box(pos.x, pos.y));
-            } else if (next.selected) {
-                next.selected = false;
-            } else {
-                next.selected = true;
-            }
+            interact();
+        }
+    }
+    
+    private void interact() {
+        var pos = tilePos();
+        var next = boxes.find(box -> box.x == pos.x && box.y == pos.y);
+        switch (BOX.mode) {
+            case ADD -> add(pos, next);
+            case MOVE -> move(next);
+            case EDIT -> edit(next);
+            case REMOVE -> remove(next);
+        }
+    }
+    
+    private void add(Rectangle pos, Box next) {
+        if (next == null) {
+            boxes.add(new Box(pos.x, pos.y));
+        } else if (next.selected) {
+            next.selected = false;
+        } else {
+            next.selected = true;
+        }
+    }
+
+    private void edit(Box next) {
+
+    }
+
+    private void move(Box next) {
+        
+    }
+
+    private void remove(Box next) {
+        if (next != null) {
+            boxes.remove(next);
         }
     }
 
@@ -58,26 +86,27 @@ public class FactoryPanel extends Rectangle {
         boxes.forEach(box -> box.selected = false);
     }
 
-    private Point tilePos() {
+    private Rectangle tilePos() {
         var offset = drag.getMouse(mouse);
-        int negX = offset.x < 0 ? -50 : 0;
-        int negY = offset.y < 0 ? -50 : 0;
-        return new Point(
-                (int) (offset.x / SIZE) * 50 + negX,
-                (int) (offset.y / SIZE) * 50 + negY);
+        int negX = offset.x < 0 ? -SIZE : 0;
+        int negY = offset.y < 0 ? -SIZE : 0;
+        return new Rectangle(
+                (int) (offset.x / SIZE) * SIZE + negX,
+                (int) (offset.y / SIZE) * SIZE + negY,
+                SIZE, SIZE);
     }
 
     public void draw(GContext c) {
         c.save().clip(this).fill(200).rect(this);
         drawLines(c);
         c.translate(drag.origin.x, drag.origin.y);
-
-        var tilePos = tilePos();
-        c.stroke(100, 50).rect(tilePos.x, tilePos.y, SIZE, SIZE);
-
-        c.fill(255, 50, 50).circle(0, 0, 5);
+        c.fill(0, 150).circle(0, 0, 5);
 
         boxes.forEach(box -> box.draw(c));
+
+
+
+        c.stroke(100, 50).rect(tilePos());
 
         c.restore();
     }

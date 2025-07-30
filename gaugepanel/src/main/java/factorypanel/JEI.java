@@ -16,11 +16,11 @@ public class JEI extends Rectangle {
     private final Rectangle button;
     private String searchQuery = "";
 
-    public JEI(int x, int y, int width, int height, JSList<Item> items, int size) {
+    public JEI(int x, int y, int width, int height, JSList<Item> items) {
         super(x, y, width, height);
         this.items = items;
-        this.cols = width / size;
-        this.rows = height / size - 2;
+        this.cols = width / SIZE;
+        this.rows = height / SIZE - 2;
         this.button = new Rectangle(x, height - SIZE, width, SIZE);
         this.pages = (int) Math.ceil((double) items.size() / (cols * rows));
     }
@@ -35,7 +35,7 @@ public class JEI extends Rectangle {
     }
 
     public void press(Point mouse) {
-        if (System.currentTimeMillis() - clock > cd) {
+        if (button.contains(mouse) && System.currentTimeMillis() - clock > cd) {
             if (mouse.x < button.x + button.width / 2) {
                 if (index > 0) {
                     index--;

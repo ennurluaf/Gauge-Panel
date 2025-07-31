@@ -3,7 +3,7 @@ package factorypanel;
 import java.awt.Rectangle;
 
 import factorypanel.Mode.SEARCH;
-import code.*;
+import com.github.ennurluaf.*;
 
 public class Item extends Rectangle {
 

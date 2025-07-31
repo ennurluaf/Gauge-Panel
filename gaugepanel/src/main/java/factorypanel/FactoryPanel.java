@@ -7,7 +7,7 @@ import static factorypanel.GaugePanel.SIZE;
 
 import factorypanel.Mode.BOX;
 import factorypanel.Mode.FACTORY;
-import code.*;
+import com.github.ennurluaf.*;
 
 public class FactoryPanel extends Rectangle {
 
@@ -33,6 +33,7 @@ public class FactoryPanel extends Rectangle {
         var next = boxes.find(box -> box.x == pos.x && box.y == pos.y);
         switch (BOX.mode) {
             case ADD -> add(pos, next);
+            case SELECT -> select(next);
             case MOVE -> move(next);
             case EDIT -> edit(next);
             case REMOVE -> remove(next);
@@ -42,10 +43,12 @@ public class FactoryPanel extends Rectangle {
     private void add(Rectangle pos, Box next) {
         if (next == null) {
             boxes.add(new Box(pos.x, pos.y));
-        } else if (next.selected) {
-            next.selected = false;
-        } else {
-            next.selected = true;
+        } 
+    }
+
+    private void select(Box next) {
+        if (next != null) {
+            next.selected = !next.selected;
         }
     }
 
@@ -58,9 +61,7 @@ public class FactoryPanel extends Rectangle {
     }
 
     private void remove(Box next) {
-        if (next != null) {
-            boxes.remove(next);
-        }
+        boxes.remove(next);
     }
 
     public void drag(Point mouse) {

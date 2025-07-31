@@ -11,7 +11,7 @@ import javax.swing.Box;
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
-import code.*;
+import com.github.ennurluaf.*;
 import factorypanel.Mode.*;
 
 public class GaugePanel extends JPanel {

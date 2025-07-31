@@ -4,7 +4,7 @@ import java.awt.Point;
 import java.awt.Rectangle;
 import static factorypanel.GaugePanel.SIZE;
 
-import code.*;
+import com.github.ennurluaf.*;
 
 public class JEI extends Rectangle {
 
@@ -74,7 +74,8 @@ public class JEI extends Rectangle {
     private void drawName(GContext c) {
         var selected = getCurrentPageItems().find(i -> i.selected);
         var hover = getCurrentPageItems().find(i -> i.hovered);
-        String text = selected != null ? selected.name() : (hover != null ? hover.name() : "No item selected");
+        String hoverText = hover != null ? hover.name() : "No item hovered";
+        String text = selected != null ? selected.name() : hoverText;
         c.fill(255).text(text, x + 10, button.height / 2 + c.textPos(text).y);
     }
 

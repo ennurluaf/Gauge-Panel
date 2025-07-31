@@ -3,7 +3,8 @@ package factorypanel;
 import javax.swing.JMenu;
 import javax.swing.JMenuItem;
 
-import code.JSList;
+import com.github.ennurluaf.JSList;
+
 
 public interface Mode {
 
@@ -64,7 +65,7 @@ public interface Mode {
     }
 
     public static enum BOX implements Mode {
-        ADD, MOVE, EDIT, REMOVE;
+        ADD, SELECT, MOVE, EDIT, REMOVE;
 
         public static BOX mode = ADD;
 
